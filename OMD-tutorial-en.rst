@@ -1,35 +1,39 @@
-*******************************************
-Monitorización de sistemas con Nagios y OMD
-*******************************************
-
-:Autor: Iñigo Aldazabal
-:email: inigo_aldazabal@ehu.es
-:fecha: 21/Junio/2013
+************************************************************************************************
+System monitoring with Open Monitoring Distribution (OMD) hands-on tutorial
+************************************************************************************************
 
 
-Guía de configuración básica de monitorización de sistemas utilizando `Nagios`_
-y la colección de extensiones de nagios `Check_MK`_. Nos serviremos del sistema ya empaquetado `Open
-Monitoring Distribution (OMD)`_ que integra tango Nagios como Check_MK, además
-de otras muchos extensiones de Nagios y otras utilizades, y que facilita enormemente la
-puesta en marcha y gestión del sistema.
+:Autor: Iñigo Aldazabal Mensa <inigo_aldazabal@ehu.es>
+:Date: 2013/01/14
 
-Utilizaremos dos máquinas virtuales sobre VirtualBox para poder seguir esta
-guía paso a paso.
+Step-by-step guide for a system monitoring installation and initial configuration using Nagios and `Check_MK`_ collection of extensions for Nagios. We will use the pre-packaged `Open
+Monitoring Distribution (OMD)`_ system which bundles both Nagios and Check_MK, as
+well as many other Nagios extensions into a single, pre-configured package and
+brings the setup, configuration and maintenance of the monitoring system to a
+new level of simplicity.
+
+We will use two CentOS virtual machines to be able follow this tutorial, but
+the same procedure should be applicable with minimal changes to any of the
+distributions supported by OMD.
 
 .. _`Nagios`: http://www.Nagios.org/
 .. _`check_mk`: http://mathias-kettner.com/check_mk.html
 .. _`Open Monitoring Distribution (OMD)`: http://omdistro.org/
 
+
 .. .. header:: ###Section###
-.. footer:: ###Page###
+.. .. footer:: ###Page###
 .. contents::
 .. section-numbering::
 
 .. y esto es un comentario. Orden #=-~
 
+.. raw:: pdf
 
-Software necesario
-==================
+    PageBreak
+
+Required software
+=================
 
  * VirtualBox:
     software de virtualización https://www.virtualbox.org/
@@ -50,8 +54,8 @@ Software necesario
 
 
 
-Configuración de VirtualBox
-===========================
+VirtualBox configuration
+========================
 
 Descomprimimos las imágenes de las máquinas virtuales, y abrimos el ``.vbox``
 con VirtualBox. Si nos da un error sobre que el UUID del disco ya está en uso
@@ -90,11 +94,11 @@ indicaremos serán:
 :IP: 192.168.56.1
 
 
-Configuración del servidor e instalación de  Nagios / OMD
-=========================================================
+Server configurtion and Nagios / OMD install
+============================================
 
-Configuración de red
---------------------
+Network configuration
+---------------------
 
 Arrancamos la máquina virtual y configuramos la IP estática. Para ello cremos el fichero ``/etc/sysconfig/network-scripts/ifcfg-eth1``::
 
@@ -113,8 +117,8 @@ Y reiniciamos la red::
     service network restart
 
 
-Configuración de envío de correos 
----------------------------------
+email sending configuration
+---------------------------
 
 Para comprobar si el sistema puede enviar correos electrónicos mediante postfix hacemos::
 
@@ -126,14 +130,14 @@ indicar un smtp "relay host" en ``/etc/postfix/main.cf``. Se puede utilizar
 para probar por ejemplo en SMTP de google. Ver las indicaciones en http://freelinuxtutorials.com/quick-tips-and-tricks/configure-postfix-to-use-gmail-in-rhelcentos/
 
 
-Instalación de OMD
-------------------
+OMD installation
+----------------
 
 Seguimos directamente las instrucciones de la web de OMD para CentOS http://omdistro.org/doc/quickstart_redhat adaptándoslos a nuestra versión de CentOS, en este caso CentOS 6 con arquitectura i386.
 
 
-Instalación de paquetes
-~~~~~~~~~~~~~~~~~~~~~~~
+Instalation through the package manager
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Instalamos el repositorio ``epel`` ::
 
@@ -155,8 +159,8 @@ Creamos un nuevo "sitio" de OMD y lo arrancamos::
     omd start test
 
 
-Configuración acceso al servidor web
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Web server access configuration
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Probamos a acceder a http://localhost/test y nos da un error de "OMD: Site not
 started". En las FAQ indica que esto puede pasar en CentOS y para solucionarlo
@@ -181,8 +185,8 @@ en el apartado *Customize*, el último de la lista, servicio *WWW (HTTP)* (se
 activa/desactiva con espacio).
 
 
-Acceso a nuestro "sitio" en OMD
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Accessing our OMD "site"
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Al crear un sitio OMD crea a su vez un usuario en el sistema que servirá para gestionar este
 sitio de forma independiente. De esta forma podemos tener varios "sitios" diferentes
@@ -199,11 +203,11 @@ Nosotros en general utilizaremos el sistema *WATO - Check_MK's Web Administrator
 Tool*.
 
 
-Configuración del equipo a monitorizar
-======================================
+Monitorized system configuration
+================================
 
-Configuración de red
---------------------
+Network configuration
+---------------------
 
 Como antes arrancamos la máquina virtual a monitorizar (CentOS-5.7) y configuramos la IP estática. Para ello cremos el fichero ``/etc/sysconfig/network-scripts/ifcfg-eth1``::
 
@@ -222,8 +226,8 @@ Y reiniciamos la red::
     service network restart
 
 
-Instalación del agente check_mk
--------------------------------
+check_mk agent installation
+---------------------------
 
 Descargamos e instalamos el agente sin mas complicación::
 
@@ -245,8 +249,8 @@ y recargamos la configuración de ``xinetd``::
     $>/etc/init.d/xinetd reload
 
 
-Monitorización de discos duros con S.M.A.R.T.
----------------------------------------------
+Hard disk monitoring with S.M.A.R.T.
+------------------------------------
 
 Si monitorizamos un host "real" (i.e. **no** una máquina virtual) nos
 interesará monitorizar el estado de sus discos duros. Check_mk no busca el
@@ -278,8 +282,8 @@ veremos como aparecen los nuevo chequeos.
 
 
 
-Configuración básica de OMD
-===========================
+Basic OMD configuration
+=======================
 
 En general realizaremos la configuración a través del interface gráfico *"Multisite"* que forma 
 parte del paquete Check_MK. Concretamente utilizaremos el *"WATO - Check_MK's Web Administration Tool"*.
@@ -288,8 +292,8 @@ En primer lugar configuraremos un usuario para que reciba las alertas, y tras
 ello añadiremos los equipos a monitorizar.
 
 
-Creación de usuario en OMD
---------------------------
+User creation in OMD
+--------------------
 
 Vamos a **WATO-Configuration | Users & Contacts | New User** asegurándonos de
 añadirlo a un *contact group* en este caso solo hay uno, *everybody*, y de
@@ -302,8 +306,8 @@ Pinchamos donde pone *1 Changes* y luego en *Activate Changes* para propagar
 los cambios.
 
 
-Integración de nuevo *host* a monitorizar
-------------------------------------------
+Integration of the new *host* to be monitored
+---------------------------------------------
 
 Antes de añadir un nuevo equipo, si se trata de un ordenador en el cual tenemos
 que instalar el agente de check_mk, éste lo tenemos que instalar *antes* de
@@ -329,8 +333,8 @@ este caso 19 servicios.
 
 
 
-Prueba de notificación
-----------------------
+email notification test
+-----------------------
 
 Seleccionamos cualquier servicio, por ejemplo *CPU utilization* y le damos al
 icono del martillo para ejecutar comandos sobre el servicio. Se nos despliegan
@@ -343,8 +347,8 @@ Efectivamente nos llega un correo con el aviso del fallo, y otro con la
 recuperacíon del fallo.
 
 
-Referencias
-===========
+Bibliography
+============
 
 **Máquinas virtuales**
 
