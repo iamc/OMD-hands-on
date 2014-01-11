@@ -1,10 +1,11 @@
-************************************************************************************************
-System monitoring with Open Monitoring Distribution (OMD) hands-on tutorial
-************************************************************************************************
+****************************************************************************
+System monitoring with Open Monitoring Distribution (OMD), hands-on tutorial
+****************************************************************************
 
 
 :Autor: Iñigo Aldazabal Mensa <inigo_aldazabal@ehu.es>
-:Date: 2013/01/14
+:Date: 2014/01/14  - HPC Knowledge Meeting'14, Barcelona
+:License: This work is licensed under a `Creative Commons Attribution 4.0 International License`_
 
 Step-by-step guide for a system monitoring installation and initial
 configuration using Nagios and `Check_MK`_ collection of extensions for Nagios.
@@ -21,6 +22,7 @@ distributions supported by OMD.
 .. _`Nagios`: http://www.Nagios.org/
 .. _`check_mk`: http://mathias-kettner.com/check_mk.html
 .. _`Open Monitoring Distribution (OMD)`: http://omdistro.org/
+.. _`Creative Commons Attribution 4.0 International License`: http://creativecommons.org/licenses/by/4.0/
 
 
 .. .. header:: ###Section###
