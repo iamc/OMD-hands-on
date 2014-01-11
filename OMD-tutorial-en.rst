@@ -19,6 +19,10 @@ tutorial, but
 the same procedure should be applicable with minimal changes to any of the
 distributions supported by OMD.
 
+Also basic guidelines are given on how to proceed in order to setup a similar
+system monitoring computing nodes in a typical HPC cluster.
+
+
 .. _`Nagios`: http://www.Nagios.org/
 .. _`check_mk`: http://mathias-kettner.com/check_mk.html
 .. _`Open Monitoring Distribution (OMD)`: http://omdistro.org/
@@ -532,11 +536,183 @@ sparse summary of its behaviour.  See
 http://mathias-kettner.com/checkmk_calling.html
 
 
-Two node cluster configuration
-------------------------------
+Manually configure VirtualBox host monitoring
+--------------------------------------------- 
+
+As a very simple example we set up the VirtualBox host itslef for monitoring,
+all from the command line. See below for a more complex example.
+
+First, in the monitoring server, we go into the OMD ``test`` user/site::
+
+    su - test
+
+and there we create the ``vb-host.mk`` file in ``~/etc/check_mk/conf.d`` with
+the following content::
+
+    # ~/etc/check_mk/conf.d/vb-host.mk
+
+    all_hosts += [
+        'VB-host',
+    ]
+
+    ipaddresses['VB-host'] = '192.168.56.1'
+
+After installing the check_mk agent in the VB-host we manually inventorize it
+and update the Nagios core with the ``check_mk`` command::
+
+    check_mk -I VB-host
+    check_mk -R
+
+And we are done! The new host is added to the default ``all`` (``Everyone``)
+contact group and we can see all detected services in the multisite interface.
+
+
+Two node HPC cluster configuration
+----------------------------------
 
 Here we present a very simple example of a real configuration file for a two 
-nodes test rocks cluster.
+nodes test rocks cluster, but it should be work the same for a general HPC 
+cluster.
+
+We have installed OMD in the head node, inventorized the own head node with 
+WATO (both just as described), and want to add the compute nodes using a
+configuration file so that we can script the process for any number of them. Of
+course we have also installed the check_mk agent and the smart check plugin in
+the compute nodes (you can include them in you nodes master image, post install
+it with pdsh/pdcp, set in up in your cfengine/puppet/salt or whatever
+configuration management system you may be using, etc.).
+
+
+Configuration file
+~~~~~~~~~~~~~~~~~~
+
+So lets write the configuration file ``~/etc/check_mk/conf.d/conpute.mk`` and
+dissect it::
+
+     1 # ~/etc/check_mk/conf.d/compute.mk
+     2 # Configuration for test rocks cluster compute nodes
+     3 
+     4 all_hosts = all_hosts + [
+     5     'compute-0-0|compute',
+     6     'compute-0-1|compute',
+     7 ]
+     8
+     9 ignored_services += [
+    10      ( [ "compute" ], ALL_HOSTS, [ "fs_/var" ] ),
+    11  ]
+    12
+    13 ignored_checks += [
+    14     ( [ "postfix_mailq" ], [ "compute" ], ALL_HOSTS  ),
+    15 ]
+    16
+    17 host_contactgroups += [
+    18     ( "Everybody", [ "compute" ], ALL_HOSTS ),
+    19 ]
+    20
+    21 check_parameters += [
+    22     ( (45, 55), [ 'compute' ], ALL_HOSTS, [ "Temperature SMART" ] ),
+    23 ]
+
+
+**Hosts Setup**
+
+We fist setup the hosts. Note how we *add* the new hosts to the ``all_hosts``
+variable::
+
+     4 all_hosts = all_hosts + [
+     5     'compute-0-0|compute',
+     6     'compute-0-1|compute',
+     7 ]
+
+The first part of every field is the hostname and the second the check_mk host
+*tag*, ``compute`` in this case (see
+http://mathias-kettner.com/checkmk_hosttags.html). The last `comma (,)` is
+superfluous, but makes the scripting easier. This is the only part we would
+have to script in order to include our 10's or 100's of nodes in a general
+case.
+
+
+**Ignored Services**
+
+If we want to ignore some services, we add them up to the ``ignored_services`` variable::
+
+     9 ignored_services += [
+    10      ( [ "compute" ], ALL_HOSTS, ["fs_/var"] ),
+    11  ]
+
+You can get the exact name of the service you want to ignore from the own
+service name as it is shown the shown in the multisite interface or get it
+inspecting the ``cmk -D`` command output. In this case all services whose
+name *begings* with ``fs_/var`` on the hosts with host tag ``compute`` will be 
+ignored.  See http://mathias-kettner.com/checkmk_inventory.html.
+
+
+**Ignored Checks**
+
+We can also ignore checks, in this case the ``postfix_mailq`` check::
+
+    13 ignored_checks += [
+    14     ( [ "postfix_mailq" ], [ "compute" ], ALL_HOSTS  ),
+    15 ]
+
+
+**Contact Groups**
+
+If we want to add the new hosts to some contact group, in this case the OMD
+default ``Everybody`` group::
+
+    17 host_contactgroups += [
+    18     ( "Everybody", [ "compute" ], ALL_HOSTS ),
+    19 ]
+
+See also http://mathias-kettner.com/checkmk_inventory.html.
+
+
+**Special Check Parameters**
+
+And finally we can also adjust some of the checks default values::
+
+    21 check_parameters += [
+    22     ( (45, 55), [ 'compute' ], ALL_HOSTS, [ "Temperature SMART" ] ),
+    23 ]
+
+In this case the default smart check temperature leves are too low for our 
+system (35C and 40C, see ``cmk --man smart.temp``) so we raise them a bit. All 
+services called "Temperature SMART<whatever>" will have as new levels (45,55).
+See http://mathias-kettner.com/checkmk_check_parameters.html.
+
+
+**Host Groups**
+
+You can also, although we have not done it in this example, create a Nagios
+*host group* in WATO **Host Groups** section and add these hosts to the group:: 
+
+    host_groups += [
+        ( 'computenodes', [ 'compute' ], ALL_HOSTS ),
+    ]
+
+You can find a list of all the confiugration variables that mey be used at
+http://mathias-kettner.com/checkmk_configvars.html.
+
+
+Inventoring and Nagios configuration update
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+After we have written down the new configuration file for the compute nodes we 
+have to first scan (inventorize) the new hosts for services to check and then 
+propagate the configration and the new found services to Nagios.
+
+So we (re)inventorize all hosts with tag ``compute``::
+
+    check_mk -II @compute
+
+Check_MK will find the new hosts and the corresponding services. In order to 
+propagate the configuration to Nagios and restart the monitoring core we just::
+
+    check_mk -R
+
+
+
 
 
 References

@@ -6,8 +6,8 @@
 << /F1 2 0 R
  /F2 3 0 R
  /F3 10 0 R
- /F4 67 0 R
- /F5 68 0 R >>
+ /F4 74 0 R
+ /F5 75 0 R >>
 endobj
 % 'F1': class PDFType1Font 
 2 0 obj
@@ -126,845 +126,971 @@ endobj
  /Subtype /Type1
  /Type /Font >>
 endobj
-% 'Annot.NUMBER7': class LinkAnnotation 
-11 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 69 0 R
- /XYZ
- 62.69291
- 765.0236
- 0 ]
- /Rect [ 62.69291
- 500.7736
- 163.8329
- 512.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER8': class LinkAnnotation 
-12 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 69 0 R
- /XYZ
- 62.69291
- 765.0236
- 0 ]
- /Rect [ 527.0227
- 500.7736
- 532.5827
- 512.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER9': class LinkAnnotation 
-13 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 69 0 R
- /XYZ
- 62.69291
- 492.0236
- 0 ]
- /Rect [ 62.69291
- 482.7736
- 193.2729
- 494.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER10': class LinkAnnotation 
-14 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 69 0 R
- /XYZ
- 62.69291
- 492.0236
- 0 ]
- /Rect [ 527.0227
- 482.7736
- 532.5827
- 494.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER11': class LinkAnnotation 
-15 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 70 0 R
- /XYZ
- 62.69291
- 703.0236
- 0 ]
- /Rect [ 82.69291
- 464.7736
- 236.1029
- 476.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER12': class LinkAnnotation 
-16 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 70 0 R
- /XYZ
- 62.69291
- 703.0236
- 0 ]
- /Rect [ 527.0227
- 464.7736
- 532.5827
- 476.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER13': class LinkAnnotation 
-17 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 70 0 R
- /XYZ
- 62.69291
- 394.0236
- 0 ]
- /Rect [ 62.69291
- 446.7736
- 348.8629
- 458.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER14': class LinkAnnotation 
-18 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 70 0 R
- /XYZ
- 62.69291
- 394.0236
- 0 ]
- /Rect [ 527.0227
- 446.7736
- 532.5827
- 458.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER15': class LinkAnnotation 
-19 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 70 0 R
- /XYZ
- 62.69291
- 340.0236
- 0 ]
- /Rect [ 82.69291
- 428.7736
- 201.6329
- 440.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER16': class LinkAnnotation 
-20 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 70 0 R
- /XYZ
- 62.69291
- 340.0236
- 0 ]
- /Rect [ 527.0227
- 428.7736
- 532.5827
- 440.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER17': class LinkAnnotation 
-21 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 73 0 R
- /XYZ
- 62.69291
- 727.8236
- 0 ]
- /Rect [ 82.69291
- 410.7736
- 226.6529
- 422.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER18': class LinkAnnotation 
-22 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 73 0 R
- /XYZ
- 62.69291
- 727.8236
- 0 ]
- /Rect [ 527.0227
- 410.7736
- 532.5827
- 422.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER19': class LinkAnnotation 
-23 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 73 0 R
- /XYZ
- 62.69291
- 501.6236
- 0 ]
- /Rect [ 102.6929
- 392.7736
- 243.3029
- 404.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER20': class LinkAnnotation 
-24 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 73 0 R
- /XYZ
- 62.69291
- 501.6236
- 0 ]
- /Rect [ 527.0227
- 392.7736
- 532.5827
- 404.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER21': class LinkAnnotation 
-25 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 76 0 R
- /XYZ
- 62.69291
- 577.2187
- 0 ]
- /Rect [ 82.69291
- 374.7736
- 178.2829
- 386.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER22': class LinkAnnotation 
-26 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 76 0 R
- /XYZ
- 62.69291
- 577.2187
- 0 ]
- /Rect [ 527.0227
- 374.7736
- 532.5827
- 386.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER23': class LinkAnnotation 
-27 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 76 0 R
- /XYZ
- 62.69291
- 259.0587
- 0 ]
- /Rect [ 82.69291
- 356.7736
- 181.0629
- 368.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER24': class LinkAnnotation 
-28 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 76 0 R
- /XYZ
- 62.69291
- 259.0587
- 0 ]
- /Rect [ 527.0227
- 356.7736
- 532.5827
- 368.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER25': class LinkAnnotation 
-29 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 76 0 R
- /XYZ
- 62.69291
- 187.0587
- 0 ]
- /Rect [ 102.6929
- 338.7736
- 266.6529
- 350.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER26': class LinkAnnotation 
-30 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 76 0 R
- /XYZ
- 62.69291
- 187.0587
- 0 ]
- /Rect [ 527.0227
- 338.7736
- 532.5827
- 350.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER27': class LinkAnnotation 
-31 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 81 0 R
- /XYZ
- 62.69291
- 597.8236
- 0 ]
- /Rect [ 102.6929
- 320.7736
- 278.3229
- 332.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER28': class LinkAnnotation 
-32 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 81 0 R
- /XYZ
- 62.69291
- 597.8236
- 0 ]
- /Rect [ 527.0227
- 320.7736
- 532.5827
- 332.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER29': class LinkAnnotation 
-33 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 81 0 R
- /XYZ
- 62.69291
- 243.4236
- 0 ]
- /Rect [ 62.69291
- 302.7736
- 236.6129
- 314.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER30': class LinkAnnotation 
-34 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 81 0 R
- /XYZ
- 62.69291
- 243.4236
- 0 ]
- /Rect [ 527.0227
- 302.7736
- 532.5827
- 314.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER31': class LinkAnnotation 
-35 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 81 0 R
- /XYZ
- 62.69291
- 192.4236
- 0 ]
- /Rect [ 82.69291
- 284.7736
- 201.6329
- 296.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER32': class LinkAnnotation 
-36 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 81 0 R
- /XYZ
- 62.69291
- 192.4236
- 0 ]
- /Rect [ 527.0227
- 284.7736
- 532.5827
- 296.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER33': class LinkAnnotation 
-37 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 82 0 R
- /XYZ
- 62.69291
- 602.6236
- 0 ]
- /Rect [ 82.69291
- 266.7736
- 227.7629
- 278.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER34': class LinkAnnotation 
-38 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 82 0 R
- /XYZ
- 62.69291
- 602.6236
- 0 ]
- /Rect [ 527.0227
- 266.7736
- 532.5827
- 278.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER35': class LinkAnnotation 
-39 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 82 0 R
- /XYZ
- 62.69291
- 313.2595
- 0 ]
- /Rect [ 82.69291
- 248.7736
- 268.8629
- 260.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER36': class LinkAnnotation 
-40 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 82 0 R
- /XYZ
- 62.69291
- 313.2595
- 0 ]
- /Rect [ 527.0227
- 248.7736
- 532.5827
- 260.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER37': class LinkAnnotation 
-41 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 83 0 R
- /XYZ
- 62.69291
- 765.0236
- 0 ]
- /Rect [ 62.69291
- 230.7736
- 223.8429
- 242.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER38': class LinkAnnotation 
-42 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 83 0 R
- /XYZ
- 62.69291
- 765.0236
- 0 ]
- /Rect [ 527.0227
- 230.7736
- 532.5827
- 242.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER39': class LinkAnnotation 
-43 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 83 0 R
- /XYZ
- 62.69291
- 660.0236
- 0 ]
- /Rect [ 82.69291
- 212.7736
- 164.3929
- 224.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER40': class LinkAnnotation 
-44 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 83 0 R
- /XYZ
- 62.69291
- 660.0236
- 0 ]
- /Rect [ 527.0227
- 212.7736
- 532.5827
- 224.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER41': class LinkAnnotation 
-45 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 83 0 R
- /XYZ
- 62.69291
- 450.8236
- 0 ]
- /Rect [ 82.69291
- 194.7736
- 345.0529
- 206.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER42': class LinkAnnotation 
-46 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 83 0 R
- /XYZ
- 62.69291
- 450.8236
- 0 ]
- /Rect [ 527.0227
- 194.7736
- 532.5827
- 206.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER43': class LinkAnnotation 
-47 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 83 0 R
- /XYZ
- 62.69291
- 184.4236
- 0 ]
- /Rect [ 82.69291
- 176.7736
- 166.6229
- 188.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER44': class LinkAnnotation 
-48 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 83 0 R
- /XYZ
- 62.69291
- 184.4236
- 0 ]
- /Rect [ 527.0227
- 176.7736
- 532.5827
- 188.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER45': class LinkAnnotation 
-49 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 89 0 R
- /XYZ
- 62.69291
- 664.0236
- 0 ]
- /Rect [ 82.69291
- 158.7736
- 198.3029
- 170.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER46': class LinkAnnotation 
-50 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 89 0 R
- /XYZ
- 62.69291
- 664.0236
- 0 ]
- /Rect [ 527.0227
- 158.7736
- 532.5827
- 170.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER47': class LinkAnnotation 
-51 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 89 0 R
- /XYZ
- 62.69291
- 556.0236
- 0 ]
- /Rect [ 62.69291
- 140.7736
- 244.9529
- 152.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER48': class LinkAnnotation 
-52 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 89 0 R
- /XYZ
- 62.69291
- 556.0236
- 0 ]
- /Rect [ 527.0227
- 140.7736
- 532.5827
- 152.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER49': class LinkAnnotation 
-53 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 89 0 R
- /XYZ
- 62.69291
- 229.0236
- 0 ]
- /Rect [ 82.69291
- 122.7736
- 241.1029
- 134.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER50': class LinkAnnotation 
-54 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 89 0 R
- /XYZ
- 62.69291
- 229.0236
- 0 ]
- /Rect [ 527.0227
- 122.7736
- 532.5827
- 134.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER51': class LinkAnnotation 
-55 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 89 0 R
- /XYZ
- 62.69291
- 181.0236
- 0 ]
- /Rect [ 62.69291
- 104.7736
- 130.5029
- 116.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER52': class LinkAnnotation 
-56 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 89 0 R
- /XYZ
- 62.69291
- 181.0236
- 0 ]
- /Rect [ 527.0227
- 104.7736
- 532.5827
- 116.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
 % 'Page1': class PDFPage 
-57 0 obj
+11 0 obj
 % Page dictionary
 << /Annots [ 4 0 R
  5 0 R
  6 0 R
  7 0 R
  8 0 R
- 9 0 R
- 11 0 R
- 12 0 R
+ 9 0 R ]
+ /Contents 141 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 140 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER7': class LinkAnnotation 
+12 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 76 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 62.69291
+ 723.7736
+ 163.8329
+ 735.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER8': class LinkAnnotation 
+13 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 76 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 527.0227
+ 723.7736
+ 532.5827
+ 735.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER9': class LinkAnnotation 
+14 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 76 0 R
+ /XYZ
+ 62.69291
+ 492.0236
+ 0 ]
+ /Rect [ 62.69291
+ 705.7736
+ 193.2729
+ 717.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER10': class LinkAnnotation 
+15 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 76 0 R
+ /XYZ
+ 62.69291
+ 492.0236
+ 0 ]
+ /Rect [ 527.0227
+ 705.7736
+ 532.5827
+ 717.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER11': class LinkAnnotation 
+16 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 77 0 R
+ /XYZ
+ 62.69291
+ 703.0236
+ 0 ]
+ /Rect [ 82.69291
+ 687.7736
+ 236.1029
+ 699.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER12': class LinkAnnotation 
+17 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 77 0 R
+ /XYZ
+ 62.69291
+ 703.0236
+ 0 ]
+ /Rect [ 527.0227
+ 687.7736
+ 532.5827
+ 699.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER13': class LinkAnnotation 
+18 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 77 0 R
+ /XYZ
+ 62.69291
+ 394.0236
+ 0 ]
+ /Rect [ 62.69291
+ 669.7736
+ 348.8629
+ 681.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER14': class LinkAnnotation 
+19 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 77 0 R
+ /XYZ
+ 62.69291
+ 394.0236
+ 0 ]
+ /Rect [ 527.0227
+ 669.7736
+ 532.5827
+ 681.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER15': class LinkAnnotation 
+20 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 77 0 R
+ /XYZ
+ 62.69291
+ 340.0236
+ 0 ]
+ /Rect [ 82.69291
+ 651.7736
+ 201.6329
+ 663.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER16': class LinkAnnotation 
+21 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 77 0 R
+ /XYZ
+ 62.69291
+ 340.0236
+ 0 ]
+ /Rect [ 527.0227
+ 651.7736
+ 532.5827
+ 663.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER17': class LinkAnnotation 
+22 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 80 0 R
+ /XYZ
+ 62.69291
+ 727.8236
+ 0 ]
+ /Rect [ 82.69291
+ 633.7736
+ 226.6529
+ 645.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER18': class LinkAnnotation 
+23 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 80 0 R
+ /XYZ
+ 62.69291
+ 727.8236
+ 0 ]
+ /Rect [ 527.0227
+ 633.7736
+ 532.5827
+ 645.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER19': class LinkAnnotation 
+24 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 80 0 R
+ /XYZ
+ 62.69291
+ 501.6236
+ 0 ]
+ /Rect [ 102.6929
+ 615.7736
+ 243.3029
+ 627.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER20': class LinkAnnotation 
+25 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 80 0 R
+ /XYZ
+ 62.69291
+ 501.6236
+ 0 ]
+ /Rect [ 527.0227
+ 615.7736
+ 532.5827
+ 627.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER21': class LinkAnnotation 
+26 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 83 0 R
+ /XYZ
+ 62.69291
+ 577.2187
+ 0 ]
+ /Rect [ 82.69291
+ 597.7736
+ 178.2829
+ 609.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER22': class LinkAnnotation 
+27 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 83 0 R
+ /XYZ
+ 62.69291
+ 577.2187
+ 0 ]
+ /Rect [ 527.0227
+ 597.7736
+ 532.5827
+ 609.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER23': class LinkAnnotation 
+28 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 83 0 R
+ /XYZ
+ 62.69291
+ 259.0587
+ 0 ]
+ /Rect [ 82.69291
+ 579.7736
+ 181.0629
+ 591.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER24': class LinkAnnotation 
+29 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 83 0 R
+ /XYZ
+ 62.69291
+ 259.0587
+ 0 ]
+ /Rect [ 527.0227
+ 579.7736
+ 532.5827
+ 591.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER25': class LinkAnnotation 
+30 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 83 0 R
+ /XYZ
+ 62.69291
+ 187.0587
+ 0 ]
+ /Rect [ 102.6929
+ 561.7736
+ 266.6529
+ 573.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER26': class LinkAnnotation 
+31 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 83 0 R
+ /XYZ
+ 62.69291
+ 187.0587
+ 0 ]
+ /Rect [ 527.0227
+ 561.7736
+ 532.5827
+ 573.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER27': class LinkAnnotation 
+32 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 88 0 R
+ /XYZ
+ 62.69291
+ 597.8236
+ 0 ]
+ /Rect [ 102.6929
+ 543.7736
+ 278.3229
+ 555.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER28': class LinkAnnotation 
+33 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 88 0 R
+ /XYZ
+ 62.69291
+ 597.8236
+ 0 ]
+ /Rect [ 527.0227
+ 543.7736
+ 532.5827
+ 555.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER29': class LinkAnnotation 
+34 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 88 0 R
+ /XYZ
+ 62.69291
+ 243.4236
+ 0 ]
+ /Rect [ 62.69291
+ 525.7736
+ 236.6129
+ 537.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER30': class LinkAnnotation 
+35 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 88 0 R
+ /XYZ
+ 62.69291
+ 243.4236
+ 0 ]
+ /Rect [ 527.0227
+ 525.7736
+ 532.5827
+ 537.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER31': class LinkAnnotation 
+36 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 88 0 R
+ /XYZ
+ 62.69291
+ 192.4236
+ 0 ]
+ /Rect [ 82.69291
+ 507.7736
+ 201.6329
+ 519.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER32': class LinkAnnotation 
+37 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 88 0 R
+ /XYZ
+ 62.69291
+ 192.4236
+ 0 ]
+ /Rect [ 527.0227
+ 507.7736
+ 532.5827
+ 519.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER33': class LinkAnnotation 
+38 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 89 0 R
+ /XYZ
+ 62.69291
+ 602.6236
+ 0 ]
+ /Rect [ 82.69291
+ 489.7736
+ 227.7629
+ 501.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER34': class LinkAnnotation 
+39 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 89 0 R
+ /XYZ
+ 62.69291
+ 602.6236
+ 0 ]
+ /Rect [ 527.0227
+ 489.7736
+ 532.5827
+ 501.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER35': class LinkAnnotation 
+40 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 89 0 R
+ /XYZ
+ 62.69291
+ 313.2595
+ 0 ]
+ /Rect [ 82.69291
+ 471.7736
+ 268.8629
+ 483.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER36': class LinkAnnotation 
+41 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 89 0 R
+ /XYZ
+ 62.69291
+ 313.2595
+ 0 ]
+ /Rect [ 527.0227
+ 471.7736
+ 532.5827
+ 483.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER37': class LinkAnnotation 
+42 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 90 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 62.69291
+ 453.7736
+ 223.8429
+ 465.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER38': class LinkAnnotation 
+43 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 90 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 527.0227
+ 453.7736
+ 532.5827
+ 465.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER39': class LinkAnnotation 
+44 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 90 0 R
+ /XYZ
+ 62.69291
+ 660.0236
+ 0 ]
+ /Rect [ 82.69291
+ 435.7736
+ 164.3929
+ 447.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER40': class LinkAnnotation 
+45 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 90 0 R
+ /XYZ
+ 62.69291
+ 660.0236
+ 0 ]
+ /Rect [ 527.0227
+ 435.7736
+ 532.5827
+ 447.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER41': class LinkAnnotation 
+46 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 90 0 R
+ /XYZ
+ 62.69291
+ 450.8236
+ 0 ]
+ /Rect [ 82.69291
+ 417.7736
+ 345.0529
+ 429.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER42': class LinkAnnotation 
+47 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 90 0 R
+ /XYZ
+ 62.69291
+ 450.8236
+ 0 ]
+ /Rect [ 527.0227
+ 417.7736
+ 532.5827
+ 429.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER43': class LinkAnnotation 
+48 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 90 0 R
+ /XYZ
+ 62.69291
+ 184.4236
+ 0 ]
+ /Rect [ 82.69291
+ 399.7736
+ 166.6229
+ 411.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER44': class LinkAnnotation 
+49 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 90 0 R
+ /XYZ
+ 62.69291
+ 184.4236
+ 0 ]
+ /Rect [ 527.0227
+ 399.7736
+ 532.5827
+ 411.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER45': class LinkAnnotation 
+50 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 94 0 R
+ /XYZ
+ 62.69291
+ 664.0236
+ 0 ]
+ /Rect [ 82.69291
+ 381.7736
+ 198.3029
+ 393.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER46': class LinkAnnotation 
+51 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 94 0 R
+ /XYZ
+ 62.69291
+ 664.0236
+ 0 ]
+ /Rect [ 521.4627
+ 381.7736
+ 532.5827
+ 393.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER47': class LinkAnnotation 
+52 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 94 0 R
+ /XYZ
+ 62.69291
+ 556.0236
+ 0 ]
+ /Rect [ 62.69291
+ 363.7736
+ 244.9529
+ 375.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER48': class LinkAnnotation 
+53 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 94 0 R
+ /XYZ
+ 62.69291
+ 556.0236
+ 0 ]
+ /Rect [ 521.4627
+ 363.7736
+ 532.5827
+ 375.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER49': class LinkAnnotation 
+54 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 94 0 R
+ /XYZ
+ 62.69291
+ 229.0236
+ 0 ]
+ /Rect [ 82.69291
+ 345.7736
+ 308.3429
+ 357.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER50': class LinkAnnotation 
+55 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 94 0 R
+ /XYZ
+ 62.69291
+ 229.0236
+ 0 ]
+ /Rect [ 521.4627
+ 345.7736
+ 532.5827
+ 357.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER51': class LinkAnnotation 
+56 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 95 0 R
+ /XYZ
+ 62.69291
+ 546.6236
+ 0 ]
+ /Rect [ 82.69291
+ 327.7736
+ 264.9929
+ 339.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER52': class LinkAnnotation 
+57 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 95 0 R
+ /XYZ
+ 62.69291
+ 546.6236
+ 0 ]
+ /Rect [ 521.4627
+ 327.7736
+ 532.5827
+ 339.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER53': class LinkAnnotation 
+58 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 95 0 R
+ /XYZ
+ 62.69291
+ 408.6236
+ 0 ]
+ /Rect [ 102.6929
+ 309.7736
+ 208.3029
+ 321.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER54': class LinkAnnotation 
+59 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 95 0 R
+ /XYZ
+ 62.69291
+ 408.6236
+ 0 ]
+ /Rect [ 521.4627
+ 309.7736
+ 532.5827
+ 321.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER55': class LinkAnnotation 
+60 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 110 0 R
+ /XYZ
+ 62.69291
+ 579.8236
+ 0 ]
+ /Rect [ 102.6929
+ 291.7736
+ 329.4929
+ 303.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER56': class LinkAnnotation 
+61 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 110 0 R
+ /XYZ
+ 62.69291
+ 579.8236
+ 0 ]
+ /Rect [ 521.4627
+ 291.7736
+ 532.5827
+ 303.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER57': class LinkAnnotation 
+62 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 110 0 R
+ /XYZ
+ 62.69291
+ 394.4236
+ 0 ]
+ /Rect [ 62.69291
+ 273.7736
+ 130.5029
+ 285.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER58': class LinkAnnotation 
+63 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 110 0 R
+ /XYZ
+ 62.69291
+ 394.4236
+ 0 ]
+ /Rect [ 521.4627
+ 273.7736
+ 532.5827
+ 285.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page2': class PDFPage 
+64 0 obj
+% Page dictionary
+<< /Annots [ 12 0 R
  13 0 R
  14 0 R
  15 0 R
@@ -1008,13 +1134,20 @@ endobj
  53 0 R
  54 0 R
  55 0 R
- 56 0 R ]
- /Contents 124 0 R
+ 56 0 R
+ 57 0 R
+ 58 0 R
+ 59 0 R
+ 60 0 R
+ 61 0 R
+ 62 0 R
+ 63 0 R ]
+ /Contents 142 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 123 0 R
+ /Parent 140 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1025,8 +1158,8 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'Annot.NUMBER53': class PDFDictionary 
-58 0 obj
+% 'Annot.NUMBER59': class PDFDictionary 
+65 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (https://www.virtualbox.org/) >>
@@ -1040,8 +1173,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER54': class PDFDictionary 
-59 0 obj
+% 'Annot.NUMBER60': class PDFDictionary 
+66 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://virtualboxes.org/images/centos/) >>
@@ -1055,8 +1188,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER55': class PDFDictionary 
-60 0 obj
+% 'Annot.NUMBER61': class PDFDictionary 
+67 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://sourceforge.net/projects/virtualboximage/files/CentOS/6.3/CentOS-6.3-x86.7z) >>
@@ -1070,8 +1203,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER56': class PDFDictionary 
-61 0 obj
+% 'Annot.NUMBER62': class PDFDictionary 
+68 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://sourceforge.net/projects/virtualboximage/files/CentOS/5.7/CentOS-5.7-i386.7z) >>
@@ -1085,8 +1218,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER57': class PDFDictionary 
-62 0 obj
+% 'Annot.NUMBER63': class PDFDictionary 
+69 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://omdistro.org/) >>
@@ -1100,8 +1233,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER58': class PDFDictionary 
-63 0 obj
+% 'Annot.NUMBER64': class PDFDictionary 
+70 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://mathias-kettner.com/check_mk.html) >>
@@ -1115,8 +1248,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER59': class PDFDictionary 
-64 0 obj
+% 'Annot.NUMBER65': class PDFDictionary 
+71 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://virtualboxes.org/images/centos/) >>
@@ -1130,8 +1263,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER60': class PDFDictionary 
-65 0 obj
+% 'Annot.NUMBER66': class PDFDictionary 
+72 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://sourceforge.net/projects/virtualboximage/files/CentOS/5.7/CentOS-5.7-i386.7z) >>
@@ -1145,8 +1278,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER61': class PDFDictionary 
-66 0 obj
+% 'Annot.NUMBER67': class PDFDictionary 
+73 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://sourceforge.net/projects/virtualboximage/files/CentOS/6.3/CentOS-6.3-x86.7z) >>
@@ -1161,7 +1294,7 @@ endobj
  /Type /Annot >>
 endobj
 % 'F4': class PDFType1Font 
-67 0 obj
+74 0 obj
 % Font Courier
 << /BaseFont /Courier
  /Encoding /WinAnsiEncoding
@@ -1170,7 +1303,7 @@ endobj
  /Type /Font >>
 endobj
 % 'F5': class PDFType1Font 
-68 0 obj
+75 0 obj
 % Font Helvetica-BoldOblique
 << /BaseFont /Helvetica-BoldOblique
  /Encoding /WinAnsiEncoding
@@ -1178,43 +1311,24 @@ endobj
  /Subtype /Type1
  /Type /Font >>
 endobj
-% 'Page2': class PDFPage 
-69 0 obj
-% Page dictionary
-<< /Annots [ 58 0 R
- 59 0 R
- 60 0 R
- 61 0 R
- 62 0 R
- 63 0 R
- 64 0 R
- 65 0 R
- 66 0 R ]
- /Contents 125 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 123 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
-endobj
 % 'Page3': class PDFPage 
-70 0 obj
+76 0 obj
 % Page dictionary
-<< /Contents 126 0 R
+<< /Annots [ 65 0 R
+ 66 0 R
+ 67 0 R
+ 68 0 R
+ 69 0 R
+ 70 0 R
+ 71 0 R
+ 72 0 R
+ 73 0 R ]
+ /Contents 143 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 123 0 R
+ /Parent 140 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1225,8 +1339,27 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'Annot.NUMBER62': class PDFDictionary 
-71 0 obj
+% 'Page4': class PDFPage 
+77 0 obj
+% Page dictionary
+<< /Contents 144 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 140 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER68': class PDFDictionary 
+78 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (mailto:user@domain) >>
@@ -1240,8 +1373,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER63': class PDFDictionary 
-72 0 obj
+% 'Annot.NUMBER69': class PDFDictionary 
+79 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://blog.earth-works.com/2013/05/14/postfix-relay-using-gmail-on-centos/) >>
@@ -1255,17 +1388,17 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Page4': class PDFPage 
-73 0 obj
+% 'Page5': class PDFPage 
+80 0 obj
 % Page dictionary
-<< /Annots [ 71 0 R
- 72 0 R ]
- /Contents 127 0 R
+<< /Annots [ 78 0 R
+ 79 0 R ]
+ /Contents 145 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 123 0 R
+ /Parent 140 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1276,8 +1409,8 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'Annot.NUMBER64': class PDFDictionary 
-74 0 obj
+% 'Annot.NUMBER70': class PDFDictionary 
+81 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://omdistro.org/doc/quickstart_redhat) >>
@@ -1291,8 +1424,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER65': class PDFDictionary 
-75 0 obj
+% 'Annot.NUMBER71': class PDFDictionary 
+82 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (https://labs.consol.de/repo/stable) >>
@@ -1306,17 +1439,17 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Page5': class PDFPage 
-76 0 obj
+% 'Page6': class PDFPage 
+83 0 obj
 % Page dictionary
-<< /Annots [ 74 0 R
- 75 0 R ]
- /Contents 128 0 R
+<< /Annots [ 81 0 R
+ 82 0 R ]
+ /Contents 146 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 123 0 R
+ /Parent 140 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1327,8 +1460,8 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'Annot.NUMBER66': class PDFDictionary 
-77 0 obj
+% 'Annot.NUMBER72': class PDFDictionary 
+84 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://mathias-kettner.com/checkmk_install_with_omd.html) >>
@@ -1342,8 +1475,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER67': class PDFDictionary 
-78 0 obj
+% 'Annot.NUMBER73': class PDFDictionary 
+85 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://mathias-kettner.com/checkmk_install_with_omd.html) >>
@@ -1357,8 +1490,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER68': class PDFDictionary 
-79 0 obj
+% 'Annot.NUMBER74': class PDFDictionary 
+86 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://localhost/test) >>
@@ -1372,8 +1505,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER69': class PDFDictionary 
-80 0 obj
+% 'Annot.NUMBER75': class PDFDictionary 
+87 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://192.168.56.10) >>
@@ -1387,38 +1520,19 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Page6': class PDFPage 
-81 0 obj
-% Page dictionary
-<< /Annots [ 77 0 R
- 78 0 R
- 79 0 R
- 80 0 R ]
- /Contents 129 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 123 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
-endobj
 % 'Page7': class PDFPage 
-82 0 obj
+88 0 obj
 % Page dictionary
-<< /Contents 130 0 R
+<< /Annots [ 84 0 R
+ 85 0 R
+ 86 0 R
+ 87 0 R ]
+ /Contents 147 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 123 0 R
+ /Parent 140 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1430,14 +1544,14 @@ endobj
  /Type /Page >>
 endobj
 % 'Page8': class PDFPage 
-83 0 obj
+89 0 obj
 % Page dictionary
-<< /Contents 131 0 R
+<< /Contents 148 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 123 0 R
+ /Parent 140 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1448,8 +1562,27 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'Annot.NUMBER70': class PDFDictionary 
-84 0 obj
+% 'Page9': class PDFPage 
+90 0 obj
+% Page dictionary
+<< /Contents 149 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 140 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER76': class PDFDictionary 
+91 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://mathias-kettner.com/checkmk_configfiles.html) >>
@@ -1463,8 +1596,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER71': class PDFDictionary 
-85 0 obj
+% 'Annot.NUMBER77': class PDFDictionary 
+92 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://mathias-kettner.com/checkmk_configvars.html) >>
@@ -1478,8 +1611,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER72': class PDFDictionary 
-86 0 obj
+% 'Annot.NUMBER78': class PDFDictionary 
+93 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://mathias-kettner.com/checkmk_calling.html) >>
@@ -1493,8 +1626,146 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER73': class PDFDictionary 
-87 0 obj
+% 'Page10': class PDFPage 
+94 0 obj
+% Page dictionary
+<< /Annots [ 91 0 R
+ 92 0 R
+ 93 0 R ]
+ /Contents 150 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 140 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page11': class PDFPage 
+95 0 obj
+% Page dictionary
+<< /Contents 151 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 140 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER79': class PDFDictionary 
+96 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://mathias-kettner.com/checkmk_hosttags.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 86.74511
+ 589.3736
+ 309.6051
+ 601.3736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER80': class PDFDictionary 
+97 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://mathias-kettner.com/checkmk_inventory.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 416.1736
+ 288.3229
+ 428.1736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER81': class PDFDictionary 
+98 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://mathias-kettner.com/checkmk_inventory.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 104.3829
+ 207.7736
+ 330.0129
+ 219.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page12': class PDFPage 
+99 0 obj
+% Page dictionary
+<< /Annots [ 96 0 R
+ 97 0 R
+ 98 0 R ]
+ /Contents 152 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 140 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER82': class PDFDictionary 
+100 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://mathias-kettner.com/checkmk_check_parameters.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 224.4229
+ 729.7736
+ 491.7329
+ 741.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER83': class PDFDictionary 
+101 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://mathias-kettner.com/checkmk_configvars.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 592.5736
+ 293.3229
+ 604.5736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER84': class PDFDictionary 
+102 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (https://www.virtualbox.org/) >>
@@ -1502,14 +1773,14 @@ endobj
  0
  0 ]
  /Rect [ 344.6429
- 115.7736
+ 329.1736
  461.9029
- 127.7736 ]
+ 341.1736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER74': class PDFDictionary 
-88 0 obj
+% 'Annot.NUMBER85': class PDFDictionary 
+103 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://virtualboxes.org/images/centos/) >>
@@ -1517,38 +1788,14 @@ endobj
  0
  0 ]
  /Rect [ 324.1029
- 97.77362
+ 311.1736
  489.7329
- 109.7736 ]
+ 323.1736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Page9': class PDFPage 
-89 0 obj
-% Page dictionary
-<< /Annots [ 84 0 R
- 85 0 R
- 86 0 R
- 87 0 R
- 88 0 R ]
- /Contents 132 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 123 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
-endobj
-% 'Annot.NUMBER75': class PDFDictionary 
-90 0 obj
+% 'Annot.NUMBER86': class PDFDictionary 
+104 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://www.nagios.org/) >>
@@ -1556,14 +1803,14 @@ endobj
  0
  0 ]
  /Rect [ 131.8129
- 726.7736
+ 269.1736
  230.7429
- 738.7736 ]
+ 281.1736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER76': class PDFDictionary 
-91 0 obj
+% 'Annot.NUMBER87': class PDFDictionary 
+105 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://nagios.sourceforge.net/docs/nagioscore/3/en/toc.html) >>
@@ -1571,14 +1818,14 @@ endobj
  0
  0 ]
  /Rect [ 211.8429
- 708.7736
+ 251.1736
  474.2029
- 720.7736 ]
+ 263.1736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER77': class PDFDictionary 
-92 0 obj
+% 'Annot.NUMBER88': class PDFDictionary 
+106 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://exchange.nagios.org/) >>
@@ -1586,14 +1833,14 @@ endobj
  0
  0 ]
  /Rect [ 394.1629
- 690.7736
+ 233.1736
  514.7929
- 702.7736 ]
+ 245.1736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER78': class PDFDictionary 
-93 0 obj
+% 'Annot.NUMBER89': class PDFDictionary 
+107 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://mathias-kettner.com/check_mk.html) >>
@@ -1601,14 +1848,14 @@ endobj
  0
  0 ]
  /Rect [ 131.8129
- 630.7736
+ 173.1736
  316.8729
- 642.7736 ]
+ 185.1736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER79': class PDFDictionary 
-94 0 obj
+% 'Annot.NUMBER90': class PDFDictionary 
+108 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://mathias-kettner.com/checkmk.html) >>
@@ -1616,14 +1863,14 @@ endobj
  0
  0 ]
  /Rect [ 211.8429
- 612.7736
+ 155.1736
  391.3429
- 624.7736 ]
+ 167.1736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER80': class PDFDictionary 
-95 0 obj
+% 'Annot.NUMBER91': class PDFDictionary 
+109 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://omdistro.org/) >>
@@ -1631,27 +1878,31 @@ endobj
  0
  0 ]
  /Rect [ 131.8129
- 570.7736
+ 113.1736
  215.1829
- 582.7736 ]
+ 125.1736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Page10': class PDFPage 
-96 0 obj
+% 'Page13': class PDFPage 
+110 0 obj
 % Page dictionary
-<< /Annots [ 90 0 R
- 91 0 R
- 92 0 R
- 93 0 R
- 94 0 R
- 95 0 R ]
- /Contents 133 0 R
+<< /Annots [ 100 0 R
+ 101 0 R
+ 102 0 R
+ 103 0 R
+ 104 0 R
+ 105 0 R
+ 106 0 R
+ 107 0 R
+ 108 0 R
+ 109 0 R ]
+ /Contents 153 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 123 0 R
+ /Parent 140 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1662,333 +1913,373 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'R97': class PDFCatalog 
-97 0 obj
+% 'R111': class PDFCatalog 
+111 0 obj
 % Document Root
-<< /Outlines 99 0 R
- /PageLabels 134 0 R
+<< /Outlines 113 0 R
+ /PageLabels 154 0 R
  /PageMode /UseNone
- /Pages 123 0 R
+ /Pages 140 0 R
  /Type /Catalog >>
 endobj
-% 'R98': class PDFInfo 
-98 0 obj
+% 'R112': class PDFInfo 
+112 0 obj
 << /Author ()
- /CreationDate (D:20140111202321-01'00')
+ /CreationDate (D:20140112000224-01'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
  /Subject (\(unspecified\))
  /Title (System monitoring with Open Monitoring Distribution \(OMD\), hands-on tutorial) >>
 endobj
-% 'R99': class PDFOutlines 
-99 0 obj
-<< /Count 30
- /First 100 0 R
- /Last 122 0 R
+% 'R113': class PDFOutlines 
+113 0 obj
+<< /Count 34
+ /First 114 0 R
+ /Last 139 0 R
  /Type /Outlines >>
 endobj
 % 'Outline.0': class OutlineEntryObject 
-100 0 obj
-<< /Dest [ 69 0 R
+114 0 obj
+<< /Dest [ 76 0 R
  /XYZ
  62.69291
  765.0236
  0 ]
- /Next 101 0 R
- /Parent 99 0 R
+ /Next 115 0 R
+ /Parent 113 0 R
  /Title (\376\377\0001\000\240\000\240\000\240\000R\000e\000q\000u\000i\000r\000e\000d\000 \000s\000o\000f\000t\000w\000a\000r\000e) >>
 endobj
 % 'Outline.1': class OutlineEntryObject 
-101 0 obj
+115 0 obj
 << /Count 1
- /Dest [ 69 0 R
+ /Dest [ 76 0 R
  /XYZ
  62.69291
  492.0236
  0 ]
- /First 102 0 R
- /Last 102 0 R
- /Next 103 0 R
- /Parent 99 0 R
- /Prev 100 0 R
+ /First 116 0 R
+ /Last 116 0 R
+ /Next 117 0 R
+ /Parent 113 0 R
+ /Prev 114 0 R
  /Title (\376\377\0002\000\240\000\240\000\240\000V\000i\000r\000t\000u\000a\000l\000B\000o\000x\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
 endobj
-% 'Outline.24.0': class OutlineEntryObject 
-102 0 obj
-<< /Dest [ 70 0 R
+% 'Outline.27.0': class OutlineEntryObject 
+116 0 obj
+<< /Dest [ 77 0 R
  /XYZ
  62.69291
  703.0236
  0 ]
- /Parent 101 0 R
+ /Parent 115 0 R
  /Title (\376\377\0002\000.\0001\000\240\000\240\000\240\000I\000n\000t\000e\000r\000n\000a\000l\000 \000n\000e\000t\000w\000o\000r\000k\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
 endobj
 % 'Outline.2': class OutlineEntryObject 
-103 0 obj
+117 0 obj
 << /Count 7
- /Dest [ 70 0 R
+ /Dest [ 77 0 R
  /XYZ
  62.69291
  394.0236
  0 ]
- /First 104 0 R
- /Last 108 0 R
- /Next 111 0 R
- /Parent 99 0 R
- /Prev 101 0 R
+ /First 118 0 R
+ /Last 122 0 R
+ /Next 125 0 R
+ /Parent 113 0 R
+ /Prev 115 0 R
  /Title (\376\377\0003\000\240\000\240\000\240\000M\000o\000n\000i\000t\000o\000r\000i\000n\000g\000 \000S\000e\000r\000v\000e\000r\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n\000 \000a\000n\000d\000 \000N\000a\000g\000i\000o\000s\000 \000/\000 \000O\000M\000D\000 \000i\000n\000s\000t\000a\000l\000l) >>
 endobj
-% 'Outline.25.0': class OutlineEntryObject 
-104 0 obj
-<< /Dest [ 70 0 R
+% 'Outline.28.0': class OutlineEntryObject 
+118 0 obj
+<< /Dest [ 77 0 R
  /XYZ
  62.69291
  340.0236
  0 ]
- /Next 105 0 R
- /Parent 103 0 R
+ /Next 119 0 R
+ /Parent 117 0 R
  /Title (\376\377\0003\000.\0001\000\240\000\240\000\240\000N\000e\000t\000w\000o\000r\000k\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
 endobj
-% 'Outline.25.1': class OutlineEntryObject 
-105 0 obj
+% 'Outline.28.1': class OutlineEntryObject 
+119 0 obj
 << /Count 1
- /Dest [ 73 0 R
+ /Dest [ 80 0 R
  /XYZ
  62.69291
  727.8236
  0 ]
- /First 106 0 R
- /Last 106 0 R
- /Next 107 0 R
- /Parent 103 0 R
- /Prev 104 0 R
+ /First 120 0 R
+ /Last 120 0 R
+ /Next 121 0 R
+ /Parent 117 0 R
+ /Prev 118 0 R
  /Title (\376\377\0003\000.\0002\000\240\000\240\000\240\000e\000m\000a\000i\000l\000 \000s\000e\000n\000d\000i\000n\000g\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
 endobj
-% 'Outline.26.0': class OutlineEntryObject 
-106 0 obj
-<< /Dest [ 73 0 R
+% 'Outline.29.0': class OutlineEntryObject 
+120 0 obj
+<< /Dest [ 80 0 R
  /XYZ
  62.69291
  501.6236
  0 ]
- /Parent 105 0 R
+ /Parent 119 0 R
  /Title (\376\377\0003\000.\0002\000.\0001\000\240\000\240\000\240\000P\000o\000s\000t\000f\000i\000x\000 \000r\000e\000l\000a\000y\000 \000u\000s\000i\000n\000g\000 \000G\000m\000a\000i\000l) >>
 endobj
-% 'Outline.25.2': class OutlineEntryObject 
-107 0 obj
-<< /Dest [ 76 0 R
+% 'Outline.28.2': class OutlineEntryObject 
+121 0 obj
+<< /Dest [ 83 0 R
  /XYZ
  62.69291
  577.2187
  0 ]
- /Next 108 0 R
- /Parent 103 0 R
- /Prev 105 0 R
+ /Next 122 0 R
+ /Parent 117 0 R
+ /Prev 119 0 R
  /Title (\376\377\0003\000.\0003\000\240\000\240\000\240\000O\000M\000D\000 \000i\000n\000s\000t\000a\000l\000l\000a\000t\000i\000o\000n) >>
 endobj
-% 'Outline.25.3': class OutlineEntryObject 
-108 0 obj
+% 'Outline.28.3': class OutlineEntryObject 
+122 0 obj
 << /Count 2
- /Dest [ 76 0 R
+ /Dest [ 83 0 R
  /XYZ
  62.69291
  259.0587
  0 ]
- /First 109 0 R
- /Last 110 0 R
- /Parent 103 0 R
- /Prev 107 0 R
+ /First 123 0 R
+ /Last 124 0 R
+ /Parent 117 0 R
+ /Prev 121 0 R
  /Title (\376\377\0003\000.\0004\000\240\000\240\000\240\000O\000M\000D\000 \000i\000n\000i\000t\000i\000a\000l\000 \000s\000e\000t\000u\000p) >>
 endobj
-% 'Outline.27.0': class OutlineEntryObject 
-109 0 obj
-<< /Dest [ 76 0 R
+% 'Outline.30.0': class OutlineEntryObject 
+123 0 obj
+<< /Dest [ 83 0 R
  /XYZ
  62.69291
  187.0587
  0 ]
- /Next 110 0 R
- /Parent 108 0 R
+ /Next 124 0 R
+ /Parent 122 0 R
  /Title (\376\377\0003\000.\0004\000.\0001\000\240\000\240\000\240\000O\000M\000D\000 \000s\000i\000t\000e\000 \000c\000r\000e\000a\000t\000i\000o\000n\000 \000a\000n\000d\000 \000a\000c\000c\000e\000s\000s) >>
 endobj
-% 'Outline.27.1': class OutlineEntryObject 
-110 0 obj
-<< /Dest [ 81 0 R
+% 'Outline.30.1': class OutlineEntryObject 
+124 0 obj
+<< /Dest [ 88 0 R
  /XYZ
  62.69291
  597.8236
  0 ]
- /Parent 108 0 R
- /Prev 109 0 R
+ /Parent 122 0 R
+ /Prev 123 0 R
  /Title (\376\377\0003\000.\0004\000.\0002\000\240\000\240\000\240\000W\000e\000b\000 \000s\000e\000r\000v\000e\000r\000 \000a\000c\000c\000e\000s\000s\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
 endobj
 % 'Outline.3': class OutlineEntryObject 
-111 0 obj
+125 0 obj
 << /Count 3
- /Dest [ 81 0 R
+ /Dest [ 88 0 R
  /XYZ
  62.69291
  243.4236
  0 ]
- /First 112 0 R
- /Last 114 0 R
- /Next 115 0 R
- /Parent 99 0 R
- /Prev 103 0 R
+ /First 126 0 R
+ /Last 128 0 R
+ /Next 129 0 R
+ /Parent 113 0 R
+ /Prev 117 0 R
  /Title (\376\377\0004\000\240\000\240\000\240\000M\000o\000n\000i\000t\000o\000r\000i\000z\000e\000d\000 \000s\000y\000s\000t\000e\000m\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
 endobj
-% 'Outline.28.0': class OutlineEntryObject 
-112 0 obj
-<< /Dest [ 81 0 R
+% 'Outline.31.0': class OutlineEntryObject 
+126 0 obj
+<< /Dest [ 88 0 R
  /XYZ
  62.69291
  192.4236
  0 ]
- /Next 113 0 R
- /Parent 111 0 R
+ /Next 127 0 R
+ /Parent 125 0 R
  /Title (\376\377\0004\000.\0001\000\240\000\240\000\240\000N\000e\000t\000w\000o\000r\000k\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
 endobj
-% 'Outline.28.1': class OutlineEntryObject 
-113 0 obj
-<< /Dest [ 82 0 R
+% 'Outline.31.1': class OutlineEntryObject 
+127 0 obj
+<< /Dest [ 89 0 R
  /XYZ
  62.69291
  602.6236
  0 ]
- /Next 114 0 R
- /Parent 111 0 R
- /Prev 112 0 R
+ /Next 128 0 R
+ /Parent 125 0 R
+ /Prev 126 0 R
  /Title (\376\377\0004\000.\0002\000\240\000\240\000\240\000c\000h\000e\000c\000k\000_\000m\000k\000 \000a\000g\000e\000n\000t\000 \000i\000n\000s\000t\000a\000l\000l\000a\000t\000i\000o\000n) >>
 endobj
-% 'Outline.28.2': class OutlineEntryObject 
-114 0 obj
-<< /Dest [ 82 0 R
+% 'Outline.31.2': class OutlineEntryObject 
+128 0 obj
+<< /Dest [ 89 0 R
  /XYZ
  62.69291
  313.2595
  0 ]
- /Parent 111 0 R
- /Prev 113 0 R
+ /Parent 125 0 R
+ /Prev 127 0 R
  /Title (\376\377\0004\000.\0003\000\240\000\240\000\240\000H\000a\000r\000d\000 \000d\000i\000s\000k\000 \000m\000o\000n\000i\000t\000o\000r\000i\000n\000g\000 \000w\000i\000t\000h\000 \000S\000.\000M\000.\000A\000.\000R\000.\000T\000.) >>
 endobj
 % 'Outline.4': class OutlineEntryObject 
-115 0 obj
+129 0 obj
 << /Count 4
- /Dest [ 83 0 R
+ /Dest [ 90 0 R
  /XYZ
  62.69291
  765.0236
  0 ]
- /First 116 0 R
- /Last 119 0 R
- /Next 120 0 R
- /Parent 99 0 R
- /Prev 111 0 R
+ /First 130 0 R
+ /Last 133 0 R
+ /Next 134 0 R
+ /Parent 113 0 R
+ /Prev 125 0 R
  /Title (\376\377\0005\000\240\000\240\000\240\000B\000a\000s\000i\000c\000 \000C\000h\000e\000c\000k\000_\000M\000K\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
 endobj
-% 'Outline.29.0': class OutlineEntryObject 
-116 0 obj
-<< /Dest [ 83 0 R
+% 'Outline.32.0': class OutlineEntryObject 
+130 0 obj
+<< /Dest [ 90 0 R
  /XYZ
  62.69291
  660.0236
  0 ]
- /Next 117 0 R
- /Parent 115 0 R
+ /Next 131 0 R
+ /Parent 129 0 R
  /Title (\376\377\0005\000.\0001\000\240\000\240\000\240\000U\000s\000e\000r\000 \000c\000r\000e\000a\000t\000i\000o\000n) >>
 endobj
-% 'Outline.29.1': class OutlineEntryObject 
-117 0 obj
-<< /Dest [ 83 0 R
+% 'Outline.32.1': class OutlineEntryObject 
+131 0 obj
+<< /Dest [ 90 0 R
  /XYZ
  62.69291
  450.8236
  0 ]
- /Next 118 0 R
- /Parent 115 0 R
- /Prev 116 0 R
+ /Next 132 0 R
+ /Parent 129 0 R
+ /Prev 130 0 R
  /Title (\376\377\0005\000.\0002\000\240\000\240\000\240\000I\000n\000t\000e\000g\000r\000a\000t\000i\000o\000n\000 \000\(\000i\000n\000v\000e\000n\000t\000o\000r\000y\000\)\000 \000o\000f\000 \000t\000h\000e\000 \000n\000e\000w\000 \000h\000o\000s\000t\000 \000t\000o\000 \000b\000e\000 \000m\000o\000n\000i\000t\000o\000r\000e\000d) >>
 endobj
-% 'Outline.29.2': class OutlineEntryObject 
-118 0 obj
-<< /Dest [ 83 0 R
+% 'Outline.32.2': class OutlineEntryObject 
+132 0 obj
+<< /Dest [ 90 0 R
  /XYZ
  62.69291
  184.4236
  0 ]
- /Next 119 0 R
- /Parent 115 0 R
- /Prev 117 0 R
+ /Next 133 0 R
+ /Parent 129 0 R
+ /Prev 131 0 R
  /Title (\376\377\0005\000.\0003\000\240\000\240\000\240\000R\000e\000i\000n\000v\000e\000n\000t\000o\000r\000i\000n\000g) >>
 endobj
-% 'Outline.29.3': class OutlineEntryObject 
-119 0 obj
-<< /Dest [ 89 0 R
+% 'Outline.32.3': class OutlineEntryObject 
+133 0 obj
+<< /Dest [ 94 0 R
  /XYZ
  62.69291
  664.0236
  0 ]
- /Parent 115 0 R
- /Prev 118 0 R
+ /Parent 129 0 R
+ /Prev 132 0 R
  /Title (\376\377\0005\000.\0004\000\240\000\240\000\240\000e\000m\000a\000i\000l\000 \000n\000o\000t\000i\000f\000i\000c\000a\000t\000i\000o\000n\000 \000t\000e\000s\000t) >>
 endobj
 % 'Outline.5': class OutlineEntryObject 
-120 0 obj
-<< /Count 1
- /Dest [ 89 0 R
+134 0 obj
+<< /Count 4
+ /Dest [ 94 0 R
  /XYZ
  62.69291
  556.0236
  0 ]
- /First 121 0 R
- /Last 121 0 R
- /Next 122 0 R
- /Parent 99 0 R
- /Prev 115 0 R
+ /First 135 0 R
+ /Last 136 0 R
+ /Next 139 0 R
+ /Parent 113 0 R
+ /Prev 129 0 R
  /Title (\376\377\0006\000\240\000\240\000\240\000A\000d\000v\000a\000n\000c\000e\000d\000 \000C\000h\000e\000c\000k\000_\000M\000K\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
 endobj
-% 'Outline.30.0': class OutlineEntryObject 
-121 0 obj
-<< /Dest [ 89 0 R
+% 'Outline.33.0': class OutlineEntryObject 
+135 0 obj
+<< /Dest [ 94 0 R
  /XYZ
  62.69291
  229.0236
  0 ]
- /Parent 120 0 R
- /Title (\376\377\0006\000.\0001\000\240\000\240\000\240\000T\000w\000o\000 \000n\000o\000d\000e\000 \000c\000l\000u\000s\000t\000e\000r\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
+ /Next 136 0 R
+ /Parent 134 0 R
+ /Title (\376\377\0006\000.\0001\000\240\000\240\000\240\000M\000a\000n\000u\000a\000l\000l\000y\000 \000c\000o\000n\000f\000i\000g\000u\000r\000e\000 \000V\000i\000r\000t\000u\000a\000l\000B\000o\000x\000 \000h\000o\000s\000t\000 \000m\000o\000n\000i\000t\000o\000r\000i\000n\000g) >>
 endobj
-% 'Outline.6': class OutlineEntryObject 
-122 0 obj
-<< /Dest [ 89 0 R
+% 'Outline.33.1': class OutlineEntryObject 
+136 0 obj
+<< /Count 2
+ /Dest [ 95 0 R
  /XYZ
  62.69291
- 181.0236
+ 546.6236
  0 ]
- /Parent 99 0 R
- /Prev 120 0 R
+ /First 137 0 R
+ /Last 138 0 R
+ /Parent 134 0 R
+ /Prev 135 0 R
+ /Title (\376\377\0006\000.\0002\000\240\000\240\000\240\000T\000w\000o\000 \000n\000o\000d\000e\000 \000H\000P\000C\000 \000c\000l\000u\000s\000t\000e\000r\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
+endobj
+% 'Outline.34.0': class OutlineEntryObject 
+137 0 obj
+<< /Dest [ 95 0 R
+ /XYZ
+ 62.69291
+ 408.6236
+ 0 ]
+ /Next 138 0 R
+ /Parent 136 0 R
+ /Title (\376\377\0006\000.\0002\000.\0001\000\240\000\240\000\240\000C\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n\000 \000f\000i\000l\000e) >>
+endobj
+% 'Outline.34.1': class OutlineEntryObject 
+138 0 obj
+<< /Dest [ 110 0 R
+ /XYZ
+ 62.69291
+ 579.8236
+ 0 ]
+ /Parent 136 0 R
+ /Prev 137 0 R
+ /Title (\376\377\0006\000.\0002\000.\0002\000\240\000\240\000\240\000I\000n\000v\000e\000n\000t\000o\000r\000i\000n\000g\000 \000a\000n\000d\000 \000N\000a\000g\000i\000o\000s\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n\000 \000u\000p\000d\000a\000t\000e) >>
+endobj
+% 'Outline.6': class OutlineEntryObject 
+139 0 obj
+<< /Dest [ 110 0 R
+ /XYZ
+ 62.69291
+ 394.4236
+ 0 ]
+ /Parent 113 0 R
+ /Prev 134 0 R
  /Title (\376\377\0007\000\240\000\240\000\240\000R\000e\000f\000e\000r\000e\000n\000c\000e\000s) >>
 endobj
-% 'R123': class PDFPages 
-123 0 obj
+% 'R140': class PDFPages 
+140 0 obj
 % page tree
-<< /Count 10
- /Kids [ 57 0 R
- 69 0 R
- 70 0 R
- 73 0 R
+<< /Count 13
+ /Kids [ 11 0 R
+ 64 0 R
  76 0 R
- 81 0 R
- 82 0 R
+ 77 0 R
+ 80 0 R
  83 0 R
+ 88 0 R
  89 0 R
- 96 0 R ]
+ 90 0 R
+ 94 0 R
+ 95 0 R
+ 99 0 R
+ 110 0 R ]
  /Type /Pages >>
 endobj
-% 'R124': class PDFStream 
-124 0 obj
+% 'R141': class PDFStream 
+141 0 obj
 % page stream
-<< /Length 8908 >>
+<< /Length 2835 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -2072,65 +2363,45 @@ BT 1 0 0 1 0 14 Tm 1.225868 Tw 12 TL /F1 10 Tf 0 0 0 rg (We will use two CentOS 
 Q
 Q
 q
-1 0 0 1 62.69291 521.0236 cm
+1 0 0 1 62.69291 524.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.03811 Tw (Also basic guidelines are given on how to proceed in order to setup a similar system monitoring) Tj T* 0 Tw (computing nodes in a typical HPC cluster.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (1) Tj T* -238.1649 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R142': class PDFStream 
+142 0 obj
+% page stream
+<< /Length 7344 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 744.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Contents) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 101.0236 cm
+1 0 0 1 62.69291 270.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
-1 0 0 1 0 399 cm
+1 0 0 1 0 453 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (1   Required software) Tj T* ET
 Q
 Q
 q
-1 0 0 1 397.8898 399 cm
-q
-0 0 .501961 rg
-0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
-Q
-Q
-q
-1 0 0 1 0 381 cm
-q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (2   VirtualBox configuration) Tj T* ET
-Q
-Q
-q
-1 0 0 1 397.8898 381 cm
-q
-0 0 .501961 rg
-0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
-Q
-Q
-q
-1 0 0 1 0 363 cm
-q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (2.1   Internal network configuration) Tj T* ET
-Q
-Q
-q
-1 0 0 1 397.8898 363 cm
-q
-0 0 .501961 rg
-0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
-Q
-Q
-q
-1 0 0 1 0 345 cm
-q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (3   Monitoring Server configuration and Nagios / OMD install) Tj T* ET
-Q
-Q
-q
-1 0 0 1 397.8898 345 cm
+1 0 0 1 397.8898 453 cm
 q
 0 0 .501961 rg
 0 0 .501961 RG
@@ -2138,9 +2409,93 @@ BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
 Q
 Q
 q
-1 0 0 1 0 327 cm
+1 0 0 1 0 435 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (2   VirtualBox configuration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 435 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 417 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (2.1   Internal network configuration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 417 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 399 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (3   Monitoring Server configuration and Nagios / OMD install) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 399 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 381 cm
 q
 BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.1   Network configuration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 381 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 363 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.2   email sending configuration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 363 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 345 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.2.1   Postfix relay using Gmail) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 345 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 327 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.3   OMD installation) Tj T* ET
 Q
 Q
 q
@@ -2148,13 +2503,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 309 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.2   email sending configuration) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.4   OMD initial setup) Tj T* ET
 Q
 Q
 q
@@ -2162,13 +2517,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 291 cm
 q
-BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.2.1   Postfix relay using Gmail) Tj T* ET
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.4.1   OMD site creation and access) Tj T* ET
 Q
 Q
 q
@@ -2176,13 +2531,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 273 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.3   OMD installation) Tj T* ET
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.4.2   Web server access configuration) Tj T* ET
 Q
 Q
 q
@@ -2190,13 +2545,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 255 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.4   OMD initial setup) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (4   Monitorized system configuration) Tj T* ET
 Q
 Q
 q
@@ -2204,13 +2559,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 237 cm
 q
-BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.4.1   OMD site creation and access) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (4.1   Network configuration) Tj T* ET
 Q
 Q
 q
@@ -2218,13 +2573,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 219 cm
 q
-BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.4.2   Web server access configuration) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (4.2   check_mk agent installation) Tj T* ET
 Q
 Q
 q
@@ -2232,13 +2587,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 201 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (4   Monitorized system configuration) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (4.3   Hard disk monitoring with S.M.A.R.T.) Tj T* ET
 Q
 Q
 q
@@ -2246,13 +2601,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 183 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (4.1   Network configuration) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (5   Basic Check_MK configuration) Tj T* ET
 Q
 Q
 q
@@ -2260,13 +2615,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 165 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (4.2   check_mk agent installation) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (5.1   User creation) Tj T* ET
 Q
 Q
 q
@@ -2274,13 +2629,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 147 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (4.3   Hard disk monitoring with S.M.A.R.T.) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (5.2   Integration \(inventory\) of the new ) Tj /F3 10 Tf (host ) Tj /F1 10 Tf (to be monitored) Tj T* ET
 Q
 Q
 q
@@ -2288,13 +2643,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 129 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (5   Basic Check_MK configuration) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (5.3   Reinventoring) Tj T* ET
 Q
 Q
 q
@@ -2302,13 +2657,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 111 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (5.1   User creation) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (5.4   email notification test) Tj T* ET
 Q
 Q
 q
@@ -2316,13 +2671,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 93 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (5.2   Integration \(inventory\) of the new ) Tj /F3 10 Tf (host ) Tj /F1 10 Tf (to be monitored) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (6   Advanced Check_MK configuration) Tj T* ET
 Q
 Q
 q
@@ -2330,13 +2685,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 75 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (5.3   Reinventoring) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (6.1   Manually configure VirtualBox host monitoring) Tj T* ET
 Q
 Q
 q
@@ -2344,13 +2699,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 57 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (5.4   email notification test) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (6.2   Two node HPC cluster configuration) Tj T* ET
 Q
 Q
 q
@@ -2358,13 +2713,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (11) Tj T* -60.88 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 39 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (6   Advanced Check_MK configuration) Tj T* ET
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (6.2.1   Configuration file) Tj T* ET
 Q
 Q
 q
@@ -2372,13 +2727,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (11) Tj T* -60.88 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 21 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (6.1   Two node cluster configuration) Tj T* ET
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (6.2.2   Inventoring and Nagios configuration update) Tj T* ET
 Q
 Q
 q
@@ -2386,7 +2741,7 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (13) Tj T* -60.88 0 Td ET
 Q
 Q
 q
@@ -2400,26 +2755,26 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 60.88 0 Td (13) Tj T* -60.88 0 Td ET
 Q
 Q
 q
 Q
 Q
 q
-1 0 0 1 62.69291 101.0236 cm
+1 0 0 1 62.69291 270.0236 cm
 Q
 q
 1 0 0 1 56.69291 56.69291 cm
 q
-BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (1) Tj T* -238.1649 0 Td ET
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (2) Tj T* -238.1649 0 Td ET
 Q
 Q
  
 endstream
 endobj
-% 'R125': class PDFStream 
-125 0 obj
+% 'R143': class PDFStream 
+143 0 obj
 % page stream
 << /Length 9154 >>
 stream
@@ -2955,14 +3310,14 @@ Q
 q
 1 0 0 1 56.69291 56.69291 cm
 q
-BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (2) Tj T* -238.1649 0 Td ET
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (3) Tj T* -238.1649 0 Td ET
 Q
 Q
  
 endstream
 endobj
-% 'R126': class PDFStream 
-126 0 obj
+% 'R144': class PDFStream 
+144 0 obj
 % page stream
 << /Length 6043 >>
 stream
@@ -3238,14 +3593,14 @@ Q
 q
 1 0 0 1 56.69291 56.69291 cm
 q
-BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (3) Tj T* -238.1649 0 Td ET
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (4) Tj T* -238.1649 0 Td ET
 Q
 Q
  
 endstream
 endobj
-% 'R127': class PDFStream 
-127 0 obj
+% 'R145': class PDFStream 
+145 0 obj
 % page stream
 << /Length 5251 >>
 stream
@@ -3473,14 +3828,14 @@ Q
 q
 1 0 0 1 56.69291 56.69291 cm
 q
-BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (4) Tj T* -238.1649 0 Td ET
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (5) Tj T* -238.1649 0 Td ET
 Q
 Q
  
 endstream
 endobj
-% 'R128': class PDFStream 
-128 0 obj
+% 'R146': class PDFStream 
+146 0 obj
 % page stream
 << /Length 5310 >>
 stream
@@ -3722,14 +4077,14 @@ Q
 q
 1 0 0 1 56.69291 56.69291 cm
 q
-BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (5) Tj T* -238.1649 0 Td ET
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (6) Tj T* -238.1649 0 Td ET
 Q
 Q
  
 endstream
 endobj
-% 'R129': class PDFStream 
-129 0 obj
+% 'R147': class PDFStream 
+147 0 obj
 % page stream
 << /Length 6229 >>
 stream
@@ -3937,14 +4292,14 @@ Q
 q
 1 0 0 1 56.69291 56.69291 cm
 q
-BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (6) Tj T* -238.1649 0 Td ET
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (7) Tj T* -238.1649 0 Td ET
 Q
 Q
  
 endstream
 endobj
-% 'R130': class PDFStream 
-130 0 obj
+% 'R148': class PDFStream 
+148 0 obj
 % page stream
 << /Length 4845 >>
 stream
@@ -4132,14 +4487,14 @@ Q
 q
 1 0 0 1 56.69291 56.69291 cm
 q
-BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (7) Tj T* -238.1649 0 Td ET
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (8) Tj T* -238.1649 0 Td ET
 Q
 Q
  
 endstream
 endobj
-% 'R131': class PDFStream 
-131 0 obj
+% 'R149': class PDFStream 
+149 0 obj
 % page stream
 << /Length 6518 >>
 stream
@@ -4292,16 +4647,16 @@ Q
 q
 1 0 0 1 56.69291 56.69291 cm
 q
-BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (8) Tj T* -238.1649 0 Td ET
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (9) Tj T* -238.1649 0 Td ET
 Q
 Q
  
 endstream
 endobj
-% 'R132': class PDFStream 
-132 0 obj
+% 'R150': class PDFStream 
+150 0 obj
 % page stream
-<< /Length 6730 >>
+<< /Length 6289 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -4405,34 +4760,543 @@ Q
 q
 1 0 0 1 62.69291 211.0236 cm
 q
-BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (6.1   Two node cluster configuration) Tj T* ET
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (6.1   Manually configure VirtualBox host monitoring) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 193.0236 cm
+1 0 0 1 62.69291 181.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Here we present a very simple example of a real configuration file for a two nodes test rocks cluster.) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .756098 Tw (As a very simple example we set up the VirtualBox host itslef for monitoring, all from the command line.) Tj T* 0 Tw (See below for a more complex example.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 160.0236 cm
+1 0 0 1 62.69291 163.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (First, in the monitoring server, we go into the OMD ) Tj /F4 10 Tf (test ) Tj /F1 10 Tf (user/site:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 129.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (su - test) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 109.8236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (and there we create the ) Tj /F4 10 Tf (vb-host.mk ) Tj /F1 10 Tf (file in ) Tj /F4 10 Tf (~/etc/check_mk/conf.d ) Tj /F1 10 Tf (with the following content:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 235.3849 0 Td 12 TL /F1 10 Tf 0 0 0 rg (10) Tj T* -235.3849 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R151': class PDFStream 
+151 0 obj
+% page stream
+<< /Length 3881 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 667.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 96 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F4 10 Tf 12 TL (# ~/etc/check_mk/conf.d/vb-host.mk) Tj T*  T* (all_hosts += [) Tj T* (    'VB-host',) Tj T* (]) Tj T*  T* (ipaddresses['VB-host'] = '192.168.56.1') Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 635.8236 cm
+q
+BT 1 0 0 1 0 14 Tm .396235 Tw 12 TL /F1 10 Tf 0 0 0 rg (After installing the check_mk agent in the VB-host we manually inventorize it and update the Nagios core) Tj T* 0 Tw (with the ) Tj /F4 10 Tf (check_mk ) Tj /F1 10 Tf (command:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 590.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F4 10 Tf 12 TL (check_mk -I VB-host) Tj T* (check_mk -R) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 558.6236 cm
+q
+BT 1 0 0 1 0 14 Tm .520514 Tw 12 TL /F1 10 Tf 0 0 0 rg (And we are done! The new host is added to the default ) Tj /F4 10 Tf (all ) Tj /F1 10 Tf (\() Tj /F4 10 Tf (Everyone) Tj /F1 10 Tf (\) contact group and we can see) Tj T* 0 Tw (all detected services in the multisite interface.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 528.6236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (6.2   Two node HPC cluster configuration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 498.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .179488 Tw (Here we present a very simple example of a real configuration file for a two nodes test rocks cluster, but it) Tj T* 0 Tw (should be work the same for a general HPC cluster.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 420.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.745868 Tw (We have installed OMD in the head node, inventorized the own head node with WATO \(both just as) Tj T* 0 Tw 2.202339 Tw (described\), and want to add the compute nodes using a configuration file so that we can script the) Tj T* 0 Tw 1.354104 Tw (process for any number of them. Of course we have also installed the check_mk agent and the smart) Tj T* 0 Tw .630542 Tw (check plugin in the compute nodes \(you can include them in you nodes master image, post install it with) Tj T* 0 Tw .316136 Tw (pdsh/pdcp, set in up in your cfengine/puppet/salt or whatever configuration management system you may) Tj T* 0 Tw (be using, etc.\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 393.6236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F5 12.5 Tf 0 0 0 rg (6.2.1   Configuration file) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 375.6236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (So lets write the configuration file ) Tj /F4 10 Tf (~/etc/check_mk/conf.d/conpute.mk ) Tj /F1 10 Tf (and dissect it:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 102.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 264 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 242 Tm /F4 10 Tf 12 TL ( 1 # ~/etc/check_mk/conf.d/compute.mk) Tj T* ( 2 # Configuration for test rocks cluster compute nodes) Tj T* ( 3) Tj T* ( 4 all_hosts = all_hosts + [) Tj T* ( 5     'compute-0-0|compute',) Tj T* ( 6     'compute-0-1|compute',) Tj T* ( 7 ]) Tj T* ( 8) Tj T* ( 9 ignored_services += [) Tj T* (10      \( [ "compute" ], ALL_HOSTS, [ "fs_/var" ] \),) Tj T* (11  ]) Tj T* (12) Tj T* (13 ignored_checks += [) Tj T* (14     \( [ "postfix_mailq" ], [ "compute" ], ALL_HOSTS  \),) Tj T* (15 ]) Tj T* (16) Tj T* (17 host_contactgroups += [) Tj T* (18     \( "Everybody", [ "compute" ], ALL_HOSTS \),) Tj T* (19 ]) Tj T* (20) Tj T* (21 check_parameters += [) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 235.3849 0 Td 12 TL /F1 10 Tf 0 0 0 rg (11) Tj T* -235.3849 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R152': class PDFStream 
+152 0 obj
+% page stream
+<< /Length 5442 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 727.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F4 10 Tf 12 TL (22     \( \(45, 55\), [ 'compute' ], ALL_HOSTS, [ "Temperature SMART" ] \),) Tj T* (23 ]) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 707.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Hosts Setup) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 689.8236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (We fist setup the hosts. Note how we ) Tj /F3 10 Tf (add ) Tj /F1 10 Tf (the new hosts to the ) Tj /F4 10 Tf (all_hosts ) Tj /F1 10 Tf (variable:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 620.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F4 10 Tf 12 TL (4 all_hosts = all_hosts + [) Tj T* (5     'compute-0-0|compute',) Tj T* (6     'compute-0-1|compute',) Tj T* (7 ]) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 564.6236 cm
+q
+BT 1 0 0 1 0 38 Tm .176303 Tw 12 TL /F1 10 Tf 0 0 0 rg (The first part of every field is the hostname and the second the check_mk host ) Tj /F3 10 Tf (tag) Tj /F1 10 Tf (, ) Tj /F4 10 Tf (compute ) Tj /F1 10 Tf (in this case) Tj T* 0 Tw 1.822196 Tw (\(see ) Tj 0 0 .501961 rg (http://mathias-kettner.com/checkmk_hosttags.html) Tj 0 0 0 rg (\). The last ) Tj /F3 10 Tf (comma \(,\) ) Tj /F1 10 Tf (is superfluous, but makes) Tj T* 0 Tw .835227 Tw (the scripting easier. This is the only part we would have to script in order to include our 10's or 100's of) Tj T* 0 Tw (nodes in a general case.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 546.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Ignored Services) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 528.6236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (If we want to ignore some services, we add them up to the ) Tj /F4 10 Tf (ignored_services ) Tj /F1 10 Tf (variable:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 471.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F4 10 Tf 12 TL ( 9 ignored_services += [) Tj T* (10      \( [ "compute" ], ALL_HOSTS, ["fs_/var"] \),) Tj T* (11  ]) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 415.4236 cm
+q
+BT 1 0 0 1 0 38 Tm .619513 Tw 12 TL /F1 10 Tf 0 0 0 rg (You can get the exact name of the service you want to ignore from the own service name as it is shown) Tj T* 0 Tw 1.538876 Tw (the shown in the multisite interface or get it inspecting the ) Tj /F4 10 Tf (cmk) Tj ( ) Tj (-D ) Tj /F1 10 Tf (command output. In this case all) Tj T* 0 Tw .82311 Tw (services whose name ) Tj /F3 10 Tf (begings ) Tj /F1 10 Tf (with ) Tj /F4 10 Tf (fs_/var ) Tj /F1 10 Tf (on the hosts with host tag ) Tj /F4 10 Tf (compute ) Tj /F1 10 Tf (will be ignored. See) Tj T* 0 Tw 0 0 .501961 rg (http://mathias-kettner.com/checkmk_inventory.html) Tj 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 397.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Ignored Checks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 379.4236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (We can also ignore checks, in this case the ) Tj /F4 10 Tf (postfix_mailq ) Tj /F1 10 Tf (check:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 322.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F4 10 Tf 12 TL (13 ignored_checks += [) Tj T* (14     \( [ "postfix_mailq" ], [ "compute" ], ALL_HOSTS  \),) Tj T* (15 ]) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 302.2236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Contact Groups) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 284.2236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (If we want to add the new hosts to some contact group, in this case the OMD default ) Tj /F4 10 Tf (Everybody ) Tj /F1 10 Tf (group:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 227.0236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F4 10 Tf 12 TL (17 host_contactgroups += [) Tj T* (18     \( "Everybody", [ "compute" ], ALL_HOSTS \),) Tj T* (19 ]) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 207.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (See also ) Tj 0 0 .501961 rg (http://mathias-kettner.com/checkmk_inventory.html) Tj 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 189.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Special Check Parameters) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 171.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (And finally we can also adjust some of the checks default values:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 113.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F4 10 Tf 12 TL (21 check_parameters += [) Tj T* (22     \( \(45, 55\), [ 'compute' ], ALL_HOSTS, [ "Temperature SMART" ] \),) Tj T* (23 ]) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 235.3849 0 Td 12 TL /F1 10 Tf 0 0 0 rg (12) Tj T* -235.3849 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R153': class PDFStream 
+153 0 obj
+% page stream
+<< /Length 8046 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+BT 1 0 0 1 0 26 Tm 1.433876 Tw 12 TL /F1 10 Tf 0 0 0 rg (In this case the default smart check temperature leves are too low for our system \(35C and 40C, see) Tj T* 0 Tw .334597 Tw /F4 10 Tf (cmk) Tj ( ) Tj (--man) Tj ( ) Tj (smart.temp) Tj /F1 10 Tf (\) so we raise them a bit. All services called "Temperature SMART) Tj (<) Tj (whatever) Tj (>) Tj (") Tj T* 0 Tw (will have as new levels \(45,55\). See ) Tj 0 0 .501961 rg (http://mathias-kettner.com/checkmk_check_parameters.html) Tj 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Host Groups) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 681.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .801567 Tw 12 TL /F1 10 Tf 0 0 0 rg (You can also, although we have not done it in this example, create a Nagios ) Tj /F3 10 Tf (host group ) Tj /F1 10 Tf (in WATO ) Tj /F2 10 Tf (Host) Tj T* 0 Tw (Groups ) Tj /F1 10 Tf (section and add these hosts to the group:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 623.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F4 10 Tf 12 TL (host_groups += [) Tj T* (    \( 'computenodes', [ 'compute' ], ALL_HOSTS \),) Tj T* (]) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 591.8236 cm
+q
+BT 1 0 0 1 0 14 Tm 11.2107 Tw 12 TL /F1 10 Tf 0 0 0 rg (You can find a list of all the confiugration variables that mey be used at) Tj T* 0 Tw 0 0 .501961 rg (http://mathias-kettner.com/checkmk_configvars.html) Tj 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 564.8236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F5 12.5 Tf 0 0 0 rg (6.2.2   Inventoring and Nagios configuration update) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 522.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.367045 Tw (After we have written down the new configuration file for the compute nodes we have to first scan) Tj T* 0 Tw .672485 Tw (\(inventorize\) the new hosts for services to check and then propagate the configration and the new found) Tj T* 0 Tw (services to Nagios.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 504.8236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (So we \(re\)inventorize all hosts with tag ) Tj /F4 10 Tf (compute) Tj /F1 10 Tf (:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 471.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (check_mk -II @compute) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 439.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .237318 Tw (Check_MK will find the new hosts and the corresponding services. In order to propagate the configuration) Tj T* 0 Tw (to Nagios and restart the monitoring core we just:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 406.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (check_mk -R) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 373.4236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (7   References) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 142.0236 cm
+1 0 0 1 62.69291 355.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Virtual Machines) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 136.0236 cm
+1 0 0 1 62.69291 349.4236 cm
 Q
 q
-1 0 0 1 62.69291 100.0236 cm
+1 0 0 1 62.69291 313.4236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
@@ -4492,35 +5356,20 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 100.0236 cm
+1 0 0 1 62.69291 313.4236 cm
 Q
 q
-1 0 0 1 56.69291 56.69291 cm
-q
-BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (9) Tj T* -238.1649 0 Td ET
-Q
-Q
- 
-endstream
-endobj
-% 'R133': class PDFStream 
-133 0 obj
-% page stream
-<< /Length 3692 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-q
-1 0 0 1 62.69291 753.0236 cm
+1 0 0 1 62.69291 295.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Nagios) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 747.0236 cm
+1 0 0 1 62.69291 289.4236 cm
 Q
 q
-1 0 0 1 62.69291 675.0236 cm
+1 0 0 1 62.69291 217.4236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
@@ -4626,20 +5475,20 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 675.0236 cm
+1 0 0 1 62.69291 217.4236 cm
 Q
 q
-1 0 0 1 62.69291 657.0236 cm
+1 0 0 1 62.69291 199.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Check_MK) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 651.0236 cm
+1 0 0 1 62.69291 193.4236 cm
 Q
 q
-1 0 0 1 62.69291 615.0236 cm
+1 0 0 1 62.69291 157.4236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
@@ -4699,20 +5548,20 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 615.0236 cm
+1 0 0 1 62.69291 157.4236 cm
 Q
 q
-1 0 0 1 62.69291 597.0236 cm
+1 0 0 1 62.69291 139.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (OMD) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 591.0236 cm
+1 0 0 1 62.69291 133.4236 cm
 Q
 q
-1 0 0 1 62.69291 573.0236 cm
+1 0 0 1 62.69291 115.4236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
@@ -4749,103 +5598,127 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 573.0236 cm
+1 0 0 1 62.69291 115.4236 cm
 Q
 q
 1 0 0 1 56.69291 56.69291 cm
 q
-BT 1 0 0 1 0 2 Tm 235.3849 0 Td 12 TL /F1 10 Tf 0 0 0 rg (10) Tj T* -235.3849 0 Td ET
+BT 1 0 0 1 0 2 Tm 235.3849 0 Td 12 TL /F1 10 Tf 0 0 0 rg (13) Tj T* -235.3849 0 Td ET
 Q
 Q
  
 endstream
 endobj
-% 'R134': class PDFPageLabels 
-134 0 obj
+% 'R154': class PDFPageLabels 
+154 0 obj
 % Document Root
 << /Nums [ 0
- 135 0 R
+ 155 0 R
  1
- 136 0 R
+ 156 0 R
  2
- 137 0 R
+ 157 0 R
  3
- 138 0 R
+ 158 0 R
  4
- 139 0 R
+ 159 0 R
  5
- 140 0 R
+ 160 0 R
  6
- 141 0 R
+ 161 0 R
  7
- 142 0 R
+ 162 0 R
  8
- 143 0 R
+ 163 0 R
  9
- 144 0 R ] >>
+ 164 0 R
+ 10
+ 165 0 R
+ 11
+ 166 0 R
+ 12
+ 167 0 R ] >>
 endobj
-% 'R135': class PDFPageLabel 
-135 0 obj
+% 'R155': class PDFPageLabel 
+155 0 obj
 % None
 << /S /D
  /St 1 >>
 endobj
-% 'R136': class PDFPageLabel 
-136 0 obj
+% 'R156': class PDFPageLabel 
+156 0 obj
 % None
 << /S /D
  /St 2 >>
 endobj
-% 'R137': class PDFPageLabel 
-137 0 obj
+% 'R157': class PDFPageLabel 
+157 0 obj
 % None
 << /S /D
  /St 3 >>
 endobj
-% 'R138': class PDFPageLabel 
-138 0 obj
+% 'R158': class PDFPageLabel 
+158 0 obj
 % None
 << /S /D
  /St 4 >>
 endobj
-% 'R139': class PDFPageLabel 
-139 0 obj
+% 'R159': class PDFPageLabel 
+159 0 obj
 % None
 << /S /D
  /St 5 >>
 endobj
-% 'R140': class PDFPageLabel 
-140 0 obj
+% 'R160': class PDFPageLabel 
+160 0 obj
 % None
 << /S /D
  /St 6 >>
 endobj
-% 'R141': class PDFPageLabel 
-141 0 obj
+% 'R161': class PDFPageLabel 
+161 0 obj
 % None
 << /S /D
  /St 7 >>
 endobj
-% 'R142': class PDFPageLabel 
-142 0 obj
+% 'R162': class PDFPageLabel 
+162 0 obj
 % None
 << /S /D
  /St 8 >>
 endobj
-% 'R143': class PDFPageLabel 
-143 0 obj
+% 'R163': class PDFPageLabel 
+163 0 obj
 % None
 << /S /D
  /St 9 >>
 endobj
-% 'R144': class PDFPageLabel 
-144 0 obj
+% 'R164': class PDFPageLabel 
+164 0 obj
 % None
 << /S /D
  /St 10 >>
 endobj
+% 'R165': class PDFPageLabel 
+165 0 obj
+% None
+<< /S /D
+ /St 11 >>
+endobj
+% 'R166': class PDFPageLabel 
+166 0 obj
+% None
+<< /S /D
+ /St 12 >>
+endobj
+% 'R167': class PDFPageLabel 
+167 0 obj
+% None
+<< /S /D
+ /St 13 >>
+endobj
 xref
-0 145
+0 168
 0000000000 65535 f
 0000000113 00000 n
 0000000260 00000 n
@@ -4857,148 +5730,171 @@ xref
 0000001639 00000 n
 0000001877 00000 n
 0000002102 00000 n
-0000002297 00000 n
-0000002539 00000 n
-0000002781 00000 n
-0000003024 00000 n
-0000003267 00000 n
-0000003510 00000 n
-0000003753 00000 n
-0000003996 00000 n
-0000004239 00000 n
-0000004482 00000 n
-0000004725 00000 n
-0000004968 00000 n
-0000005211 00000 n
-0000005454 00000 n
-0000005697 00000 n
-0000005940 00000 n
-0000006183 00000 n
-0000006426 00000 n
-0000006669 00000 n
-0000006912 00000 n
-0000007155 00000 n
-0000007398 00000 n
-0000007641 00000 n
-0000007884 00000 n
-0000008127 00000 n
-0000008370 00000 n
-0000008613 00000 n
-0000008856 00000 n
-0000009099 00000 n
-0000009342 00000 n
-0000009585 00000 n
-0000009828 00000 n
-0000010071 00000 n
-0000010314 00000 n
-0000010557 00000 n
-0000010800 00000 n
-0000011043 00000 n
-0000011286 00000 n
-0000011529 00000 n
-0000011772 00000 n
-0000012015 00000 n
-0000012258 00000 n
-0000012501 00000 n
-0000012744 00000 n
-0000012987 00000 n
-0000013230 00000 n
-0000013457 00000 n
-0000014228 00000 n
-0000014475 00000 n
-0000014733 00000 n
-0000015035 00000 n
-0000015338 00000 n
-0000015578 00000 n
-0000015838 00000 n
-0000016096 00000 n
-0000016399 00000 n
-0000016688 00000 n
-0000016850 00000 n
-0000017038 00000 n
-0000017413 00000 n
-0000017710 00000 n
-0000017948 00000 n
-0000018228 00000 n
-0000018555 00000 n
-0000018815 00000 n
-0000019054 00000 n
-0000019381 00000 n
-0000019657 00000 n
-0000019933 00000 n
-0000020174 00000 n
-0000020399 00000 n
-0000020729 00000 n
-0000021011 00000 n
-0000021308 00000 n
-0000021579 00000 n
-0000021849 00000 n
-0000022116 00000 n
-0000022363 00000 n
-0000022606 00000 n
-0000022960 00000 n
-0000023202 00000 n
-0000023481 00000 n
-0000023728 00000 n
-0000023988 00000 n
-0000024247 00000 n
-0000024473 00000 n
-0000024822 00000 n
-0000024983 00000 n
-0000025309 00000 n
-0000025437 00000 n
-0000025722 00000 n
-0000026105 00000 n
-0000026450 00000 n
-0000026993 00000 n
-0000027312 00000 n
-0000027721 00000 n
-0000028054 00000 n
-0000028364 00000 n
-0000028707 00000 n
-0000029071 00000 n
-0000029447 00000 n
-0000029870 00000 n
-0000030189 00000 n
-0000030554 00000 n
-0000030945 00000 n
-0000031348 00000 n
-0000031627 00000 n
-0000032134 00000 n
-0000032429 00000 n
-0000032755 00000 n
-0000033173 00000 n
-0000033518 00000 n
-0000033753 00000 n
-0000033945 00000 n
-0000042954 00000 n
-0000052209 00000 n
-0000058353 00000 n
-0000063705 00000 n
-0000069116 00000 n
-0000075446 00000 n
-0000080392 00000 n
-0000087011 00000 n
-0000093842 00000 n
-0000097639 00000 n
-0000097861 00000 n
-0000097940 00000 n
-0000098019 00000 n
-0000098098 00000 n
-0000098177 00000 n
-0000098256 00000 n
-0000098335 00000 n
-0000098414 00000 n
-0000098493 00000 n
-0000098572 00000 n
+0000002282 00000 n
+0000002639 00000 n
+0000002881 00000 n
+0000003123 00000 n
+0000003366 00000 n
+0000003609 00000 n
+0000003852 00000 n
+0000004095 00000 n
+0000004338 00000 n
+0000004581 00000 n
+0000004824 00000 n
+0000005067 00000 n
+0000005310 00000 n
+0000005553 00000 n
+0000005796 00000 n
+0000006039 00000 n
+0000006282 00000 n
+0000006525 00000 n
+0000006768 00000 n
+0000007011 00000 n
+0000007254 00000 n
+0000007497 00000 n
+0000007740 00000 n
+0000007983 00000 n
+0000008226 00000 n
+0000008469 00000 n
+0000008712 00000 n
+0000008955 00000 n
+0000009198 00000 n
+0000009441 00000 n
+0000009684 00000 n
+0000009927 00000 n
+0000010170 00000 n
+0000010413 00000 n
+0000010656 00000 n
+0000010899 00000 n
+0000011142 00000 n
+0000011385 00000 n
+0000011628 00000 n
+0000011871 00000 n
+0000012114 00000 n
+0000012357 00000 n
+0000012600 00000 n
+0000012843 00000 n
+0000013086 00000 n
+0000013329 00000 n
+0000013572 00000 n
+0000013815 00000 n
+0000014058 00000 n
+0000014301 00000 n
+0000014545 00000 n
+0000014789 00000 n
+0000015033 00000 n
+0000015261 00000 n
+0000016038 00000 n
+0000016285 00000 n
+0000016543 00000 n
+0000016845 00000 n
+0000017148 00000 n
+0000017388 00000 n
+0000017648 00000 n
+0000017906 00000 n
+0000018209 00000 n
+0000018498 00000 n
+0000018660 00000 n
+0000018848 00000 n
+0000019223 00000 n
+0000019520 00000 n
+0000019758 00000 n
+0000020038 00000 n
+0000020365 00000 n
+0000020625 00000 n
+0000020864 00000 n
+0000021191 00000 n
+0000021467 00000 n
+0000021743 00000 n
+0000021984 00000 n
+0000022209 00000 n
+0000022539 00000 n
+0000022821 00000 n
+0000023118 00000 n
+0000023389 00000 n
+0000023659 00000 n
+0000023912 00000 n
+0000024234 00000 n
+0000024531 00000 n
+0000024799 00000 n
+0000025068 00000 n
+0000025323 00000 n
+0000025659 00000 n
+0000025936 00000 n
+0000026207 00000 n
+0000026455 00000 n
+0000026714 00000 n
+0000026957 00000 n
+0000027237 00000 n
+0000027485 00000 n
+0000027746 00000 n
+0000028006 00000 n
+0000028233 00000 n
+0000028630 00000 n
+0000028794 00000 n
+0000029122 00000 n
+0000029251 00000 n
+0000029537 00000 n
+0000029921 00000 n
+0000030266 00000 n
+0000030810 00000 n
+0000031129 00000 n
+0000031538 00000 n
+0000031871 00000 n
+0000032181 00000 n
+0000032524 00000 n
+0000032888 00000 n
+0000033264 00000 n
+0000033688 00000 n
+0000034007 00000 n
+0000034372 00000 n
+0000034763 00000 n
+0000035167 00000 n
+0000035446 00000 n
+0000035953 00000 n
+0000036248 00000 n
+0000036574 00000 n
+0000036993 00000 n
+0000037432 00000 n
+0000037860 00000 n
+0000038174 00000 n
+0000038611 00000 n
+0000038848 00000 n
+0000039068 00000 n
+0000042004 00000 n
+0000049449 00000 n
+0000058704 00000 n
+0000064848 00000 n
+0000070200 00000 n
+0000075611 00000 n
+0000081941 00000 n
+0000086887 00000 n
+0000093506 00000 n
+0000099896 00000 n
+0000103878 00000 n
+0000109421 00000 n
+0000117572 00000 n
+0000117839 00000 n
+0000117918 00000 n
+0000117997 00000 n
+0000118076 00000 n
+0000118155 00000 n
+0000118234 00000 n
+0000118313 00000 n
+0000118392 00000 n
+0000118471 00000 n
+0000118550 00000 n
+0000118630 00000 n
+0000118710 00000 n
+0000118790 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(@t \003\033\)\004\342\202\335\236\014\306\312\310,) (@t \003\033\)\004\342\202\335\236\014\306\312\310,)] 
+ [(\216\301\357\277\375\362[\236i\305u\254}\315\030d) (\216\301\357\277\375\362[\236i\305u\254}\315\030d)] 
 
- /Info 98 0 R
- /Root 97 0 R
- /Size 145 >>
+ /Info 112 0 R
+ /Root 111 0 R
+ /Size 168 >>
 startxref
-98621
+118839
 %%EOF
