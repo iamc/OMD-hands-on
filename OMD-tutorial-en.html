@@ -399,8 +399,11 @@ distributions supported by OMD.</p>
 <li><a class="reference internal" href="#email-notification-test" id="id21">5.4&nbsp;&nbsp;&nbsp;email notification test</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#advanced-check-mk-configuration" id="id22">6&nbsp;&nbsp;&nbsp;Advanced Check_MK configuration</a></li>
-<li><a class="reference internal" href="#references" id="id23">7&nbsp;&nbsp;&nbsp;References</a></li>
+<li><a class="reference internal" href="#advanced-check-mk-configuration" id="id22">6&nbsp;&nbsp;&nbsp;Advanced Check_MK configuration</a><ul class="auto-toc">
+<li><a class="reference internal" href="#two-node-cluster-configuration" id="id23">6.1&nbsp;&nbsp;&nbsp;Two node cluster configuration</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#references" id="id24">7&nbsp;&nbsp;&nbsp;References</a></li>
 </ul>
 </div>
 <!-- Heading order #=-~ -->
@@ -650,10 +653,10 @@ size of 24MB.</p>
 </div>
 <div class="section" id="omd-initial-setup">
 <h2><a class="toc-backref" href="#id10">3.4&nbsp;&nbsp;&nbsp;OMD initial setup</a></h2>
-<p>The <tt class="docutils literal">omd</tt> command is used to manage OMD sites. <tt class="docutils literal">omd</tt> can be executed as
-site user to modify just that site, or as root user. As the root user <tt class="docutils literal">omd</tt>
-offers more option such as copying, renaming, disabling or uninstalling sites.
-Calling <tt class="docutils literal">omd</tt> alone provides  see a list of options.</p>
+<p>The <tt class="docutils literal">omd</tt> command is used to manage OMD sites. <tt class="docutils literal">omd</tt> can be executed asthe
+the site user to modify just that site, or as root user. As the root user
+<tt class="docutils literal">omd</tt> offers more option such as copying, renaming, disabling or uninstalling
+sites.  Calling <tt class="docutils literal">omd</tt> alone provides  see a list of options.</p>
 <div class="section" id="omd-site-creation-and-access">
 <h3><a class="toc-backref" href="#id11">3.4.1&nbsp;&nbsp;&nbsp;OMD site creation and access</a></h3>
 <p>To create and start a new OMD test &quot;site&quot; instance just:</p>
@@ -698,9 +701,9 @@ CentOS firewall, activated by default. Just run:</p>
 <pre class="literal-block">
 /usr/bin/system-config-firewall-tui
 </pre>
-<p>go to <em>Customise</em> (&lt;TAB&gt; moves between fields), scroll down the list up to <em>WWW
-(HTTP)</em> and enable the service with &lt;SPACE&gt;. Then select <em>Close</em>, <em>OK</em> and
-<em>YES</em>.</p>
+<p>go to <strong>&quot;Customise&quot;</strong> (&lt;TAB&gt; moves between fields), scroll down the list up to
+<strong>&quot;WWW (HTTP)&quot;</strong> and enable the service with &lt;SPACE&gt;. Then select <strong>&quot;Close&quot;</strong>,
+<strong>&quot;OK&quot;</strong> and <strong>&quot;YES&quot;</strong>.</p>
 <p>Now you can access the OMD web interface at <a class="reference external" href="http://192.168.56.10">http://192.168.56.10</a>  eg. from your
 VirtualBox physical host.</p>
 </div>
@@ -731,7 +734,7 @@ service network restart
 </div>
 <div class="section" id="check-mk-agent-installation">
 <h2><a class="toc-backref" href="#id15">4.2&nbsp;&nbsp;&nbsp;check_mk agent installation</a></h2>
-<p>We download and install the <tt class="docutils literal">check_mk</tt> monitoring agent from the check_mk
+<p>Download and install the <tt class="docutils literal">check_mk</tt> monitoring agent from the check_mk
 webpage without further complications, the only needed dependence being
 <tt class="docutils literal">xinetd</tt>:</p>
 <pre class="literal-block">
@@ -757,10 +760,10 @@ $&gt;/etc/init.d/xinetd reload
 </div>
 <div class="section" id="hard-disk-monitoring-with-s-m-a-r-t">
 <h2><a class="toc-backref" href="#id16">4.3&nbsp;&nbsp;&nbsp;Hard disk monitoring with S.M.A.R.T.</a></h2>
-<p>If we are monitoring a physical host we will be interested in monitoring their
-hard disk health status. Check_mk does not includes S.M.A.R.T. checking by
-default, but provides a <tt class="docutils literal">plugin</tt> that has to be explicitly installed in the
-remote host.</p>
+<p>When monitoring a physical host we will be interested in monitoring their hard
+disk health status. Check_mk does not includes S.M.A.R.T. checking by default,
+but provides a <tt class="docutils literal">plugin</tt> that has to be explicitly installed in the remote
+host.</p>
 <p>The plugin is called <tt class="docutils literal">smart</tt> and it already is in the OMD server, we just
 have to copy over to the desired host:</p>
 <pre class="literal-block">
@@ -768,18 +771,21 @@ have to copy over to the desired host:</p>
 # scp ~/share/check_mk/agents/plugins/smart  \
       user&#64;remote-host:/usr/lib/check_mk_agent/plugins/smart
 </pre>
-<p>If we have not yet inventorized the host the smart check will be present when
-doing it, otherwise you have to reinventorize it and the new check will appear.
-Will see later how to do it.</p>
+<p>If the host has not yet been inventorized in Check_MK, the smart check will be
+present amognst the detected checks when doing it, otherwise you will have to
+reinventorize it and the new check will appear.  Wee will see later how
+inventorizing hosts works.</p>
 </div>
 </div>
 <div class="section" id="basic-check-mk-configuration">
 <h1><a class="toc-backref" href="#id17">5&nbsp;&nbsp;&nbsp;Basic Check_MK configuration</a></h1>
-<p>We will do the basic monitoring system setup using at first <em>WATO - Check_MK's
-Web Administrator Tool</em> through the <em>Multisite</em> web interface, both part of the
-Check_MK echosystem.</p>
+<p>To setup the basic monitoring system setup we will be using at first <em>WATO -
+Check_MK's Web Administrator Tool</em> through the <em>Multisite</em> web interface, both
+part of the Check_MK echosystem. This will make our fisrt steps into the
+Check_MK monitoring world much easier.</p>
 <p>We will first setup a new user who will get the test alerts and after this we
-will add the hosts to be monitored ann test some alerts.</p>
+will add the hosts to be monitored and force some alerts in order to test the
+notification system.</p>
 <div class="section" id="user-creation">
 <h2><a class="toc-backref" href="#id18">5.1&nbsp;&nbsp;&nbsp;User creation</a></h2>
 <p>Every user (<em>contact</em> in the Nagios nomenclature) belongs to a <em>contact group</em>,
@@ -801,12 +807,12 @@ member of the &quot;Everybody&quot; group in the &quot;Contact Goups&quot; secti
 </div>
 <div class="section" id="integration-inventory-of-the-new-host-to-be-monitored">
 <h2><a class="toc-backref" href="#id19">5.2&nbsp;&nbsp;&nbsp;Integration (inventory) of the new <em>host</em> to be monitored</a></h2>
-<p>In order to add (inventorize, in the Check_MK slang) a new host (in which we
-have already installed the check_mk agent), we just:</p>
+<p>In order to add (inventorize, in the Check_MK language) a new host (in which we
+have already installed the check_mk agent), we go to:</p>
 <pre class="literal-block">
 ( WATO-Configuration | Hosts &amp; Folders | New host )
 </pre>
-<p>There we just add the <strong>&quot;Hostname&quot;</strong> (CentOS-5.7), <strong>&quot;IP&quot;</strong> if needed
+<p>and there we just add the <strong>&quot;Hostname&quot;</strong> (CentOS-5.7), <strong>&quot;IP&quot;</strong> if needed
 (192.168.56.11 in this case), <strong>&quot;Permissions&quot; -&gt; &quot;Everybody&quot;</strong> and <strong>&quot;Alias&quot;</strong>
 (if desired).  Clicking on <strong>&quot;Save &amp; go to Services&quot;</strong> brings us to the
 autodetected host services list, where we can choose to ignore some of the
@@ -850,9 +856,40 @@ service comes back to normal state!</p>
 </div>
 <div class="section" id="advanced-check-mk-configuration">
 <h1><a class="toc-backref" href="#id22">6&nbsp;&nbsp;&nbsp;Advanced Check_MK configuration</a></h1>
+<p>Automatic inventoring and Check_MK managing with WATO is OK if we add machines
+one by one or want to monitor certain very specific machines: a few
+workstations, some storage server(s), a HPC cluster head node, etc. But, what
+if we want to monitor some HPC cluster computing nodes? Should we add say 100
+nodes one by one? Not indeed.</p>
+<p>WATO is really not more than a front end that does part of the job for us, but
+in the background, as you may have suspected, everything is in fact done trough
+configuration files with a very clean, documented interface.</p>
+<p>Check_MK configuration files lay under <tt class="docutils literal">~/etc/check_mk</tt>, being <tt class="docutils literal">~</tt> the home
+of the user corresponding to the OMD <em>site</em>. Check_MK reads the configuration
+files there and generates the corresponding nagios configuration files. When
+requested to do it, of course!</p>
+<p>Check_MK first reads the <tt class="docutils literal">~/etc/check_mk/main.mk</tt> file, and then all the
+<tt class="docutils literal">.mk</tt> files under <tt class="docutils literal">~/etc/check_mk/conf.d</tt>. The configuration files syntax
+is plain python systax.</p>
+<p>See <a class="reference external" href="http://mathias-kettner.com/checkmk_configfiles.html">http://mathias-kettner.com/checkmk_configfiles.html</a> for information about
+configuration files reading and parsing and
+<a class="reference external" href="http://mathias-kettner.com/checkmk_configvars.html">http://mathias-kettner.com/checkmk_configvars.html</a> for a detailled description
+of the configuration variables and how to use them.</p>
+<p>The typicall steps consist on: 1) add some hosts or modify some settings in
+some of the configuration files, 2) do a reinventory if needed and 3) recompile
+nagios configuration and reload/restart nagios service.</p>
+<p>When working on the command line the command to use is <tt class="docutils literal">check_mk</tt> or its
+alias <tt class="docutils literal">cmk</tt>. Calling just <tt class="docutils literal">cmk</tt> provides a sumary of the options and a
+sparse summary of its behaviour.  See
+<a class="reference external" href="http://mathias-kettner.com/checkmk_calling.html">http://mathias-kettner.com/checkmk_calling.html</a></p>
+<div class="section" id="two-node-cluster-configuration">
+<h2><a class="toc-backref" href="#id23">6.1&nbsp;&nbsp;&nbsp;Two node cluster configuration</a></h2>
+<p>Here we present a very simple example of a real configuration file for a two
+nodes test rocks cluster.</p>
+</div>
 </div>
 <div class="section" id="references">
-<h1><a class="toc-backref" href="#id23">7&nbsp;&nbsp;&nbsp;References</a></h1>
+<h1><a class="toc-backref" href="#id24">7&nbsp;&nbsp;&nbsp;References</a></h1>
 <p><strong>Virtual Machines</strong></p>
 <blockquote>
 <ul class="simple">

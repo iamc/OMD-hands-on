@@ -267,10 +267,10 @@ size of 24MB.
 OMD initial setup
 -----------------
 
-The ``omd`` command is used to manage OMD sites. ``omd`` can be executed as 
-site user to modify just that site, or as root user. As the root user ``omd`` 
-offers more option such as copying, renaming, disabling or uninstalling sites.  
-Calling ``omd`` alone provides  see a list of options.
+The ``omd`` command is used to manage OMD sites. ``omd`` can be executed asthe  
+the site user to modify just that site, or as root user. As the root user 
+``omd`` offers more option such as copying, renaming, disabling or uninstalling 
+sites.  Calling ``omd`` alone provides  see a list of options.
 
 
 OMD site creation and access
@@ -322,9 +322,9 @@ CentOS firewall, activated by default. Just run::
 
     /usr/bin/system-config-firewall-tui
 
-go to *Customise* (<TAB> moves between fields), scroll down the list up to *WWW 
-(HTTP)* and enable the service with <SPACE>. Then select *Close*, *OK* and 
-*YES*.
+go to **"Customise"** (<TAB> moves between fields), scroll down the list up to 
+**"WWW (HTTP)"** and enable the service with <SPACE>. Then select **"Close"**, 
+**"OK"** and **"YES"**.
 
 Now you can access the OMD web interface at http://192.168.56.10  eg. from your 
 VirtualBox physical host.
@@ -360,7 +360,7 @@ and restart the network::
 check_mk agent installation
 ---------------------------
 
-We download and install the ``check_mk`` monitoring agent from the check_mk
+Download and install the ``check_mk`` monitoring agent from the check_mk
 webpage without further complications, the only needed dependence being 
 ``xinetd``::
 
@@ -388,10 +388,10 @@ and we reload the ``xinetd`` daemon configuration::
 Hard disk monitoring with S.M.A.R.T.
 ------------------------------------
 
-If we are monitoring a physical host we will be interested in monitoring their 
-hard disk health status. Check_mk does not includes S.M.A.R.T. checking by 
-default, but provides a ``plugin`` that has to be explicitly installed in the 
-remote host.
+When monitoring a physical host we will be interested in monitoring their hard 
+disk health status. Check_mk does not includes S.M.A.R.T. checking by default, 
+but provides a ``plugin`` that has to be explicitly installed in the remote 
+host.
 
 The plugin is called ``smart`` and it already is in the OMD server, we just 
 have to copy over to the desired host::
@@ -400,20 +400,23 @@ have to copy over to the desired host::
     # scp ~/share/check_mk/agents/plugins/smart  \
           user@remote-host:/usr/lib/check_mk_agent/plugins/smart
 
-If we have not yet inventorized the host the smart check will be present when 
-doing it, otherwise you have to reinventorize it and the new check will appear.  
-Will see later how to do it.
+If the host has not yet been inventorized in Check_MK, the smart check will be 
+present amognst the detected checks when doing it, otherwise you will have to
+reinventorize it and the new check will appear.  Wee will see later how 
+inventorizing hosts works.
 
 
 Basic Check_MK configuration
 ============================
 
-We will do the basic monitoring system setup using at first *WATO - Check_MK's 
-Web Administrator Tool* through the *Multisite* web interface, both part of the 
-Check_MK echosystem.
+To setup the basic monitoring system setup we will be using at first *WATO - 
+Check_MK's Web Administrator Tool* through the *Multisite* web interface, both 
+part of the Check_MK echosystem. This will make our fisrt steps into the 
+Check_MK monitoring world much easier.
 
 We will first setup a new user who will get the test alerts and after this we 
-will add the hosts to be monitored ann test some alerts.
+will add the hosts to be monitored and force some alerts in order to test the 
+notification system.
 
 
 User creation
@@ -428,7 +431,6 @@ section and that we **"enable notifications"** in the notifications section::
 
      ( WATO-Configuration | Users & Contacts | New User )
 
-
 We save the changes (**"Save"** in the lower part of the new user creation 
 form) and we are bougth back to the "User & Contacts" main section, where we 
 have a notice about the **"1 Changes"**  done. In order to propagate the change 
@@ -441,12 +443,12 @@ member of the "Everybody" group in the "Contact Goups" section.
 Integration (inventory) of the new *host* to be monitored
 ----------------------------------------------------------
 
-In order to add (inventorize, in the Check_MK slang) a new host (in which we 
-have already installed the check_mk agent), we just::
+In order to add (inventorize, in the Check_MK language) a new host (in which we 
+have already installed the check_mk agent), we go to::
 
     ( WATO-Configuration | Hosts & Folders | New host )
 
-There we just add the **"Hostname"** (CentOS-5.7), **"IP"** if needed 
+and there we just add the **"Hostname"** (CentOS-5.7), **"IP"** if needed 
 (192.168.56.11 in this case), **"Permissions" -> "Everybody"** and **"Alias"** 
 (if desired).  Clicking on **"Save & go to Services"** brings us to the 
 autodetected host services list, where we can choose to ignore some of the 
@@ -495,6 +497,46 @@ service comes back to normal state!
 
 Advanced Check_MK configuration
 ===============================
+
+Automatic inventoring and Check_MK managing with WATO is OK if we add machines 
+one by one or want to monitor certain very specific machines: a few 
+workstations, some storage server(s), a HPC cluster head node, etc. But, what 
+if we want to monitor some HPC cluster computing nodes? Should we add say 100 
+nodes one by one? Not indeed.
+
+WATO is really not more than a front end that does part of the job for us, but 
+in the background, as you may have suspected, everything is in fact done trough 
+configuration files with a very clean, documented interface.
+
+Check_MK configuration files lay under ``~/etc/check_mk``, being ``~`` the home 
+of the user corresponding to the OMD *site*. Check_MK reads the configuration 
+files there and generates the corresponding nagios configuration files. When 
+requested to do it, of course!
+
+Check_MK first reads the ``~/etc/check_mk/main.mk`` file, and then all the 
+``.mk`` files under ``~/etc/check_mk/conf.d``. The configuration files syntax 
+is plain python systax. 
+
+See http://mathias-kettner.com/checkmk_configfiles.html for information about 
+configuration files reading and parsing and  
+http://mathias-kettner.com/checkmk_configvars.html for a detailled description 
+of the configuration variables and how to use them.
+
+The typicall steps consist on: 1) add some hosts or modify some settings in 
+some of the configuration files, 2) do a reinventory if needed and 3) recompile 
+nagios configuration and reload/restart nagios service.
+
+When working on the command line the command to use is ``check_mk`` or its 
+alias ``cmk``. Calling just ``cmk`` provides a sumary of the options and a 
+sparse summary of its behaviour.  See 
+http://mathias-kettner.com/checkmk_calling.html
+
+
+Two node cluster configuration
+------------------------------
+
+Here we present a very simple example of a real configuration file for a two 
+nodes test rocks cluster.
 
 
 References
