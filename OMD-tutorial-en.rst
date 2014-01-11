@@ -6,13 +6,15 @@ System monitoring with Open Monitoring Distribution (OMD) hands-on tutorial
 :Autor: Iñigo Aldazabal Mensa <inigo_aldazabal@ehu.es>
 :Date: 2013/01/14
 
-Step-by-step guide for a system monitoring installation and initial configuration using Nagios and `Check_MK`_ collection of extensions for Nagios. We will use the pre-packaged `Open
-Monitoring Distribution (OMD)`_ system which bundles both Nagios and Check_MK, as
-well as many other Nagios extensions into a single, pre-configured package and
-brings the setup, configuration and maintenance of the monitoring system to a
-new level of simplicity.
+Step-by-step guide for a system monitoring installation and initial
+configuration using Nagios and `Check_MK`_ collection of extensions for Nagios.
+We will use the pre-packaged `Open Monitoring Distribution (OMD)`_ system which
+bundles both Nagios and Check_MK, as well as many other Nagios extensions into
+a single, pre-configured package and brings the setup, configuration and
+maintenance of the monitoring system to a new level of simplicity.
 
-We will use two CentOS virtual machines to be able follow this tutorial, but
+We will use two CentOS virtual machines (`VMs`) to be able follow this 
+tutorial, but
 the same procedure should be applicable with minimal changes to any of the
 distributions supported by OMD.
 
@@ -22,11 +24,14 @@ distributions supported by OMD.
 
 
 .. .. header:: ###Section###
-.. .. footer:: ###Page###
+
+.. footer:: ###Page###
+
 .. contents::
+
 .. section-numbering::
 
-.. y esto es un comentario. Orden #=-~
+.. Heading order #=-~
 
 .. raw:: pdf
 
@@ -35,181 +40,116 @@ distributions supported by OMD.
 Required software
 =================
 
- * VirtualBox:
-    software de virtualización https://www.virtualbox.org/
+ * VirtualBox, version 4.3.6, has been used througout the tutorial:
 
- * Máquina vitual para servidor OMD: CentOS 6.3 con entorno gráfico
+     Virtualization software https://www.virtualbox.org/
+
+     CentOS Virtual Machines from  http://virtualboxes.org/images/centos/
+
+ * Virtual Machine for the OMD server: CentOS 6.3 with GNOME desktop graphical environment
+
     http://sourceforge.net/projects/virtualboximage/files/CentOS/6.3/CentOS-6.3-x86.7z
 
- * Máquina virtual a monitorizar: CentOS 5.7 básica
+ * Virtual Machine to be monitored: CentOS 5.7 base
+
     http://sourceforge.net/projects/virtualboximage/files/CentOS/5.7/CentOS-5.7-i386.7z
 
- * Open Monitoring Distribution - OMD 
+ * Open Monitoring Distribution - OMD, version 1.10 
+
     http://omdistro.org/
 
  * Check_MK 
-    Conjunto de extensiones de nagios, integrado en OMD
-    http://mathias-kettner.com/check_mk.html. Agente de monitorización a instalar en los equipos
-    a controlar.
 
-
+    Collection of Nagios extensions / plugins, already integrated in OMD.
+   
+    Check_MK  monitoring and inventory agent to be installed in the monitored
+    systems  http://mathias-kettner.com/check_mk.html, version 1.2.2p3.
 
 VirtualBox configuration
 ========================
 
-Descomprimimos las imágenes de las máquinas virtuales, y abrimos el ``.vbox``
-con VirtualBox. Si nos da un error sobre que el UUID del disco ya está en uso
-por ejemplo porque ya hemos abierto una copia de esta misma imagen basta con
-cambiar la UUID de la imagen .vdi con el comando::
+The two virtual machines we are using are (see
+http://virtualboxes.org/images/centos/)
+
+
+**CentOS 5.7 base x86**
+
+:Size: (compressed/uncompressed) 173 MBytes / 1.3 GBytes
+:Link: http://sourceforge.net/projects/virtualboximage/files/CentOS/5.7/CentOS-5.7-i386.7z
+:Active user account(s): (username/password) root/reverse.
+:Notes: text mode installed, no graphics
+
+
+**CentOS 6.3 Gnome Desktop x86** 
+
+:Size: (compressed/uncompressed) 492 MBytes / 2.2 GBytes
+:Link: http://sourceforge.net/projects/virtualboximage/files/CentOS/6.3/CentOS-6.3-x86.7z
+:Active user account(s): (username/password) root/reverse, centos/reverse.
+:Notes: GNOME desktop environement, install from LiveCD; Guest Additions NOT installed.
+
+
+Now we download the virtual machines, extract them and open the corresponding 
+``.vbox`` files from the VirtualBox Manager ``( Machine | Add )``.
+
+.. note::
+  
+  If we get an error about the disc UUID already being used (eg. because we
+  just copied this virtual machine for another test) we have to change the 
+  ``.vdi`` virtual disk UUID with the command:: 
 
     VBoxManage internalcommands sethduuid CentOS-5.7.vdi
 
-Hay que sustituir la UUID vieja por la que nos indica este comando en el
-fichero de configuración .vbox.
-
-Antes de arrancar las máquinas virtuales queremos configurar
-una red local interna a nuestro ordenador para poder conectar las máquinas
-virtuales entre ellas. Para ello, seleccionamos la máquina virtual
-correspondiente y le añadimos un nuevo adaptador de red del tipo ``host-only``
-(CentOS 6.3 x86 -> settings | network | Adapter 2 | Enable + attached to "Host-only Adapter").
-
-Anotamos la dirección MAC de la tarjeta para configurar las IP de la red
-interna de forma estática como veremos mas adelante. En este caso los datos que
-indicaremos serán:
-
-**CentOS 6.3 - Servidor OMD**
-
-:MAC: 08:00:27:C1:99:2D
-:IP:  192.168.56.100
+  and update the "HardDisk uuid" section in the configuration file ``.vbox``.
 
 
-**CentOS 5.7 - a monitorizar**
+Internal network configuration
+------------------------------
 
-:MAC: 08:00:27:42:79:DF
-:IP:  192.168.56.10
+We want to set up an internal network for the virtual machines to be able to 
+communicate each other. 
 
+First we make sure we have an internal network configured in the VirtualBox 
+server ``(VirtualBox Manager -> File | Preferences | Network | Host-only 
+Networks )``. Make sure you have:
 
 **PC VirtualBox Host**
 
 :IP: 192.168.56.1
 
 
-Server configurtion and Nagios / OMD install
-============================================
+We also have to add a ``Host-only Adapter`` to each virtual machine ``(Virtual 
+Machine Manager: select the VM -> settings | network | Adapter 2 |  Enable + 
+attached to "Host-only Adapter")``. 
+
+From the "Advanced" section We write down the network "card" MAC address in 
+order to later set up static IP addresses whithin the internal network.  In 
+this case the MACs we have and IPs we will use are:
+
+**CentOS 6.3 - OMD monitoring server**
+
+:MAC: 08:00:27:C1:99:2D
+:IP:  192.168.56.10
+
+
+**CentOS 5.7 - monitored system**
+
+:MAC: 08:00:27:42:79:DF
+:IP:  192.168.56.11
+
+
+Monitoring Server configuration and Nagios / OMD install
+========================================================
 
 Network configuration
 ---------------------
 
-Arrancamos la máquina virtual y configuramos la IP estática. Para ello cremos el fichero ``/etc/sysconfig/network-scripts/ifcfg-eth1``::
+After booting the virtual machine first enable ssh access as it is disabled by default::
 
-    #/etc/sysconfig/network-scripts/ifcfg-eth1
-    DEVICE=eth1
-    BOOTPROTO=none
-    IPADDR=192.168.56.100
-    NETMASK=255.255.255.0
-    ONBOOT=yes
-    HWADDR=08:00:27:C1:99:2D
-    DEFROUTE=yes
-    NAME="eth1"
-
-Y reiniciamos la red::
-
-    service network restart
+    chkconfig ssh on
+    service sshd on
 
 
-email sending configuration
----------------------------
-
-Para comprobar si el sistema puede enviar correos electrónicos mediante postfix hacemos::
-
-    echo "Test mail from postfix" | mail -s "Test Postfix" inigo_aldazabal@ehu.es
-
-y comprobamos el log de postfix (``/var/log/maillog``) si el mensaje no nos
-llega. En nuestro caso funciona sin mas configuración, pero puede ser necesario
-indicar un smtp "relay host" en ``/etc/postfix/main.cf``. Se puede utilizar
-para probar por ejemplo en SMTP de google. Ver las indicaciones en http://freelinuxtutorials.com/quick-tips-and-tricks/configure-postfix-to-use-gmail-in-rhelcentos/
-
-
-OMD installation
-----------------
-
-Seguimos directamente las instrucciones de la web de OMD para CentOS http://omdistro.org/doc/quickstart_redhat adaptándoslos a nuestra versión de CentOS, en este caso CentOS 6 con arquitectura i386.
-
-
-Instalation through the package manager
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Instalamos el repositorio ``epel`` ::
-
-    rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
-
-y descargamos e instalamos el paquete de OMD (también se podría instalar el
-repositorio de OMD como explican en
-http://labs.consol.de/nagios/omd-repository/) ::
-
-    wget http://files.omdistro.org/releases/centos_rhel/omd-1.00-rh61-30.i386.rpm
-    yum install omd-1.00-rh61-30.i386.rpm
-
-Esto nos instala en nuestro caso 35 paquetes y actualiza 3.
-
-
-Creamos un nuevo "sitio" de OMD y lo arrancamos::
-
-    omd create test
-    omd start test
-
-
-Web server access configuration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Probamos a acceder a http://localhost/test y nos da un error de "OMD: Site not
-started". En las FAQ indica que esto puede pasar en CentOS y para solucionarlo
-basta con hacer::
-
-    /usr/sbin/setsebool httpd_can_network_connect 1
-
-Si queremos hacer este cambio permanente hay que añadir la opción ``-P`` al
-comando. En este caso el comando tarda un cierto tiempo, incluso minutos, en ejecutarse. Paciencia.
-
-Y ahora ya podemos acceder al interface sin problemas en http://localhost/test o
-http://192.168.56.100/test con usuario/clave por defecto omdadmin/omd.
-
-
-Si queremos acceder al interface web desde otros equipos tenemos que abrir el
-puerto correspondiente en el firewall de CentOS, que en este csao viene
-activado por defecto, mediante el GUI o en consola mediante el comando::
-
-    /usr/bin/system-config-firewall-tui
-
-en el apartado *Customize*, el último de la lista, servicio *WWW (HTTP)* (se
-activa/desactiva con espacio).
-
-
-Accessing our OMD "site"
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-Al crear un sitio OMD crea a su vez un usuario en el sistema que servirá para gestionar este
-sitio de forma independiente. De esta forma podemos tener varios "sitios" diferentes
-para pruebas, producción, etc.
-
-Para acceder a la gestión del sitio que nos interese basta con hacer ``su``  al nuevo sitio/usuario::
-
-    su - test
-
-Ver explicación del funcionamiento en http://omdistro.org/doc/configuration_basics y todas las opciones de configuración en  http://mathias-kettner.com/check_mk.html.
-
-
-Nosotros en general utilizaremos el sistema *WATO - Check_MK's Web Administrator
-Tool*.
-
-
-Monitorized system configuration
-================================
-
-Network configuration
----------------------
-
-Como antes arrancamos la máquina virtual a monitorizar (CentOS-5.7) y configuramos la IP estática. Para ello cremos el fichero ``/etc/sysconfig/network-scripts/ifcfg-eth1``::
+Then setup the static IP by creating the file ``/etc/sysconfig/network-scripts/ifcfg-eth1``::
 
     #/etc/sysconfig/network-scripts/ifcfg-eth1
     DEVICE=eth1
@@ -217,11 +157,200 @@ Como antes arrancamos la máquina virtual a monitorizar (CentOS-5.7) y configura
     IPADDR=192.168.56.10
     NETMASK=255.255.255.0
     ONBOOT=yes
+    HWADDR=08:00:27:C1:99:2D
+    DEFROUTE=yes
+    NAME="eth1"
+
+and restart the network::
+
+    service network restart
+
+
+email sending configuration
+---------------------------
+
+First lets check whether we already can send emails straigth from postfix over 
+port 25:: 
+
+    echo "Test mail from postfix" | mail -s "Test Postfix" user@domain
+
+If we do not get the message at user@domain check the postfix log at
+``/var/log/maillog``. In this case it may be necessary to set up a relay host
+for postfix in ``/etc/ postfix/main.cf``. We can eg. use Google SMTP servers
+for testing. 
+
+.. note::
+
+    Use ``tail -f /var/log/maillog`` while testing to see the postfix 
+    behaviour. In order to check/clean the postfix queue use ``mailq`` and 
+    ``postsuper -d ALL`` commands. 
+
+
+Postfix relay using Gmail
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We follow the guide at 
+http://blog.earth-works.com/2013/05/14/postfix-relay-using-gmail-on-centos/, 
+with a summarized version reproduced here just for completeness.
+
+Install SASL nedded modules::
+
+    yum install cyrus-sasl-plain
+
+Create ``/etc/postfix/sasl_passwd`` with just one line (adapt to your gmail
+user data)::
+
+    smtp.gmail.com     GmailUsername:GmailPassword
+
+Secure the thing::
+
+    chown postfix /etc/postfix
+    postmap hash:/etc/postfix/sasl_passwd
+    chown root:root /etc/postfix/sasl_passwd*
+    chmod 640 /etc/postfix/sasl_passwd*
+
+Edit the ``/etc/postfix/main.cf`` configuration file, and add the following lines
+at the end::
+
+    #Set the relayhost to the Gmail SMTP server
+    relayhost = smtp.gmail.com:587
+
+    #Set the required TLS options
+    smtp_tls_security_level = secure
+    smtp_tls_mandatory_protocols = TLSv1
+    smtp_tls_mandatory_ciphers = high
+    smtp_tls_secure_cert_match = nexthop
+
+    #Check that this path exists -- these are the certificates used by TLS
+    smtp_tls_CAfile = /etc/pki/tls/certs/ca-bundle.crt
+
+    #Set the sasl options
+    smtp_sasl_auth_enable = yes
+    smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
+    smtp_sasl_security_options = noanonymous
+
+Restart postfix service::
+
+    service postfix restart
+
+Test::
+
+    echo "Test email from postfix with Gmail relay" | mail -s "Gmail-postfix test" user@domain
+
+
+OMD installation
+----------------
+
+We follow the quickstart CentOS installation instructions straigth from the OMD
+web page at http://omdistro.org/doc/quickstart_redhat just adapting everything
+to our CentOS version (6) and architectura (i386).
+
+First install the ``epel`` repository configuration ::
+
+    rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
+
+and then download and install the ~100MB OMD rpm package::
+
+    wget http://files.omdistro.org/releases/centos_rhel/omd-1.10-rh61-31.i386.rpm
+    yum install --nogpgcheck omd-1.10-rh61-31.i386.rpm
+
+In our case this installs 36 packages and upgrades 4, with a total download 
+size of 24MB.
+
+.. note::
+
+   We could have instead used the Consol* Labs  OMD repository in order to have the latest version available at hand. Setting it up is trivial, just follow the guidelines at https://labs.consol.de/repo/stable.
+
+
+OMD initial setup
+-----------------
+
+The ``omd`` command is used to manage OMD sites. ``omd`` can be executed as 
+site user to modify just that site, or as root user. As the root user ``omd`` 
+offers more option such as copying, renaming, disabling or uninstalling sites.  
+Calling ``omd`` alone provides  see a list of options.
+
+
+OMD site creation and access
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To create and start a new OMD test "site" instance just::
+
+    omd create test
+    omd start test
+
+When creating a new `site` OMD, amongst other things, creates a new user in the 
+system which will be used to manage this specific site. Thus we can have 
+different `sites` for different purposes as testing, production, upgrading, 
+etc. (see http://mathias-kettner.com/checkmk_install_with_omd.html)
+
+In order to manage our site we just ``su -`` to the site/user::
+
+    su - test
+
+The ``test`` user home directory is ``/omd/sites/test``. Here all the local 
+configurations, caches, performance data, etc. for this site will be kept, 
+specifically in the ``tmp``, ``var`` and ``etc`` directories (the rest of the 
+directories are symlinked to your OMD version.  See 
+http://mathias-kettner.com/checkmk_install_with_omd.html for a detailled 
+description of the file/folder structure and contents.
+
+
+Web server access configuration
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. note::
+
+    Default user/password for the OMD interface is **omdadmin/omd**
+
+Once the test site is up we try to access to it web interface from within the 
+own machine first at http://localhost/test. In our case we get a error "OMD: 
+Site not started". This is documented in the OMD FAQ specifically for CentOS 
+and related systems and it is related to the selinux configuration. Just do::
+
+    /usr/sbin/setsebool -P httpd_can_network_connect 1
+
+``-P`` makes the change persistent and it may take a while to run, even some 
+minutes, so be patient. After this we can access the web interface from the 
+localhost without problems.
+
+If we want to access to the web interface from remote machines (as the 
+VirtualBox physical host in this case) we have to enable the service in the 
+CentOS firewall, activated by default. Just run::
+
+    /usr/bin/system-config-firewall-tui
+
+go to *Customise* (<TAB> moves between fields), scroll down the list up to *WWW 
+(HTTP)* and enable the service with <SPACE>. Then select *Close*, *OK* and 
+*YES*.
+
+Now you can access the OMD web interface at http://192.168.56.10  eg. from your 
+VirtualBox physical host.
+
+
+Monitorized system configuration
+================================
+
+After booting the machine (CentOS-5.7) up we just set the static IP and
+then install the ``check_mk`` agent.
+
+
+Network configuration
+---------------------
+
+As before, in order to set up a static IP we create the file ``/etc/sysconfig/network-scripts/ifcfg-eth1``::
+
+    #/etc/sysconfig/network-scripts/ifcfg-eth1
+    DEVICE=eth1
+    BOOTPROTO=none
+    IPADDR=192.168.56.11
+    NETMASK=255.255.255.0
+    ONBOOT=yes
     HWADDR=08:00:27:42:79:DF
     DEFROUTE=yes
     NAME="eth1"
 
-Y reiniciamos la red::
+and restart the network::
 
     service network restart
 
@@ -229,22 +358,27 @@ Y reiniciamos la red::
 check_mk agent installation
 ---------------------------
 
-Descargamos e instalamos el agente sin mas complicación::
+We download and install the ``check_mk`` monitoring agent from the check_mk
+webpage without further complications, the only needed dependence being 
+``xinetd``::
 
-    wget http://mathias-kettner.com/download/check_mk-agent-1.2.2p2-1.noarch.rpm
-    wget http://mathias-kettner.com/download/check_mk-agent-logwatch-1.2.2p2-1.noarch.rpm
-    yum install --nogpgcheck check_mk-agent-1.2.2p2-1.noarch.rpm \
-        check_mk-agent-logwatch-1.2.2p2-1.noarch.rpm
+    wget http://mathias-kettner.com/download/check_mk-agent-1.2.2p3-1.noarch.rpm
+    wget http://mathias-kettner.com/download/check_mk-agent-logwatch-1.2.2p3-1.noarch.rpm
+    yum install --nogpgcheck check_mk-agent-1.2.2p3-1.noarch.rpm \
+        check_mk-agent-logwatch-1.2.2p3-1.noarch.rpm
 
-Si queremos, para mayor seguridad podemos restringir el acceso a la ejecución de check_mk solamente desde el servidor
-OMD que acabamos de configurar. Para ello basta con añadir a ``/etc/xinetd.d/check_mk``::
+
+If desired we can restrict the access to the agent execution in this machine to
+the OMD monitoring service so we have a more secure setup eg. in a
+production environment.  In order to do this we just add to the
+``/etc/xinetc.d/check_mk`` file the line::
 
     $> vim /etc/xinetc.d/check_mk
     ...
-    only_from = 192.168.56.100
+    only_from = 192.168.56.10
     ...
 
-y recargamos la configuración de ``xinetd``::
+and we reload the ``xinetd`` daemon configuration::
 
     $>/etc/init.d/xinetd reload
 
@@ -252,117 +386,132 @@ y recargamos la configuración de ``xinetd``::
 Hard disk monitoring with S.M.A.R.T.
 ------------------------------------
 
-Si monitorizamos un host "real" (i.e. **no** una máquina virtual) nos
-interesará monitorizar el estado de sus discos duros. Check_mk no busca el
-check de S.M.A.R.T. al hacer el inventario y tenemos que explícitamente
-instalar el plugin que el propio check_mk nos deja en el servidor de
-monitorización.
+If we are monitoring a physical host we will be interested in monitoring their 
+hard disk health status. Check_mk does not includes S.M.A.R.T. checking by 
+default, but provides a ``plugin`` that has to be explicitly installed in the 
+remote host.
 
-El plugin se denomina ``smart`` y se encuantra en el servidor de monitorización
-en ``~/share/check_mk/agents/plugins/smart``. Hay que copiarlo desde el propio servidor al sistema a monitorizar
-al directorio de plugins de check_mk, ``/usr/lib/check_mk_agent/plugins/``. 
-
-Si estamos en el servidor como el usuario regular ``test`` en este caso basta
-con::
+The plugin is called ``smart`` and it already is in the OMD server, we just 
+have to copy over to the desired host::
 
     # su - test
     # scp ~/share/check_mk/agents/plugins/smart  \
           user@remote-host:/usr/lib/check_mk_agent/plugins/smart
 
-Si todavía no hemos realizado el inventario inicial de este host (ver siguiente
-apartado) e instalamos el plugin antes de hacerlo, los chequeos correspondientes 
-aparecerán directamente al realizarlo. Veremos dos por cada disco: uno para la temperatura y otro para 
-el estado de S.M.A.R.T. Si el inventario estaba ya realizado previamente  basta con rehacerlo 
-veremos como aparecen los nuevo chequeos.
+If we have not yet inventorized the host the smart check will be present when 
+doing it, otherwise you have to reinventorize it and the new check will appear.  
+Will see later how to do it.
+
+
+Basic Check_MK configuration
+============================
+
+We will do the basic monitoring system setup using at first *WATO - Check_MK's 
+Web Administrator Tool* through the *Multisite* web interface, both part of the 
+Check_MK echosystem.
+
+We will first setup a new user who will get the test alerts and after this we 
+will add the hosts to be monitored ann test some alerts.
+
+
+User creation
+-------------
+
+Every user (*contact* in the Nagios nomenclature) belongs to a *contact group*, 
+which are the ones which are really assigned to host and services 
+notifications.  In the default OMD/check_MK configuration we have only one 
+contact group, **"Everybody"**, so we will add the new contact to this group, 
+also making sure that we check the **"Administrator"** role in the Security 
+section and that we **"enable notifications"** in the notifications section::
+
+     ( WATO-Configuration | Users & Contacts | New User )
+
+
+We save the changes (**"Save"** in the lower part of the new user creation 
+form) and we are bougth back to the "User & Contacts" main section, where we 
+have a notice about the **"1 Changes"**  done. In order to propagate the change 
+to the Check_MK/Nagios configuration click on the **"1 Changes"** button and 
+then on the **"Activate Changes!"** one. We can now see the newly created user 
+in the "Users & Contacts " WATO section and also can checks that the user is a 
+member of the "Everybody" group in the "Contact Goups" section.
+
+
+Integration (inventory) of the new *host* to be monitored
+----------------------------------------------------------
+
+In order to add (inventorize, in the Check_MK slang) a new host (in which we 
+have already installed the check_mk agent), we just::
+
+    ( WATO-Configuration | Hosts & Folders | New host )
+
+There we just add the **"Hostname"** (CentOS-5.7), **"IP"** if needed 
+(192.168.56.11 in this case), **"Permissions" -> "Everybody"** and **"Alias"** 
+(if desired).  Clicking on **"Save & go to Services"** brings us to the 
+autodetected host services list, where we can choose to ignore some of the 
+automatically detected checks.  We then **"Save manual check configuration"** 
+and as we did before we **"Activate Changes!"**.
+
+Going to the main web interface page (Check_MK logo in the upper left or 
+``(Views | Dashboards |  Main Overview)`` we see that we have one host and 19 
+services monotirized.
+
+..note::
+    
+    It is convenient to use the own monitoring server to monitor itself. For 
+    this we just install the check_mk agent in the server and add the host 
+    *localhost* in WATO. Do it!
+
+
+Reinventoring
+-------------
+
+If we add new checks to a host through check_mk plugins, legacy nagios checks, 
+NRPE nagios checks, etc., we can make Check_MK to scan this host for new, not 
+inventorized services. Just go to ``(WATO | Hosts & Folders )``, click on the 
+desired host and then select "Services" and "Full Scan". New services will be 
+detected and you can enable them at will, as well as disable existing checks if 
+wanted.
 
 .. note::
-
-    Al rehacer el inventario de un equipo los chequeos que ya estaban
-    inventariados previamente conservan todo el historial, gráficas, etc.
-
-
-
-Basic OMD configuration
-=======================
-
-En general realizaremos la configuración a través del interface gráfico *"Multisite"* que forma 
-parte del paquete Check_MK. Concretamente utilizaremos el *"WATO - Check_MK's Web Administration Tool"*.
-
-En primer lugar configuraremos un usuario para que reciba las alertas, y tras
-ello añadiremos los equipos a monitorizar.
-
-
-User creation in OMD
---------------------
-
-Vamos a **WATO-Configuration | Users & Contacts | New User** asegurándonos de
-añadirlo a un *contact group* en este caso solo hay uno, *everybody*, y de
-marcar *enable notifications* para poder recibir notificaciones.
-
-Guardamos los cambios (*save* en la parte inferior) y vemos que en la ventana
-principal de *Users & Contacts* aparece una indicación de que hay un cambio
-respecto a la configuración guardada (parte superior izquierda, *1 Changes*).
-Pinchamos donde pone *1 Changes* y luego en *Activate Changes* para propagar
-los cambios.
-
-
-Integration of the new *host* to be monitored
----------------------------------------------
-
-Antes de añadir un nuevo equipo, si se trata de un ordenador en el cual tenemos
-que instalar el agente de check_mk, éste lo tenemos que instalar *antes* de
-realizar el inventario en check_mk, tal y como ya lo hemos indicado
-previemente.
-
-Para añadir el nuevo host vamos a **WATO-Configuration | Hosts & Folders |
-Create new host**. Ahí solo añadimos el *Hostname* (indicamos la IP),
-*Permissions* (grupo *Everybody*) y *Alias* (CentOS5.7-VM). Pinchamos en *Save
-& go to Services* y alli seleccionamos / desseleccionamos los checks que nos 
-interesa monitorizar. Le damos a *Save manual check configuration* y de nuevo 
-activamos los cambios que se muestran pendientes como hicimos al crear un
-usuario.
-
-Si ahora vamos a la página principal del interface de check_mk (**Views |
-Dashboards |  Main Overview**) vemos que ya tenemos un host monitorizado y en
-este caso 19 servicios.
-
-.. note::
-
-    Resulta conveniente utilizar el propio servidor OMD para que se monitorice a si mismo. Para
-    ello basta con instalar el agente de Check_MK en el servidor y añadir el host *localhost* en WATO.
-
+    
+    When reinventoring a host all previously inventorized checks, performance 
+    data, graphs, etc. are kept.
 
 
 email notification test
 -----------------------
 
-Seleccionamos cualquier servicio, por ejemplo *CPU utilization* y le damos al
-icono del martillo para ejecutar comandos sobre el servicio. Se nos despliegan
-varios menús y vamos a **Various Commands | Fake check results** y le damos a
-*Critical*. Confirmamos y vemos en el *Main Overview* y en otras páginas que
-efectivamente el servicio aparece como crítico durante un rato (hasta el
-siguiente check).
+In order to test email notifications go to a host ``( Views | Hosts | All hosts 
+)`` and click on a service name. In the service information page click on the 
+hammer icon in order to run commands over this service. Then go to **"Various 
+Commands" -> "Fake check results"** and eg. click **"Critical**". Confirm the 
+action and see eg. in the ``Dashboard | Main Overview`` the service being 
+Critical for a while and the notifications being sent. Check you email for the 
+Critical State notification and the Recovery one a minute later when the 
+service comes back to normal state!
 
-Efectivamente nos llega un correo con el aviso del fallo, y otro con la
-recuperacíon del fallo.
+
+Advanced Check_MK configuration
+===============================
 
 
-Bibliography
-============
+References
+==========
 
-**Máquinas virtuales**
+**Virtual Machines**
 
- * Oracle VirtualBox, sistema de virtualización multiplataforma: https://www.virtualbox.org/
+ * Oracle VirtualBox, multiplatform virtualization system: https://www.virtualbox.org/
+   
+ * CentOS preinstalled VirtualBox virtual machines: http://virtualboxes.org/images/centos/  
 
- * Máquinas virtuales preparadas con instalaciones de CentOS para VirtualBox: http://virtualboxes.org/images/centos/  
 
 **Nagios**
 
  * Web: http://www.nagios.org/
  
- * Documentación oficial: http://nagios.sourceforge.net/docs/nagioscore/3/en/toc.html
+ * Official Documentation: http://nagios.sourceforge.net/docs/nagioscore/3/en/toc.html
 
- * Nagios Exchange: repositorio de chequeos y extensiones http://exchange.nagios.org/
+ * Nagios Exchange: Nagios extension and checks open repository http://exchange.nagios.org/
 
  * *"Building a Monitoring Infrastructure With Nagios"*, David Josephsen, Prentice Hall 2007
 
@@ -371,7 +520,7 @@ Bibliography
 
  * Web: http://mathias-kettner.com/check_mk.html
 
- * Documentación oficial: http://mathias-kettner.com/checkmk.html
+ * Official Documentation: http://mathias-kettner.com/checkmk.html
 
 
 **OMD**
