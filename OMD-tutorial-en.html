@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.11: http://docutils.sourceforge.net/" />
+<title>System monitoring with Open Monitoring Distribution (OMD) hands-on tutorial</title>
+<meta name="date" content="2013/01/14" />
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7614 2013-02-21 15:55:51Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title, .code .error {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+pre.code .ln { color: grey; } /* line numbers */
+pre.code, code { background-color: #eeeeee }
+pre.code .comment, code .comment { color: #5C6576 }
+pre.code .keyword, code .keyword { color: #3B0D06; font-weight: bold }
+pre.code .literal.string, code .literal.string { color: #0C5404 }
+pre.code .name.builtin, code .name.builtin { color: #352B84 }
+pre.code .deleted, code .deleted { background-color: #DEB0A1}
+pre.code .inserted, code .inserted { background-color: #A3D289}
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+/* "booktabs" style (no vertical lines) */
+table.docutils.booktabs {
+  border: 0px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-collapse: collapse;
+}
+table.docutils.booktabs * {
+  border: 0px;
+}
+table.docutils.booktabs th {
+  border-bottom: thin solid;
+  text-align: left;
+}
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document" id="system-monitoring-with-open-monitoring-distribution-omd-hands-on-tutorial">
+<h1 class="title">System monitoring with Open Monitoring Distribution (OMD) hands-on tutorial</h1>
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name" />
+<col class="docinfo-content" />
+<tbody valign="top">
+<tr class="field"><th class="docinfo-name">Autor:</th><td class="field-body">Iñigo Aldazabal Mensa &lt;<a class="reference external" href="mailto:inigo_aldazabal&#64;ehu.es">inigo_aldazabal&#64;ehu.es</a>&gt;</td>
+</tr>
+<tr><th class="docinfo-name">Date:</th>
+<td>2013/01/14</td></tr>
+</tbody>
+</table>
+<p>Step-by-step guide for a system monitoring installation and initial
+configuration using Nagios and <a class="reference external" href="http://mathias-kettner.com/check_mk.html">Check_MK</a> collection of extensions for Nagios.
+We will use the pre-packaged <a class="reference external" href="http://omdistro.org/">Open Monitoring Distribution (OMD)</a> system which
+bundles both Nagios and Check_MK, as well as many other Nagios extensions into
+a single, pre-configured package and brings the setup, configuration and
+maintenance of the monitoring system to a new level of simplicity.</p>
+<p>We will use two CentOS virtual machines (<cite>VMs</cite>) to be able follow this
+tutorial, but
+the same procedure should be applicable with minimal changes to any of the
+distributions supported by OMD.</p>
+<!-- .. header:: ###Section### -->
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="auto-toc simple">
+<li><a class="reference internal" href="#required-software" id="id2">1&nbsp;&nbsp;&nbsp;Required software</a></li>
+<li><a class="reference internal" href="#virtualbox-configuration" id="id3">2&nbsp;&nbsp;&nbsp;VirtualBox configuration</a><ul class="auto-toc">
+<li><a class="reference internal" href="#internal-network-configuration" id="id4">2.1&nbsp;&nbsp;&nbsp;Internal network configuration</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#monitoring-server-configuration-and-nagios-omd-install" id="id5">3&nbsp;&nbsp;&nbsp;Monitoring Server configuration and Nagios / OMD install</a><ul class="auto-toc">
+<li><a class="reference internal" href="#network-configuration" id="id6">3.1&nbsp;&nbsp;&nbsp;Network configuration</a></li>
+<li><a class="reference internal" href="#email-sending-configuration" id="id7">3.2&nbsp;&nbsp;&nbsp;email sending configuration</a><ul class="auto-toc">
+<li><a class="reference internal" href="#postfix-relay-using-gmail" id="id8">3.2.1&nbsp;&nbsp;&nbsp;Postfix relay using Gmail</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#omd-installation" id="id9">3.3&nbsp;&nbsp;&nbsp;OMD installation</a></li>
+<li><a class="reference internal" href="#omd-initial-setup" id="id10">3.4&nbsp;&nbsp;&nbsp;OMD initial setup</a><ul class="auto-toc">
+<li><a class="reference internal" href="#omd-site-creation-and-access" id="id11">3.4.1&nbsp;&nbsp;&nbsp;OMD site creation and access</a></li>
+<li><a class="reference internal" href="#web-server-access-configuration" id="id12">3.4.2&nbsp;&nbsp;&nbsp;Web server access configuration</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#monitorized-system-configuration" id="id13">4&nbsp;&nbsp;&nbsp;Monitorized system configuration</a><ul class="auto-toc">
+<li><a class="reference internal" href="#id1" id="id14">4.1&nbsp;&nbsp;&nbsp;Network configuration</a></li>
+<li><a class="reference internal" href="#check-mk-agent-installation" id="id15">4.2&nbsp;&nbsp;&nbsp;check_mk agent installation</a></li>
+<li><a class="reference internal" href="#hard-disk-monitoring-with-s-m-a-r-t" id="id16">4.3&nbsp;&nbsp;&nbsp;Hard disk monitoring with S.M.A.R.T.</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#basic-check-mk-configuration" id="id17">5&nbsp;&nbsp;&nbsp;Basic Check_MK configuration</a><ul class="auto-toc">
+<li><a class="reference internal" href="#user-creation" id="id18">5.1&nbsp;&nbsp;&nbsp;User creation</a></li>
+<li><a class="reference internal" href="#integration-inventory-of-the-new-host-to-be-monitored" id="id19">5.2&nbsp;&nbsp;&nbsp;Integration (inventory) of the new <em>host</em> to be monitored</a></li>
+<li><a class="reference internal" href="#reinventoring" id="id20">5.3&nbsp;&nbsp;&nbsp;Reinventoring</a></li>
+<li><a class="reference internal" href="#email-notification-test" id="id21">5.4&nbsp;&nbsp;&nbsp;email notification test</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#advanced-check-mk-configuration" id="id22">6&nbsp;&nbsp;&nbsp;Advanced Check_MK configuration</a></li>
+<li><a class="reference internal" href="#references" id="id23">7&nbsp;&nbsp;&nbsp;References</a></li>
+</ul>
+</div>
+<!-- Heading order #=-~ -->
+<div class="section" id="required-software">
+<h1><a class="toc-backref" href="#id2">1&nbsp;&nbsp;&nbsp;Required software</a></h1>
+<blockquote>
+<ul>
+<li><p class="first">VirtualBox, version 4.3.6, has been used througout the tutorial:</p>
+<blockquote>
+<p>Virtualization software <a class="reference external" href="https://www.virtualbox.org/">https://www.virtualbox.org/</a></p>
+<p>CentOS Virtual Machines from  <a class="reference external" href="http://virtualboxes.org/images/centos/">http://virtualboxes.org/images/centos/</a></p>
+</blockquote>
+</li>
+<li><p class="first">Virtual Machine for the OMD server: CentOS 6.3 with GNOME desktop graphical environment</p>
+<blockquote>
+<p><a class="reference external" href="http://sourceforge.net/projects/virtualboximage/files/CentOS/6.3/CentOS-6.3-x86.7z">http://sourceforge.net/projects/virtualboximage/files/CentOS/6.3/CentOS-6.3-x86.7z</a></p>
+</blockquote>
+</li>
+<li><p class="first">Virtual Machine to be monitored: CentOS 5.7 base</p>
+<blockquote>
+<p><a class="reference external" href="http://sourceforge.net/projects/virtualboximage/files/CentOS/5.7/CentOS-5.7-i386.7z">http://sourceforge.net/projects/virtualboximage/files/CentOS/5.7/CentOS-5.7-i386.7z</a></p>
+</blockquote>
+</li>
+<li><p class="first">Open Monitoring Distribution - OMD, version 1.10</p>
+<blockquote>
+<p><a class="reference external" href="http://omdistro.org/">http://omdistro.org/</a></p>
+</blockquote>
+</li>
+<li><p class="first">Check_MK</p>
+<blockquote>
+<p>Collection of Nagios extensions / plugins, already integrated in OMD.</p>
+<p>Check_MK  monitoring and inventory agent to be installed in the monitored
+systems  <a class="reference external" href="http://mathias-kettner.com/check_mk.html">http://mathias-kettner.com/check_mk.html</a>, version 1.2.2p3.</p>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+</div>
+<div class="section" id="virtualbox-configuration">
+<h1><a class="toc-backref" href="#id3">2&nbsp;&nbsp;&nbsp;VirtualBox configuration</a></h1>
+<p>The two virtual machines we are using are (see
+<a class="reference external" href="http://virtualboxes.org/images/centos/">http://virtualboxes.org/images/centos/</a>)</p>
+<p><strong>CentOS 5.7 base x86</strong></p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Size:</th><td class="field-body">(compressed/uncompressed) 173 MBytes / 1.3 GBytes</td>
+</tr>
+<tr class="field"><th class="field-name">Link:</th><td class="field-body"><a class="reference external" href="http://sourceforge.net/projects/virtualboximage/files/CentOS/5.7/CentOS-5.7-i386.7z">http://sourceforge.net/projects/virtualboximage/files/CentOS/5.7/CentOS-5.7-i386.7z</a></td>
+</tr>
+<tr class="field"><th class="field-name" colspan="2">Active user account(s):</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body">(username/password) root/reverse.</td>
+</tr>
+<tr class="field"><th class="field-name">Notes:</th><td class="field-body">text mode installed, no graphics</td>
+</tr>
+</tbody>
+</table>
+<p><strong>CentOS 6.3 Gnome Desktop x86</strong></p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Size:</th><td class="field-body">(compressed/uncompressed) 492 MBytes / 2.2 GBytes</td>
+</tr>
+<tr class="field"><th class="field-name">Link:</th><td class="field-body"><a class="reference external" href="http://sourceforge.net/projects/virtualboximage/files/CentOS/6.3/CentOS-6.3-x86.7z">http://sourceforge.net/projects/virtualboximage/files/CentOS/6.3/CentOS-6.3-x86.7z</a></td>
+</tr>
+<tr class="field"><th class="field-name" colspan="2">Active user account(s):</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body">(username/password) root/reverse, centos/reverse.</td>
+</tr>
+<tr class="field"><th class="field-name">Notes:</th><td class="field-body">GNOME desktop environement, install from LiveCD; Guest Additions NOT installed.</td>
+</tr>
+</tbody>
+</table>
+<p>Now we download the virtual machines, extract them and open the corresponding
+<tt class="docutils literal">.vbox</tt> files from the VirtualBox Manager <tt class="docutils literal">( Machine | Add )</tt>.</p>
+<div class="note">
+<p class="first admonition-title">Note</p>
+<p>If we get an error about the disc UUID already being used (eg. because we
+just copied this virtual machine for another test) we have to change the
+<tt class="docutils literal">.vdi</tt> virtual disk UUID with the command:</p>
+<pre class="literal-block">
+VBoxManage internalcommands sethduuid CentOS-5.7.vdi
+</pre>
+<p class="last">and update the &quot;HardDisk uuid&quot; section in the configuration file <tt class="docutils literal">.vbox</tt>.</p>
+</div>
+<div class="section" id="internal-network-configuration">
+<h2><a class="toc-backref" href="#id4">2.1&nbsp;&nbsp;&nbsp;Internal network configuration</a></h2>
+<p>We want to set up an internal network for the virtual machines to be able to
+communicate each other.</p>
+<p>First we make sure we have an internal network configured in the VirtualBox
+server <tt class="docutils literal">(VirtualBox Manager <span class="pre">-&gt;</span> File | Preferences | Network | <span class="pre">Host-only</span>
+Networks )</tt>. Make sure you have:</p>
+<p><strong>PC VirtualBox Host</strong></p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">IP:</th><td class="field-body">192.168.56.1</td>
+</tr>
+</tbody>
+</table>
+<p>We also have to add a <tt class="docutils literal"><span class="pre">Host-only</span> Adapter</tt> to each virtual machine <tt class="docutils literal">(Virtual
+Machine Manager: select the VM <span class="pre">-&gt;</span> settings | network | Adapter 2 |&nbsp; Enable +
+attached to <span class="pre">&quot;Host-only</span> Adapter&quot;)</tt>.</p>
+<p>From the &quot;Advanced&quot; section We write down the network &quot;card&quot; MAC address in
+order to later set up static IP addresses whithin the internal network.  In
+this case the MACs we have and IPs we will use are:</p>
+<p><strong>CentOS 6.3 - OMD monitoring server</strong></p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">MAC:</th><td class="field-body">08:00:27:C1:99:2D</td>
+</tr>
+<tr class="field"><th class="field-name">IP:</th><td class="field-body">192.168.56.10</td>
+</tr>
+</tbody>
+</table>
+<p><strong>CentOS 5.7 - monitored system</strong></p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">MAC:</th><td class="field-body">08:00:27:42:79:DF</td>
+</tr>
+<tr class="field"><th class="field-name">IP:</th><td class="field-body">192.168.56.11</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="monitoring-server-configuration-and-nagios-omd-install">
+<h1><a class="toc-backref" href="#id5">3&nbsp;&nbsp;&nbsp;Monitoring Server configuration and Nagios / OMD install</a></h1>
+<div class="section" id="network-configuration">
+<h2><a class="toc-backref" href="#id6">3.1&nbsp;&nbsp;&nbsp;Network configuration</a></h2>
+<p>After booting the virtual machine first enable ssh access as it is disabled by default:</p>
+<pre class="literal-block">
+chkconfig ssh on
+service sshd on
+</pre>
+<p>Then setup the static IP by creating the file <tt class="docutils literal"><span class="pre">/etc/sysconfig/network-scripts/ifcfg-eth1</span></tt>:</p>
+<pre class="literal-block">
+#/etc/sysconfig/network-scripts/ifcfg-eth1
+DEVICE=eth1
+BOOTPROTO=none
+IPADDR=192.168.56.10
+NETMASK=255.255.255.0
+ONBOOT=yes
+HWADDR=08:00:27:C1:99:2D
+DEFROUTE=yes
+NAME=&quot;eth1&quot;
+</pre>
+<p>and restart the network:</p>
+<pre class="literal-block">
+service network restart
+</pre>
+</div>
+<div class="section" id="email-sending-configuration">
+<h2><a class="toc-backref" href="#id7">3.2&nbsp;&nbsp;&nbsp;email sending configuration</a></h2>
+<p>First lets check whether we already can send emails straigth from postfix over
+port 25:</p>
+<pre class="literal-block">
+echo &quot;Test mail from postfix&quot; | mail -s &quot;Test Postfix&quot; user&#64;domain
+</pre>
+<p>If we do not get the message at <a class="reference external" href="mailto:user&#64;domain">user&#64;domain</a> check the postfix log at
+<tt class="docutils literal">/var/log/maillog</tt>. In this case it may be necessary to set up a relay host
+for postfix in <tt class="docutils literal">/etc/ postfix/main.cf</tt>. We can eg. use Google SMTP servers
+for testing.</p>
+<div class="note">
+<p class="first admonition-title">Note</p>
+<p class="last">Use <tt class="docutils literal">tail <span class="pre">-f</span> /var/log/maillog</tt> while testing to see the postfix
+behaviour. In order to check/clean the postfix queue use <tt class="docutils literal">mailq</tt> and
+<tt class="docutils literal">postsuper <span class="pre">-d</span> ALL</tt> commands.</p>
+</div>
+<div class="section" id="postfix-relay-using-gmail">
+<h3><a class="toc-backref" href="#id8">3.2.1&nbsp;&nbsp;&nbsp;Postfix relay using Gmail</a></h3>
+<p>We follow the guide at
+<a class="reference external" href="http://blog.earth-works.com/2013/05/14/postfix-relay-using-gmail-on-centos/">http://blog.earth-works.com/2013/05/14/postfix-relay-using-gmail-on-centos/</a>,
+with a summarized version reproduced here just for completeness.</p>
+<p>Install SASL nedded modules:</p>
+<pre class="literal-block">
+yum install cyrus-sasl-plain
+</pre>
+<p>Create <tt class="docutils literal">/etc/postfix/sasl_passwd</tt> with just one line (adapt to your gmail
+user data):</p>
+<pre class="literal-block">
+smtp.gmail.com     GmailUsername:GmailPassword
+</pre>
+<p>Secure the thing:</p>
+<pre class="literal-block">
+chown postfix /etc/postfix
+postmap hash:/etc/postfix/sasl_passwd
+chown root:root /etc/postfix/sasl_passwd*
+chmod 640 /etc/postfix/sasl_passwd*
+</pre>
+<p>Edit the <tt class="docutils literal">/etc/postfix/main.cf</tt> configuration file, and add the following lines
+at the end:</p>
+<pre class="literal-block">
+#Set the relayhost to the Gmail SMTP server
+relayhost = smtp.gmail.com:587
+
+#Set the required TLS options
+smtp_tls_security_level = secure
+smtp_tls_mandatory_protocols = TLSv1
+smtp_tls_mandatory_ciphers = high
+smtp_tls_secure_cert_match = nexthop
+
+#Check that this path exists -- these are the certificates used by TLS
+smtp_tls_CAfile = /etc/pki/tls/certs/ca-bundle.crt
+
+#Set the sasl options
+smtp_sasl_auth_enable = yes
+smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
+smtp_sasl_security_options = noanonymous
+</pre>
+<p>Restart postfix service:</p>
+<pre class="literal-block">
+service postfix restart
+</pre>
+<p>Test:</p>
+<pre class="literal-block">
+echo &quot;Test email from postfix with Gmail relay&quot; | mail -s &quot;Gmail-postfix test&quot; user&#64;domain
+</pre>
+</div>
+</div>
+<div class="section" id="omd-installation">
+<h2><a class="toc-backref" href="#id9">3.3&nbsp;&nbsp;&nbsp;OMD installation</a></h2>
+<p>We follow the quickstart CentOS installation instructions straigth from the OMD
+web page at <a class="reference external" href="http://omdistro.org/doc/quickstart_redhat">http://omdistro.org/doc/quickstart_redhat</a> just adapting everything
+to our CentOS version (6) and architectura (i386).</p>
+<p>First install the <tt class="docutils literal">epel</tt> repository configuration</p>
+<pre class="literal-block">
+rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
+</pre>
+<p>and then download and install the ~100MB OMD rpm package:</p>
+<pre class="literal-block">
+wget http://files.omdistro.org/releases/centos_rhel/omd-1.10-rh61-31.i386.rpm
+yum install --nogpgcheck omd-1.10-rh61-31.i386.rpm
+</pre>
+<p>In our case this installs 36 packages and upgrades 4, with a total download
+size of 24MB.</p>
+<div class="note">
+<p class="first admonition-title">Note</p>
+<p class="last">We could have instead used the Consol* Labs  OMD repository in order to have the latest version available at hand. Setting it up is trivial, just follow the guidelines at <a class="reference external" href="https://labs.consol.de/repo/stable">https://labs.consol.de/repo/stable</a>.</p>
+</div>
+</div>
+<div class="section" id="omd-initial-setup">
+<h2><a class="toc-backref" href="#id10">3.4&nbsp;&nbsp;&nbsp;OMD initial setup</a></h2>
+<p>The <tt class="docutils literal">omd</tt> command is used to manage OMD sites. <tt class="docutils literal">omd</tt> can be executed as
+site user to modify just that site, or as root user. As the root user <tt class="docutils literal">omd</tt>
+offers more option such as copying, renaming, disabling or uninstalling sites.
+Calling <tt class="docutils literal">omd</tt> alone provides  see a list of options.</p>
+<div class="section" id="omd-site-creation-and-access">
+<h3><a class="toc-backref" href="#id11">3.4.1&nbsp;&nbsp;&nbsp;OMD site creation and access</a></h3>
+<p>To create and start a new OMD test &quot;site&quot; instance just:</p>
+<pre class="literal-block">
+omd create test
+omd start test
+</pre>
+<p>When creating a new <cite>site</cite> OMD, amongst other things, creates a new user in the
+system which will be used to manage this specific site. Thus we can have
+different <cite>sites</cite> for different purposes as testing, production, upgrading,
+etc. (see <a class="reference external" href="http://mathias-kettner.com/checkmk_install_with_omd.html">http://mathias-kettner.com/checkmk_install_with_omd.html</a>)</p>
+<p>In order to manage our site we just <tt class="docutils literal">su -</tt> to the site/user:</p>
+<pre class="literal-block">
+su - test
+</pre>
+<p>The <tt class="docutils literal">test</tt> user home directory is <tt class="docutils literal">/omd/sites/test</tt>. Here all the local
+configurations, caches, performance data, etc. for this site will be kept,
+specifically in the <tt class="docutils literal">tmp</tt>, <tt class="docutils literal">var</tt> and <tt class="docutils literal">etc</tt> directories (the rest of the
+directories are symlinked to your OMD version.  See
+<a class="reference external" href="http://mathias-kettner.com/checkmk_install_with_omd.html">http://mathias-kettner.com/checkmk_install_with_omd.html</a> for a detailled
+description of the file/folder structure and contents.</p>
+</div>
+<div class="section" id="web-server-access-configuration">
+<h3><a class="toc-backref" href="#id12">3.4.2&nbsp;&nbsp;&nbsp;Web server access configuration</a></h3>
+<div class="note">
+<p class="first admonition-title">Note</p>
+<p class="last">Default user/password for the OMD interface is <strong>omdadmin/omd</strong></p>
+</div>
+<p>Once the test site is up we try to access to it web interface from within the
+own machine first at <a class="reference external" href="http://localhost/test">http://localhost/test</a>. In our case we get a error &quot;OMD:
+Site not started&quot;. This is documented in the OMD FAQ specifically for CentOS
+and related systems and it is related to the selinux configuration. Just do:</p>
+<pre class="literal-block">
+/usr/sbin/setsebool -P httpd_can_network_connect 1
+</pre>
+<p><tt class="docutils literal"><span class="pre">-P</span></tt> makes the change persistent and it may take a while to run, even some
+minutes, so be patient. After this we can access the web interface from the
+localhost without problems.</p>
+<p>If we want to access to the web interface from remote machines (as the
+VirtualBox physical host in this case) we have to enable the service in the
+CentOS firewall, activated by default. Just run:</p>
+<pre class="literal-block">
+/usr/bin/system-config-firewall-tui
+</pre>
+<p>go to <em>Customise</em> (&lt;TAB&gt; moves between fields), scroll down the list up to <em>WWW
+(HTTP)</em> and enable the service with &lt;SPACE&gt;. Then select <em>Close</em>, <em>OK</em> and
+<em>YES</em>.</p>
+<p>Now you can access the OMD web interface at <a class="reference external" href="http://192.168.56.10">http://192.168.56.10</a>  eg. from your
+VirtualBox physical host.</p>
+</div>
+</div>
+</div>
+<div class="section" id="monitorized-system-configuration">
+<h1><a class="toc-backref" href="#id13">4&nbsp;&nbsp;&nbsp;Monitorized system configuration</a></h1>
+<p>After booting the machine (CentOS-5.7) up we just set the static IP and
+then install the <tt class="docutils literal">check_mk</tt> agent.</p>
+<div class="section" id="id1">
+<h2><a class="toc-backref" href="#id14">4.1&nbsp;&nbsp;&nbsp;Network configuration</a></h2>
+<p>As before, in order to set up a static IP we create the file <tt class="docutils literal"><span class="pre">/etc/sysconfig/network-scripts/ifcfg-eth1</span></tt>:</p>
+<pre class="literal-block">
+#/etc/sysconfig/network-scripts/ifcfg-eth1
+DEVICE=eth1
+BOOTPROTO=none
+IPADDR=192.168.56.11
+NETMASK=255.255.255.0
+ONBOOT=yes
+HWADDR=08:00:27:42:79:DF
+DEFROUTE=yes
+NAME=&quot;eth1&quot;
+</pre>
+<p>and restart the network:</p>
+<pre class="literal-block">
+service network restart
+</pre>
+</div>
+<div class="section" id="check-mk-agent-installation">
+<h2><a class="toc-backref" href="#id15">4.2&nbsp;&nbsp;&nbsp;check_mk agent installation</a></h2>
+<p>We download and install the <tt class="docutils literal">check_mk</tt> monitoring agent from the check_mk
+webpage without further complications, the only needed dependence being
+<tt class="docutils literal">xinetd</tt>:</p>
+<pre class="literal-block">
+wget http://mathias-kettner.com/download/check_mk-agent-1.2.2p3-1.noarch.rpm
+wget http://mathias-kettner.com/download/check_mk-agent-logwatch-1.2.2p3-1.noarch.rpm
+yum install --nogpgcheck check_mk-agent-1.2.2p3-1.noarch.rpm \
+    check_mk-agent-logwatch-1.2.2p3-1.noarch.rpm
+</pre>
+<p>If desired we can restrict the access to the agent execution in this machine to
+the OMD monitoring service so we have a more secure setup eg. in a
+production environment.  In order to do this we just add to the
+<tt class="docutils literal">/etc/xinetc.d/check_mk</tt> file the line:</p>
+<pre class="literal-block">
+$&gt; vim /etc/xinetc.d/check_mk
+...
+only_from = 192.168.56.10
+...
+</pre>
+<p>and we reload the <tt class="docutils literal">xinetd</tt> daemon configuration:</p>
+<pre class="literal-block">
+$&gt;/etc/init.d/xinetd reload
+</pre>
+</div>
+<div class="section" id="hard-disk-monitoring-with-s-m-a-r-t">
+<h2><a class="toc-backref" href="#id16">4.3&nbsp;&nbsp;&nbsp;Hard disk monitoring with S.M.A.R.T.</a></h2>
+<p>If we are monitoring a physical host we will be interested in monitoring their
+hard disk health status. Check_mk does not includes S.M.A.R.T. checking by
+default, but provides a <tt class="docutils literal">plugin</tt> that has to be explicitly installed in the
+remote host.</p>
+<p>The plugin is called <tt class="docutils literal">smart</tt> and it already is in the OMD server, we just
+have to copy over to the desired host:</p>
+<pre class="literal-block">
+# su - test
+# scp ~/share/check_mk/agents/plugins/smart  \
+      user&#64;remote-host:/usr/lib/check_mk_agent/plugins/smart
+</pre>
+<p>If we have not yet inventorized the host the smart check will be present when
+doing it, otherwise you have to reinventorize it and the new check will appear.
+Will see later how to do it.</p>
+</div>
+</div>
+<div class="section" id="basic-check-mk-configuration">
+<h1><a class="toc-backref" href="#id17">5&nbsp;&nbsp;&nbsp;Basic Check_MK configuration</a></h1>
+<p>We will do the basic monitoring system setup using at first <em>WATO - Check_MK's
+Web Administrator Tool</em> through the <em>Multisite</em> web interface, both part of the
+Check_MK echosystem.</p>
+<p>We will first setup a new user who will get the test alerts and after this we
+will add the hosts to be monitored ann test some alerts.</p>
+<div class="section" id="user-creation">
+<h2><a class="toc-backref" href="#id18">5.1&nbsp;&nbsp;&nbsp;User creation</a></h2>
+<p>Every user (<em>contact</em> in the Nagios nomenclature) belongs to a <em>contact group</em>,
+which are the ones which are really assigned to host and services
+notifications.  In the default OMD/check_MK configuration we have only one
+contact group, <strong>&quot;Everybody&quot;</strong>, so we will add the new contact to this group,
+also making sure that we check the <strong>&quot;Administrator&quot;</strong> role in the Security
+section and that we <strong>&quot;enable notifications&quot;</strong> in the notifications section:</p>
+<pre class="literal-block">
+( WATO-Configuration | Users &amp; Contacts | New User )
+</pre>
+<p>We save the changes (<strong>&quot;Save&quot;</strong> in the lower part of the new user creation
+form) and we are bougth back to the &quot;User &amp; Contacts&quot; main section, where we
+have a notice about the <strong>&quot;1 Changes&quot;</strong>  done. In order to propagate the change
+to the Check_MK/Nagios configuration click on the <strong>&quot;1 Changes&quot;</strong> button and
+then on the <strong>&quot;Activate Changes!&quot;</strong> one. We can now see the newly created user
+in the &quot;Users &amp; Contacts &quot; WATO section and also can checks that the user is a
+member of the &quot;Everybody&quot; group in the &quot;Contact Goups&quot; section.</p>
+</div>
+<div class="section" id="integration-inventory-of-the-new-host-to-be-monitored">
+<h2><a class="toc-backref" href="#id19">5.2&nbsp;&nbsp;&nbsp;Integration (inventory) of the new <em>host</em> to be monitored</a></h2>
+<p>In order to add (inventorize, in the Check_MK slang) a new host (in which we
+have already installed the check_mk agent), we just:</p>
+<pre class="literal-block">
+( WATO-Configuration | Hosts &amp; Folders | New host )
+</pre>
+<p>There we just add the <strong>&quot;Hostname&quot;</strong> (CentOS-5.7), <strong>&quot;IP&quot;</strong> if needed
+(192.168.56.11 in this case), <strong>&quot;Permissions&quot; -&gt; &quot;Everybody&quot;</strong> and <strong>&quot;Alias&quot;</strong>
+(if desired).  Clicking on <strong>&quot;Save &amp; go to Services&quot;</strong> brings us to the
+autodetected host services list, where we can choose to ignore some of the
+automatically detected checks.  We then <strong>&quot;Save manual check configuration&quot;</strong>
+and as we did before we <strong>&quot;Activate Changes!&quot;</strong>.</p>
+<p>Going to the main web interface page (Check_MK logo in the upper left or
+<tt class="docutils literal">(Views | Dashboards |&nbsp; Main Overview)</tt> we see that we have one host and 19
+services monotirized.</p>
+<p>..note:</p>
+<pre class="literal-block">
+It is convenient to use the own monitoring server to monitor itself. For
+this we just install the check_mk agent in the server and add the host
+*localhost* in WATO. Do it!
+</pre>
+</div>
+<div class="section" id="reinventoring">
+<h2><a class="toc-backref" href="#id20">5.3&nbsp;&nbsp;&nbsp;Reinventoring</a></h2>
+<p>If we add new checks to a host through check_mk plugins, legacy nagios checks,
+NRPE nagios checks, etc., we can make Check_MK to scan this host for new, not
+inventorized services. Just go to <tt class="docutils literal">(WATO | Hosts &amp; Folders )</tt>, click on the
+desired host and then select &quot;Services&quot; and &quot;Full Scan&quot;. New services will be
+detected and you can enable them at will, as well as disable existing checks if
+wanted.</p>
+<div class="note">
+<p class="first admonition-title">Note</p>
+<p class="last">When reinventoring a host all previously inventorized checks, performance
+data, graphs, etc. are kept.</p>
+</div>
+</div>
+<div class="section" id="email-notification-test">
+<h2><a class="toc-backref" href="#id21">5.4&nbsp;&nbsp;&nbsp;email notification test</a></h2>
+<p>In order to test email notifications go to a host <tt class="docutils literal">( Views | Hosts | All hosts
+)</tt> and click on a service name. In the service information page click on the
+hammer icon in order to run commands over this service. Then go to <strong>&quot;Various
+Commands&quot; -&gt; &quot;Fake check results&quot;</strong> and eg. click <strong>&quot;Critical</strong>&quot;. Confirm the
+action and see eg. in the <tt class="docutils literal">Dashboard | Main Overview</tt> the service being
+Critical for a while and the notifications being sent. Check you email for the
+Critical State notification and the Recovery one a minute later when the
+service comes back to normal state!</p>
+</div>
+</div>
+<div class="section" id="advanced-check-mk-configuration">
+<h1><a class="toc-backref" href="#id22">6&nbsp;&nbsp;&nbsp;Advanced Check_MK configuration</a></h1>
+</div>
+<div class="section" id="references">
+<h1><a class="toc-backref" href="#id23">7&nbsp;&nbsp;&nbsp;References</a></h1>
+<p><strong>Virtual Machines</strong></p>
+<blockquote>
+<ul class="simple">
+<li>Oracle VirtualBox, multiplatform virtualization system: <a class="reference external" href="https://www.virtualbox.org/">https://www.virtualbox.org/</a></li>
+<li>CentOS preinstalled VirtualBox virtual machines: <a class="reference external" href="http://virtualboxes.org/images/centos/">http://virtualboxes.org/images/centos/</a></li>
+</ul>
+</blockquote>
+<p><strong>Nagios</strong></p>
+<blockquote>
+<ul class="simple">
+<li>Web: <a class="reference external" href="http://www.nagios.org/">http://www.nagios.org/</a></li>
+<li>Official Documentation: <a class="reference external" href="http://nagios.sourceforge.net/docs/nagioscore/3/en/toc.html">http://nagios.sourceforge.net/docs/nagioscore/3/en/toc.html</a></li>
+<li>Nagios Exchange: Nagios extension and checks open repository <a class="reference external" href="http://exchange.nagios.org/">http://exchange.nagios.org/</a></li>
+<li><em>&quot;Building a Monitoring Infrastructure With Nagios&quot;</em>, David Josephsen, Prentice Hall 2007</li>
+</ul>
+</blockquote>
+<p><strong>Check_MK</strong></p>
+<blockquote>
+<ul class="simple">
+<li>Web: <a class="reference external" href="http://mathias-kettner.com/check_mk.html">http://mathias-kettner.com/check_mk.html</a></li>
+<li>Official Documentation: <a class="reference external" href="http://mathias-kettner.com/checkmk.html">http://mathias-kettner.com/checkmk.html</a></li>
+</ul>
+</blockquote>
+<p><strong>OMD</strong></p>
+<blockquote>
+<ul class="simple">
+<li>Web: <a class="reference external" href="http://omdistro.org/">http://omdistro.org/</a></li>
+</ul>
+</blockquote>
+</div>
+</div>
+<div class="footer">
+<hr class="footer" />
+###Page###
+</div>
+</body>
+</html>
