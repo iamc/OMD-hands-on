@@ -388,7 +388,7 @@ system monitoring computing nodes in a typical HPC cluster.</p>
 </li>
 </ul>
 </li>
-<li><a class="reference internal" href="#monitorized-system-configuration" id="id13">4&nbsp;&nbsp;&nbsp;Monitorized system configuration</a><ul class="auto-toc">
+<li><a class="reference internal" href="#monitored-system-configuration" id="id13">4&nbsp;&nbsp;&nbsp;Monitored system configuration</a><ul class="auto-toc">
 <li><a class="reference internal" href="#id1" id="id14">4.1&nbsp;&nbsp;&nbsp;Network configuration</a></li>
 <li><a class="reference internal" href="#check-mk-agent-installation" id="id15">4.2&nbsp;&nbsp;&nbsp;check_mk agent installation</a></li>
 <li><a class="reference internal" href="#hard-disk-monitoring-with-s-m-a-r-t" id="id16">4.3&nbsp;&nbsp;&nbsp;Hard disk monitoring with S.M.A.R.T.</a></li>
@@ -724,8 +724,8 @@ VirtualBox physical host.</p>
 </div>
 </div>
 </div>
-<div class="section" id="monitorized-system-configuration">
-<h1><a class="toc-backref" href="#id13">4&nbsp;&nbsp;&nbsp;Monitorized system configuration</a></h1>
+<div class="section" id="monitored-system-configuration">
+<h1><a class="toc-backref" href="#id13">4&nbsp;&nbsp;&nbsp;Monitored system configuration</a></h1>
 <p>After booting the machine (CentOS-5.7) up we just set the static IP and
 then install the <tt class="docutils literal">check_mk</tt> agent.</p>
 <div class="section" id="id1">
@@ -836,7 +836,7 @@ automatically detected checks.  We then <strong>&quot;Save manual check configur
 and as we did before we <strong>&quot;Activate Changes!&quot;</strong>.</p>
 <p>Going to the main web interface page (Check_MK logo in the upper left or
 <tt class="docutils literal">( Views | Dashboards |&nbsp; Main Overview )</tt> we see that we have one host and 19
-services monitorized.</p>
+services monitored.</p>
 <div class="note">
 <p class="first admonition-title">Note</p>
 <p class="last">It is convenient to set up the own monitoring server to monitor itself. For
@@ -973,7 +973,7 @@ dissect it:</p>
 22     ( (45, 55), [ 'compute' ], ALL_HOSTS, [ &quot;Temperature SMART&quot; ] ),
 23 ]
 </pre>
-<p><strong>Hosts Setup</strong></p>
+<p><strong>Hosts setup</strong></p>
 <p>We fist setup the hosts. Note how we <em>add</em> the new hosts to the <tt class="docutils literal">all_hosts</tt>
 variable:</p>
 <pre class="literal-block">
@@ -988,7 +988,7 @@ variable:</p>
 superfluous, but python allows it and makes the scripting much easier. This is
 the only part we would have to script in order to include our 10's or 100's of
 nodes in a general case.</p>
-<p><strong>Ignored Services</strong></p>
+<p><strong>Ignored services</strong></p>
 <p>If we want to ignore some services, we add them up to the <tt class="docutils literal">ignored_services</tt> variable:</p>
 <pre class="literal-block">
  9 ignored_services += [
@@ -1000,7 +1000,7 @@ service name as it is shown in the multisite web interface or get it from
 inspecting the <tt class="docutils literal">cmk <span class="pre">-D</span></tt> command output. In this case all services whose name
 <em>begings</em> with <tt class="docutils literal">fs_/var</tt> on hosts with the host tag <tt class="docutils literal">compute</tt> will be
 ignored.  See <a class="reference external" href="http://mathias-kettner.com/checkmk_inventory.html">http://mathias-kettner.com/checkmk_inventory.html</a>.</p>
-<p><strong>Ignored Checks</strong></p>
+<p><strong>Ignored checks</strong></p>
 <p>We can also ignore checks, in this case the <tt class="docutils literal">postfix_mailq</tt> check:</p>
 <pre class="literal-block">
 13 ignored_checks += [
@@ -1008,7 +1008,7 @@ ignored.  See <a class="reference external" href="http://mathias-kettner.com/che
 15 ]
 </pre>
 <p>See also <a class="reference external" href="http://mathias-kettner.com/checkmk_inventory.html">http://mathias-kettner.com/checkmk_inventory.html</a>.</p>
-<p><strong>Contact Groups</strong></p>
+<p><strong>Contact groups</strong></p>
 <p>We also add the new hosts to a contact group, in this case the OMD default
 <tt class="docutils literal">Everybody</tt> group as an example:</p>
 <pre class="literal-block">
@@ -1016,7 +1016,7 @@ ignored.  See <a class="reference external" href="http://mathias-kettner.com/che
 18     ( &quot;Everybody&quot;, [ &quot;compute&quot; ], ALL_HOSTS ),
 19 ]
 </pre>
-<p><strong>Special Check Parameters</strong></p>
+<p><strong>Special check parameters</strong></p>
 <p>And finally we adjust some of the checks default warning/critical levels:</p>
 <pre class="literal-block">
 21 check_parameters += [
@@ -1027,7 +1027,7 @@ ignored.  See <a class="reference external" href="http://mathias-kettner.com/che
 system (35C and 40C, see <tt class="docutils literal">cmk <span class="pre">--man</span> smart.temp</tt>) so we raise them a bit. All
 services called &quot;Temperature SMART&lt;whatever&gt;&quot; will have as new levels (45,55).
 See <a class="reference external" href="http://mathias-kettner.com/checkmk_check_parameters.html">http://mathias-kettner.com/checkmk_check_parameters.html</a>.</p>
-<p><strong>Host Groups</strong></p>
+<p><strong>Host groups</strong></p>
 <p>You can also, although we have not done it in this example, create a Nagios
 <em>host group</em> in WATO <strong>Host Groups</strong> section and add these hosts to the group:</p>
 <pre class="literal-block">

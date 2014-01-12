@@ -342,8 +342,8 @@ Now you can access the OMD web interface at http://192.168.56.10  eg. from your
 VirtualBox physical host.
 
 
-Monitorized system configuration
-================================
+Monitored system configuration
+==============================
 
 After booting the machine (CentOS-5.7) up we just set the static IP and
 then install the ``check_mk`` agent.
@@ -470,7 +470,7 @@ and as we did before we **"Activate Changes!"**.
 
 Going to the main web interface page (Check_MK logo in the upper left or 
 ``( Views | Dashboards |  Main Overview )`` we see that we have one host and 19 
-services monitorized.
+services monitored.
 
 .. note::
     
@@ -627,7 +627,7 @@ dissect it::
     23 ]
 
 
-**Hosts Setup**
+**Hosts setup**
 
 We fist setup the hosts. Note how we *add* the new hosts to the ``all_hosts``
 variable::
@@ -645,7 +645,7 @@ the only part we would have to script in order to include our 10's or 100's of
 nodes in a general case.
 
 
-**Ignored Services**
+**Ignored services**
 
 If we want to ignore some services, we add them up to the ``ignored_services`` variable::
 
@@ -660,7 +660,7 @@ inspecting the ``cmk -D`` command output. In this case all services whose name
 ignored.  See http://mathias-kettner.com/checkmk_inventory.html.
 
 
-**Ignored Checks**
+**Ignored checks**
 
 We can also ignore checks, in this case the ``postfix_mailq`` check::
 
@@ -671,7 +671,7 @@ We can also ignore checks, in this case the ``postfix_mailq`` check::
 See also http://mathias-kettner.com/checkmk_inventory.html.
 
 
-**Contact Groups**
+**Contact groups**
 
 We also add the new hosts to a contact group, in this case the OMD default
 ``Everybody`` group as an example::
@@ -681,7 +681,7 @@ We also add the new hosts to a contact group, in this case the OMD default
     19 ]
 
 
-**Special Check Parameters**
+**Special check parameters**
 
 And finally we adjust some of the checks default warning/critical levels::
 
@@ -695,7 +695,7 @@ services called "Temperature SMART<whatever>" will have as new levels (45,55).
 See http://mathias-kettner.com/checkmk_check_parameters.html.
 
 
-**Host Groups**
+**Host groups**
 
 You can also, although we have not done it in this example, create a Nagios
 *host group* in WATO **Host Groups** section and add these hosts to the group:: 
