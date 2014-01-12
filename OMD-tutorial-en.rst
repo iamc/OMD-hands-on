@@ -115,7 +115,7 @@ We want to set up an internal network for the virtual machines to be able to
 communicate each other. 
 
 First we make sure we have an internal network configured in the VirtualBox 
-server ``(VirtualBox Manager -> File | Preferences | Network | Host-only 
+server ``( VirtualBox Manager -> File | Preferences | Network | Host-only 
 Networks )``. Make sure you have:
 
 **PC VirtualBox Host**
@@ -123,11 +123,11 @@ Networks )``. Make sure you have:
 :IP: 192.168.56.1
 
 
-We also have to add a ``Host-only Adapter`` to each virtual machine ``(Virtual 
-Machine Manager: select the VM -> settings | network | Adapter 2 |  Enable + 
+We also have to add a ``Host-only Adapter`` to each virtual machine ``(
+VirtualBox Manager: select the VM -> settings | network | Adapter 2 |  Enable +
 attached to "Host-only Adapter")``. 
 
-From the "Advanced" section We write down the network "card" MAC address in 
+From the "Advanced" section we write down the network "card" MAC address in 
 order to later set up static IP addresses whithin the internal network.  In 
 this case the MACs we have and IPs we will use are:
 
@@ -143,8 +143,8 @@ this case the MACs we have and IPs we will use are:
 :IP:  192.168.56.11
 
 
-Monitoring Server configuration and Nagios / OMD install
-========================================================
+Monitoring Server configuration and OMD install
+===============================================
 
 Network configuration
 ---------------------
@@ -155,7 +155,7 @@ After booting the virtual machine first enable ssh access as it is disabled by d
     service sshd on
 
 
-Then setup the static IP by creating the file ``/etc/sysconfig/network-scripts/ifcfg-eth1``::
+Then setup the static IP by creating the ``/etc/sysconfig/network-scripts/ifcfg-eth1`` file::
 
     #/etc/sysconfig/network-scripts/ifcfg-eth1
     DEVICE=eth1
@@ -175,7 +175,7 @@ and restart the network::
 email sending configuration
 ---------------------------
 
-First lets check whether we already can send emails straigth from postfix over 
+First lets check whether we can already send emails straigth from postfix over 
 port 25:: 
 
     echo "Test mail from postfix" | mail -s "Test Postfix" user@domain
@@ -243,6 +243,10 @@ Test::
 
     echo "Test email from postfix with Gmail relay" | mail -s "Gmail-postfix test" user@domain
 
+.. warning::
+    
+    Beware of the 500 email/day limits for the regular Google accounts!
+
 
 OMD installation
 ----------------
@@ -271,54 +275,58 @@ size of 24MB.
 OMD initial setup
 -----------------
 
-The ``omd`` command is used to manage OMD sites. ``omd`` can be executed asthe  
-the site user to modify just that site, or as root user. As the root user 
-``omd`` offers more option such as copying, renaming, disabling or uninstalling 
-sites.  Calling ``omd`` alone provides  see a list of options.
+The ``omd`` command is used to manage OMD `sites`. OMD sites are completely
+independent instances of OMD which allow us, if so desired, to have different
+sites for different purposes as testing, production, upgrading, etc. (see
+http://mathias-kettner.com/checkmk_install_with_omd.html) 
+
+The ``omd`` command can be executed as the site user to modify just that site,
+or as root user. As the root user ``omd`` offers more options such as copying,
+renaming, disabling or uninstalling sites.  Calling ``omd`` alone provides a
+list of options with a brief description of them.
 
 
 OMD site creation and access
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To create and start a new OMD test "site" instance just::
+To create and start a new OMD ``test`` site instance just::
 
     omd create test
     omd start test
 
-When creating a new `site` OMD, amongst other things, creates a new user in the 
-system which will be used to manage this specific site. Thus we can have 
-different `sites` for different purposes as testing, production, upgrading, 
-etc. (see http://mathias-kettner.com/checkmk_install_with_omd.html)
+When creating a new site OMD, amongst other things, creates a new user in the 
+system which will be used to manage this specific site. 
 
-In order to manage our site we just ``su -`` to the site/user::
+In order to manage our site we just ``"su -"`` to the site/user, in this case::
 
     su - test
 
 The ``test`` user home directory is ``/omd/sites/test``. Here all the local 
 configurations, caches, performance data, etc. for this site will be kept, 
 specifically in the ``tmp``, ``var`` and ``etc`` directories (the rest of the 
-directories are symlinked to your OMD version.  See 
-http://mathias-kettner.com/checkmk_install_with_omd.html for a detailled 
+directories are symlinked to your OMD version.  Again, see
+http://mathias-kettner.com/checkmk_install_with_omd.html for a detailled
 description of the file/folder structure and contents.
 
 
-Web server access configuration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Multisite web interface access configuration
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. note::
 
     Default user/password for the OMD interface is **omdadmin/omd**
 
-Once the test site is up we try to access to it web interface from within the 
-own machine first at http://localhost/test. In our case we get a error "OMD: 
-Site not started". This is documented in the OMD FAQ specifically for CentOS 
-and related systems and it is related to the selinux configuration. Just do::
+Once the test site is up we try to access to it through the `Multisite` web
+interface from within the own machine first at http://localhost/test. In our
+case we get a error "OMD: Site not started". This is documented in the OMD FAQ
+specifically for CentOS and related systems and it has to do to with the selinux
+configuration. Just run::
 
     /usr/sbin/setsebool -P httpd_can_network_connect 1
 
-``-P`` makes the change persistent and it may take a while to run, even some 
-minutes, so be patient. After this we can access the web interface from the 
-localhost without problems.
+The ``-P`` option makes the change persistent and the command may take a while
+to run, even some minutes, so be patient. Once it's done we can access the web
+interface from the localhost without problems.
 
 If we want to access to the web interface from remote machines (as the 
 VirtualBox physical host in this case) we have to enable the service in the 
@@ -344,7 +352,8 @@ then install the ``check_mk`` agent.
 Network configuration
 ---------------------
 
-As before, in order to set up a static IP we create the file ``/etc/sysconfig/network-scripts/ifcfg-eth1``::
+As before, we create the ``/etc/sysconfig/network-scripts/ifcfg-eth1`` file in
+order to set up a static IP::
 
     #/etc/sysconfig/network-scripts/ifcfg-eth1
     DEVICE=eth1
@@ -375,9 +384,8 @@ webpage without further complications, the only needed dependence being
 
 
 If desired we can restrict the access to the agent execution in this machine to
-the OMD monitoring service so we have a more secure setup eg. in a
-production environment.  In order to do this we just add to the
-``/etc/xinetc.d/check_mk`` file the line::
+the OMD monitoring service so we have a more secure setup.  In order to do this
+we just add to the ``/etc/xinetc.d/check_mk`` file the line::
 
     $> vim /etc/xinetc.d/check_mk
     ...
@@ -398,15 +406,15 @@ but provides a ``plugin`` that has to be explicitly installed in the remote
 host.
 
 The plugin is called ``smart`` and it already is in the OMD server, we just 
-have to copy over to the desired host::
+have to copy it over to the desired host::
 
     # su - test
     # scp ~/share/check_mk/agents/plugins/smart  \
           user@remote-host:/usr/lib/check_mk_agent/plugins/smart
 
-If the host has not yet been inventorized in Check_MK, the smart check will be 
+If the host has not been inventorized yet in Check_MK, the ``smart`` check will be 
 present amognst the detected checks when doing it, otherwise you will have to
-reinventorize it and the new check will appear.  Wee will see later how 
+reinventorize it and the new check will appear.  Wee will see later how
 inventorizing hosts works.
 
 
@@ -415,7 +423,7 @@ Basic Check_MK configuration
 
 To setup the basic monitoring system setup we will be using at first *WATO - 
 Check_MK's Web Administrator Tool* through the *Multisite* web interface, both 
-part of the Check_MK echosystem. This will make our fisrt steps into the 
+part of the Check_MK ecosystem. This will make our first steps into the 
 Check_MK monitoring world much easier.
 
 We will first setup a new user who will get the test alerts and after this we 
@@ -429,14 +437,15 @@ User creation
 Every user (*contact* in the Nagios nomenclature) belongs to a *contact group*, 
 which are the ones which are really assigned to host and services 
 notifications.  In the default OMD/check_MK configuration we have only one 
-contact group, **"Everybody"**, so we will add the new contact to this group, 
-also making sure that we check the **"Administrator"** role in the Security 
-section and that we **"enable notifications"** in the notifications section::
+contact group, **"all**" or **"Everybody"** (alias), so we will add the new
+contact to this group ("Contact Groups" section), also making sure that we check
+the **"Administrator"** role in the "Security" section and that we **"enable
+notifications"** in the "Notifications" section::
 
      ( WATO-Configuration | Users & Contacts | New User )
 
 We save the changes (**"Save"** in the lower part of the new user creation 
-form) and we are bougth back to the "User & Contacts" main section, where we 
+form) and we are brougth back to the "User & Contacts" main section, where we 
 have a notice about the **"1 Changes"**  done. In order to propagate the change 
 to the Check_MK/Nagios configuration click on the **"1 Changes"** button and 
 then on the **"Activate Changes!"** one. We can now see the newly created user 
@@ -447,8 +456,8 @@ member of the "Everybody" group in the "Contact Goups" section.
 Integration (inventory) of the new *host* to be monitored
 ----------------------------------------------------------
 
-In order to add (inventorize, in the Check_MK language) a new host (in which we 
-have already installed the check_mk agent), we go to::
+In order to add/inventorize a new host (in which of course we already have
+installed the check_mk agent), we go to::
 
     ( WATO-Configuration | Hosts & Folders | New host )
 
@@ -460,14 +469,14 @@ automatically detected checks.  We then **"Save manual check configuration"**
 and as we did before we **"Activate Changes!"**.
 
 Going to the main web interface page (Check_MK logo in the upper left or 
-``(Views | Dashboards |  Main Overview)`` we see that we have one host and 19 
-services monotirized.
+``( Views | Dashboards |  Main Overview )`` we see that we have one host and 19 
+services monitorized.
 
-..note::
+.. note::
     
-    It is convenient to use the own monitoring server to monitor itself. For 
+    It is convenient to set up the own monitoring server to monitor itself. For 
     this we just install the check_mk agent in the server and add the host 
-    *localhost* in WATO. Do it!
+    *"localhost"* in WATO. Do it!
 
 
 Reinventoring
@@ -475,10 +484,10 @@ Reinventoring
 
 If we add new checks to a host through check_mk plugins, legacy nagios checks, 
 NRPE nagios checks, etc., we can make Check_MK to scan this host for new, not 
-inventorized services. Just go to ``(WATO | Hosts & Folders )``, click on the 
-desired host and then select "Services" and "Full Scan". New services will be 
-detected and you can enable them at will, as well as disable existing checks if 
-wanted.
+inventorized services. Just go to ``( WATO-Configuration | Hosts & Folders )``,
+click on the desired host and then select **"Services"** and **"Full Scan"**.
+New services will be detected and you can enable them at will, as well as
+disable existing checks if wanted.
 
 .. note::
     
@@ -493,9 +502,9 @@ In order to test email notifications go to a host ``( Views | Hosts | All hosts
 )`` and click on a service name. In the service information page click on the 
 hammer icon in order to run commands over this service. Then go to **"Various 
 Commands" -> "Fake check results"** and eg. click **"Critical**". Confirm the 
-action and see eg. in the ``Dashboard | Main Overview`` the service being 
+action and see eg. in the ``( Dashboard | Main Overview )`` the service being 
 Critical for a while and the notifications being sent. Check you email for the 
-Critical State notification and the Recovery one a minute later when the 
+Critical State notification and the Recovery one a minute later, when the 
 service comes back to normal state!
 
 
@@ -513,9 +522,9 @@ in the background, as you may have suspected, everything is in fact done trough
 configuration files with a very clean, documented interface.
 
 Check_MK configuration files lay under ``~/etc/check_mk``, being ``~`` the home 
-of the user corresponding to the OMD *site*. Check_MK reads the configuration 
-files there and generates the corresponding nagios configuration files. When 
-requested to do it, of course!
+of the user corresponding to the OMD *site*. Check_MK reads the ``.mk``
+configuration files there and generates the corresponding nagios configuration
+files. When requested to do it, of course!
 
 Check_MK first reads the ``~/etc/check_mk/main.mk`` file, and then all the 
 ``.mk`` files under ``~/etc/check_mk/conf.d``. The configuration files syntax 
@@ -526,21 +535,24 @@ configuration files reading and parsing and
 http://mathias-kettner.com/checkmk_configvars.html for a detailled description 
 of the configuration variables and how to use them.
 
-The typicall steps consist on: 1) add some hosts or modify some settings in 
-some of the configuration files, 2) do a reinventory if needed and 3) recompile 
-nagios configuration and reload/restart nagios service.
+The typicall steps when working with configuration files consist are:
 
-When working on the command line the command to use is ``check_mk`` or its 
-alias ``cmk``. Calling just ``cmk`` provides a sumary of the options and a 
-sparse summary of its behaviour.  See 
-http://mathias-kettner.com/checkmk_calling.html
+  #. add some hosts or modify some settings in some of the configuration files, 
+  #. optionally do a reinventory if needed, and 
+  #. recompile nagios configuration and reload/restart nagios service.
+
+
+The command used to do all this is ``check_mk`` or its alias ``cmk``. Calling
+just ``cmk`` provides a sumary of the options and a sparse summary of its
+behaviour.  See http://mathias-kettner.com/checkmk_calling.html
 
 
 Manually configure VirtualBox host monitoring
 --------------------------------------------- 
 
-As a very simple example we set up the VirtualBox host itslef for monitoring,
-all from the command line. See below for a more complex example.
+As a very simple example we will set up the VirtualBox host itself for
+monitoring, all from the command line. We will call this host `"VB-host"`. See
+next section for a more complex example.
 
 First, in the monitoring server, we go into the OMD ``test`` user/site::
 
@@ -557,7 +569,7 @@ the following content::
 
     ipaddresses['VB-host'] = '192.168.56.1'
 
-After installing the check_mk agent in the VB-host we manually inventorize it
+After installing the check_mk agent in the `"VB-host"` we manually inventorize it
 and update the Nagios core with the ``check_mk`` command::
 
     check_mk -I VB-host
@@ -570,17 +582,18 @@ contact group and we can see all detected services in the multisite interface.
 Two node HPC cluster configuration
 ----------------------------------
 
-Here we present a very simple example of a real configuration file for a two 
-nodes test rocks cluster, but it should be work the same for a general HPC 
+Let's see a slightly more complex example of a real configuration file for a
+two nodes test rocks cluster. It should be work the same for a more general HPC
 cluster.
 
 We have installed OMD in the head node, inventorized the own head node with 
-WATO (both just as described), and want to add the compute nodes using a
-configuration file so that we can script the process for any number of them. Of
-course we have also installed the check_mk agent and the smart check plugin in
-the compute nodes (you can include them in you nodes master image, post install
-it with pdsh/pdcp, set in up in your cfengine/puppet/salt or whatever
-configuration management system you may be using, etc.).
+WATO (both just as described in the previous sections), and want to add the
+compute nodes using a configuration file so that we can script the process for
+any number of them. Of course we have also installed the check_mk agent and the
+"smart" check_mk plugin in the compute nodes (you can include them in you nodes
+master image, post install it with pdsh/pdcp, set in up in your
+cfengine/puppet/salt or whatever configuration management system you may be
+using, etc.).
 
 
 Configuration file
@@ -626,10 +639,10 @@ variable::
 
 The first part of every field is the hostname and the second the check_mk host
 *tag*, ``compute`` in this case (see
-http://mathias-kettner.com/checkmk_hosttags.html). The last `comma (,)` is
-superfluous, but makes the scripting easier. This is the only part we would
-have to script in order to include our 10's or 100's of nodes in a general
-case.
+http://mathias-kettner.com/checkmk_hosttags.html). The last comma (,)  is
+superfluous, but python allows it and makes the scripting much easier. This is
+the only part we would have to script in order to include our 10's or 100's of
+nodes in a general case.
 
 
 **Ignored Services**
@@ -641,9 +654,9 @@ If we want to ignore some services, we add them up to the ``ignored_services`` v
     11  ]
 
 You can get the exact name of the service you want to ignore from the own
-service name as it is shown the shown in the multisite interface or get it
-inspecting the ``cmk -D`` command output. In this case all services whose
-name *begings* with ``fs_/var`` on the hosts with host tag ``compute`` will be 
+service name as it is shown in the multisite web interface or get it from
+inspecting the ``cmk -D`` command output. In this case all services whose name
+*begings* with ``fs_/var`` on hosts with the host tag ``compute`` will be
 ignored.  See http://mathias-kettner.com/checkmk_inventory.html.
 
 
@@ -655,28 +668,28 @@ We can also ignore checks, in this case the ``postfix_mailq`` check::
     14     ( [ "postfix_mailq" ], [ "compute" ], ALL_HOSTS  ),
     15 ]
 
+See also http://mathias-kettner.com/checkmk_inventory.html.
+
 
 **Contact Groups**
 
-If we want to add the new hosts to some contact group, in this case the OMD
-default ``Everybody`` group::
+We also add the new hosts to a contact group, in this case the OMD default
+``Everybody`` group as an example::
 
     17 host_contactgroups += [
     18     ( "Everybody", [ "compute" ], ALL_HOSTS ),
     19 ]
 
-See also http://mathias-kettner.com/checkmk_inventory.html.
-
 
 **Special Check Parameters**
 
-And finally we can also adjust some of the checks default values::
+And finally we adjust some of the checks default warning/critical levels::
 
     21 check_parameters += [
     22     ( (45, 55), [ 'compute' ], ALL_HOSTS, [ "Temperature SMART" ] ),
     23 ]
 
-In this case the default smart check temperature leves are too low for our 
+In this case the default smart check temperature levels are too low for our 
 system (35C and 40C, see ``cmk --man smart.temp``) so we raise them a bit. All 
 services called "Temperature SMART<whatever>" will have as new levels (45,55).
 See http://mathias-kettner.com/checkmk_check_parameters.html.
@@ -691,7 +704,7 @@ You can also, although we have not done it in this example, create a Nagios
         ( 'computenodes', [ 'compute' ], ALL_HOSTS ),
     ]
 
-You can find a list of all the confiugration variables that mey be used at
+You can find a list of all the configuration variables that mey be used at
 http://mathias-kettner.com/checkmk_configvars.html.
 
 
@@ -699,20 +712,34 @@ Inventoring and Nagios configuration update
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 After we have written down the new configuration file for the compute nodes we 
-have to first scan (inventorize) the new hosts for services to check and then 
-propagate the configration and the new found services to Nagios.
+have to first scan (inventorize) the new hosts for services  and then propagate
+the new hosts configuration and the newly found services to Nagios.
 
-So we (re)inventorize all hosts with tag ``compute``::
+So we (re)inventorize all hosts with the tag ``compute`` so that Check_MK finds
+the new hosts and the corresponding services:
 
     check_mk -II @compute
 
-Check_MK will find the new hosts and the corresponding services. In order to 
-propagate the configuration to Nagios and restart the monitoring core we just::
+In order to propagate the updated configuration to Nagios and restart the
+monitoring core we just::
 
     check_mk -R
 
+And ready! We have the compute nodes slightly more under control :-)
 
 
+Post-configuration
+~~~~~~~~~~~~~~~~~~
+
+It quite likely that after a very quick initial setup some adjustments have to
+be done on the system in order to reflect your real life situation. Eg. in a
+computer cluster hard disk temperatures will likely be more that 35C, CPU loads
+will be very high and so on. So expect a bit of playing specially with the
+ignored checks/services and the check parameters options.
+
+After this adjustment period you will only get notified when something
+undesired is really going on in your cluster (or in your data center, or in
+your backups, or...).
 
 
 References

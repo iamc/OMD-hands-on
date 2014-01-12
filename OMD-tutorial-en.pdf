@@ -6,8 +6,8 @@
 << /F1 2 0 R
  /F2 3 0 R
  /F3 10 0 R
- /F4 74 0 R
- /F5 75 0 R >>
+ /F4 76 0 R
+ /F5 77 0 R >>
 endobj
 % 'F1': class PDFType1Font 
 2 0 obj
@@ -135,12 +135,12 @@ endobj
  7 0 R
  8 0 R
  9 0 R ]
- /Contents 141 0 R
+ /Contents 145 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 140 0 R
+ /Parent 144 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -157,7 +157,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 76 0 R
+ /Dest [ 78 0 R
  /XYZ
  62.69291
  765.0236
@@ -175,7 +175,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 76 0 R
+ /Dest [ 78 0 R
  /XYZ
  62.69291
  765.0236
@@ -193,7 +193,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 76 0 R
+ /Dest [ 78 0 R
  /XYZ
  62.69291
  492.0236
@@ -211,7 +211,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 76 0 R
+ /Dest [ 78 0 R
  /XYZ
  62.69291
  492.0236
@@ -229,7 +229,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 77 0 R
+ /Dest [ 79 0 R
  /XYZ
  62.69291
  703.0236
@@ -247,7 +247,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 77 0 R
+ /Dest [ 79 0 R
  /XYZ
  62.69291
  703.0236
@@ -265,14 +265,14 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 77 0 R
+ /Dest [ 79 0 R
  /XYZ
  62.69291
  394.0236
  0 ]
  /Rect [ 62.69291
  669.7736
- 348.8629
+ 307.1829
  681.7736 ]
  /Subtype /Link
  /Type /Annot >>
@@ -283,7 +283,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 77 0 R
+ /Dest [ 79 0 R
  /XYZ
  62.69291
  394.0236
@@ -301,10 +301,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 77 0 R
+ /Dest [ 79 0 R
  /XYZ
  62.69291
- 340.0236
+ 361.0236
  0 ]
  /Rect [ 82.69291
  651.7736
@@ -319,10 +319,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 77 0 R
+ /Dest [ 79 0 R
  /XYZ
  62.69291
- 340.0236
+ 361.0236
  0 ]
  /Rect [ 527.0227
  651.7736
@@ -337,7 +337,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 80 0 R
+ /Dest [ 82 0 R
  /XYZ
  62.69291
  727.8236
@@ -355,7 +355,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 80 0 R
+ /Dest [ 82 0 R
  /XYZ
  62.69291
  727.8236
@@ -373,7 +373,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 80 0 R
+ /Dest [ 82 0 R
  /XYZ
  62.69291
  501.6236
@@ -391,7 +391,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 80 0 R
+ /Dest [ 82 0 R
  /XYZ
  62.69291
  501.6236
@@ -409,10 +409,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 83 0 R
+ /Dest [ 86 0 R
  /XYZ
  62.69291
- 577.2187
+ 480.2187
  0 ]
  /Rect [ 82.69291
  597.7736
@@ -427,10 +427,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 83 0 R
+ /Dest [ 86 0 R
  /XYZ
  62.69291
- 577.2187
+ 480.2187
  0 ]
  /Rect [ 527.0227
  597.7736
@@ -445,10 +445,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 83 0 R
+ /Dest [ 86 0 R
  /XYZ
  62.69291
- 259.0587
+ 162.0587
  0 ]
  /Rect [ 82.69291
  579.7736
@@ -463,10 +463,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 83 0 R
+ /Dest [ 86 0 R
  /XYZ
  62.69291
- 259.0587
+ 162.0587
  0 ]
  /Rect [ 527.0227
  579.7736
@@ -481,10 +481,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 83 0 R
+ /Dest [ 90 0 R
  /XYZ
  62.69291
- 187.0587
+ 717.0236
  0 ]
  /Rect [ 102.6929
  561.7736
@@ -499,10 +499,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 83 0 R
+ /Dest [ 90 0 R
  /XYZ
  62.69291
- 187.0587
+ 717.0236
  0 ]
  /Rect [ 527.0227
  561.7736
@@ -517,14 +517,14 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 88 0 R
+ /Dest [ 90 0 R
  /XYZ
  62.69291
- 597.8236
+ 475.6236
  0 ]
  /Rect [ 102.6929
  543.7736
- 278.3229
+ 326.1229
  555.7736 ]
  /Subtype /Link
  /Type /Annot >>
@@ -535,10 +535,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 88 0 R
+ /Dest [ 90 0 R
  /XYZ
  62.69291
- 597.8236
+ 475.6236
  0 ]
  /Rect [ 527.0227
  543.7736
@@ -553,10 +553,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 88 0 R
+ /Dest [ 91 0 R
  /XYZ
  62.69291
- 243.4236
+ 765.0236
  0 ]
  /Rect [ 62.69291
  525.7736
@@ -571,10 +571,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 88 0 R
+ /Dest [ 91 0 R
  /XYZ
  62.69291
- 243.4236
+ 765.0236
  0 ]
  /Rect [ 527.0227
  525.7736
@@ -589,10 +589,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 88 0 R
+ /Dest [ 91 0 R
  /XYZ
  62.69291
- 192.4236
+ 714.0236
  0 ]
  /Rect [ 82.69291
  507.7736
@@ -607,10 +607,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 88 0 R
+ /Dest [ 91 0 R
  /XYZ
  62.69291
- 192.4236
+ 714.0236
  0 ]
  /Rect [ 527.0227
  507.7736
@@ -625,10 +625,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 89 0 R
+ /Dest [ 91 0 R
  /XYZ
  62.69291
- 602.6236
+ 471.6236
  0 ]
  /Rect [ 82.69291
  489.7736
@@ -643,10 +643,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 89 0 R
+ /Dest [ 91 0 R
  /XYZ
  62.69291
- 602.6236
+ 471.6236
  0 ]
  /Rect [ 527.0227
  489.7736
@@ -661,10 +661,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 89 0 R
+ /Dest [ 91 0 R
  /XYZ
  62.69291
- 313.2595
+ 182.2595
  0 ]
  /Rect [ 82.69291
  471.7736
@@ -679,10 +679,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 89 0 R
+ /Dest [ 91 0 R
  /XYZ
  62.69291
- 313.2595
+ 182.2595
  0 ]
  /Rect [ 527.0227
  471.7736
@@ -697,10 +697,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 90 0 R
+ /Dest [ 92 0 R
  /XYZ
  62.69291
- 765.0236
+ 659.8236
  0 ]
  /Rect [ 62.69291
  453.7736
@@ -715,10 +715,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 90 0 R
+ /Dest [ 92 0 R
  /XYZ
  62.69291
- 765.0236
+ 659.8236
  0 ]
  /Rect [ 527.0227
  453.7736
@@ -733,10 +733,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 90 0 R
+ /Dest [ 92 0 R
  /XYZ
  62.69291
- 660.0236
+ 554.8236
  0 ]
  /Rect [ 82.69291
  435.7736
@@ -751,10 +751,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 90 0 R
+ /Dest [ 92 0 R
  /XYZ
  62.69291
- 660.0236
+ 554.8236
  0 ]
  /Rect [ 527.0227
  435.7736
@@ -769,10 +769,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 90 0 R
+ /Dest [ 92 0 R
  /XYZ
  62.69291
- 450.8236
+ 345.6236
  0 ]
  /Rect [ 82.69291
  417.7736
@@ -787,10 +787,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 90 0 R
+ /Dest [ 92 0 R
  /XYZ
  62.69291
- 450.8236
+ 345.6236
  0 ]
  /Rect [ 527.0227
  417.7736
@@ -805,10 +805,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 90 0 R
+ /Dest [ 95 0 R
  /XYZ
  62.69291
- 184.4236
+ 664.0236
  0 ]
  /Rect [ 82.69291
  399.7736
@@ -823,12 +823,12 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 90 0 R
+ /Dest [ 95 0 R
  /XYZ
  62.69291
- 184.4236
+ 664.0236
  0 ]
- /Rect [ 527.0227
+ /Rect [ 521.4627
  399.7736
  532.5827
  411.7736 ]
@@ -841,10 +841,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 94 0 R
+ /Dest [ 95 0 R
  /XYZ
  62.69291
- 664.0236
+ 467.0236
  0 ]
  /Rect [ 82.69291
  381.7736
@@ -859,10 +859,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 94 0 R
+ /Dest [ 95 0 R
  /XYZ
  62.69291
- 664.0236
+ 467.0236
  0 ]
  /Rect [ 521.4627
  381.7736
@@ -877,10 +877,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 94 0 R
+ /Dest [ 95 0 R
  /XYZ
  62.69291
- 556.0236
+ 359.0236
  0 ]
  /Rect [ 62.69291
  363.7736
@@ -895,10 +895,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 94 0 R
+ /Dest [ 95 0 R
  /XYZ
  62.69291
- 556.0236
+ 359.0236
  0 ]
  /Rect [ 521.4627
  363.7736
@@ -913,10 +913,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 94 0 R
+ /Dest [ 97 0 R
  /XYZ
  62.69291
- 229.0236
+ 675.0236
  0 ]
  /Rect [ 82.69291
  345.7736
@@ -931,10 +931,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 94 0 R
+ /Dest [ 97 0 R
  /XYZ
  62.69291
- 229.0236
+ 675.0236
  0 ]
  /Rect [ 521.4627
  345.7736
@@ -949,10 +949,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 95 0 R
+ /Dest [ 97 0 R
  /XYZ
  62.69291
- 546.6236
+ 329.4236
  0 ]
  /Rect [ 82.69291
  327.7736
@@ -967,10 +967,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 95 0 R
+ /Dest [ 97 0 R
  /XYZ
  62.69291
- 546.6236
+ 329.4236
  0 ]
  /Rect [ 521.4627
  327.7736
@@ -985,10 +985,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 95 0 R
+ /Dest [ 97 0 R
  /XYZ
  62.69291
- 408.6236
+ 191.4236
  0 ]
  /Rect [ 102.6929
  309.7736
@@ -1003,10 +1003,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 95 0 R
+ /Dest [ 97 0 R
  /XYZ
  62.69291
- 408.6236
+ 191.4236
  0 ]
  /Rect [ 521.4627
  309.7736
@@ -1021,10 +1021,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 110 0 R
+ /Dest [ 104 0 R
  /XYZ
  62.69291
- 579.8236
+ 377.4236
  0 ]
  /Rect [ 102.6929
  291.7736
@@ -1039,10 +1039,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 110 0 R
+ /Dest [ 104 0 R
  /XYZ
  62.69291
- 579.8236
+ 377.4236
  0 ]
  /Rect [ 521.4627
  291.7736
@@ -1057,14 +1057,14 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 110 0 R
+ /Dest [ 104 0 R
  /XYZ
  62.69291
- 394.4236
+ 189.2236
  0 ]
- /Rect [ 62.69291
+ /Rect [ 102.6929
  273.7736
- 130.5029
+ 213.8629
  285.7736 ]
  /Subtype /Link
  /Type /Annot >>
@@ -1075,10 +1075,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 110 0 R
+ /Dest [ 104 0 R
  /XYZ
  62.69291
- 394.4236
+ 189.2236
  0 ]
  /Rect [ 521.4627
  273.7736
@@ -1087,8 +1087,44 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Page2': class PDFPage 
+% 'Annot.NUMBER59': class LinkAnnotation 
 64 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 113 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 62.69291
+ 255.7736
+ 130.5029
+ 267.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER60': class LinkAnnotation 
+65 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 113 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 521.4627
+ 255.7736
+ 532.5827
+ 267.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page2': class PDFPage 
+66 0 obj
 % Page dictionary
 << /Annots [ 12 0 R
  13 0 R
@@ -1141,13 +1177,15 @@ endobj
  60 0 R
  61 0 R
  62 0 R
- 63 0 R ]
- /Contents 142 0 R
+ 63 0 R
+ 64 0 R
+ 65 0 R ]
+ /Contents 146 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 140 0 R
+ /Parent 144 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1158,8 +1196,8 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'Annot.NUMBER59': class PDFDictionary 
-65 0 obj
+% 'Annot.NUMBER61': class PDFDictionary 
+67 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (https://www.virtualbox.org/) >>
@@ -1173,8 +1211,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER60': class PDFDictionary 
-66 0 obj
+% 'Annot.NUMBER62': class PDFDictionary 
+68 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://virtualboxes.org/images/centos/) >>
@@ -1188,8 +1226,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER61': class PDFDictionary 
-67 0 obj
+% 'Annot.NUMBER63': class PDFDictionary 
+69 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://sourceforge.net/projects/virtualboximage/files/CentOS/6.3/CentOS-6.3-x86.7z) >>
@@ -1203,8 +1241,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER62': class PDFDictionary 
-68 0 obj
+% 'Annot.NUMBER64': class PDFDictionary 
+70 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://sourceforge.net/projects/virtualboximage/files/CentOS/5.7/CentOS-5.7-i386.7z) >>
@@ -1218,8 +1256,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER63': class PDFDictionary 
-69 0 obj
+% 'Annot.NUMBER65': class PDFDictionary 
+71 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://omdistro.org/) >>
@@ -1233,8 +1271,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER64': class PDFDictionary 
-70 0 obj
+% 'Annot.NUMBER66': class PDFDictionary 
+72 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://mathias-kettner.com/check_mk.html) >>
@@ -1248,8 +1286,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER65': class PDFDictionary 
-71 0 obj
+% 'Annot.NUMBER67': class PDFDictionary 
+73 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://virtualboxes.org/images/centos/) >>
@@ -1263,8 +1301,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER66': class PDFDictionary 
-72 0 obj
+% 'Annot.NUMBER68': class PDFDictionary 
+74 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://sourceforge.net/projects/virtualboximage/files/CentOS/5.7/CentOS-5.7-i386.7z) >>
@@ -1278,8 +1316,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER67': class PDFDictionary 
-73 0 obj
+% 'Annot.NUMBER69': class PDFDictionary 
+75 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://sourceforge.net/projects/virtualboximage/files/CentOS/6.3/CentOS-6.3-x86.7z) >>
@@ -1294,7 +1332,7 @@ endobj
  /Type /Annot >>
 endobj
 % 'F4': class PDFType1Font 
-74 0 obj
+76 0 obj
 % Font Courier
 << /BaseFont /Courier
  /Encoding /WinAnsiEncoding
@@ -1303,7 +1341,7 @@ endobj
  /Type /Font >>
 endobj
 % 'F5': class PDFType1Font 
-75 0 obj
+77 0 obj
 % Font Helvetica-BoldOblique
 << /BaseFont /Helvetica-BoldOblique
  /Encoding /WinAnsiEncoding
@@ -1312,23 +1350,23 @@ endobj
  /Type /Font >>
 endobj
 % 'Page3': class PDFPage 
-76 0 obj
+78 0 obj
 % Page dictionary
-<< /Annots [ 65 0 R
- 66 0 R
- 67 0 R
+<< /Annots [ 67 0 R
  68 0 R
  69 0 R
  70 0 R
  71 0 R
  72 0 R
- 73 0 R ]
- /Contents 143 0 R
+ 73 0 R
+ 74 0 R
+ 75 0 R ]
+ /Contents 147 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 140 0 R
+ /Parent 144 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1340,14 +1378,14 @@ endobj
  /Type /Page >>
 endobj
 % 'Page4': class PDFPage 
-77 0 obj
+79 0 obj
 % Page dictionary
-<< /Contents 144 0 R
+<< /Contents 148 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 140 0 R
+ /Parent 144 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1358,8 +1396,8 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'Annot.NUMBER68': class PDFDictionary 
-78 0 obj
+% 'Annot.NUMBER70': class PDFDictionary 
+80 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (mailto:user@domain) >>
@@ -1373,8 +1411,8 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER69': class PDFDictionary 
-79 0 obj
+% 'Annot.NUMBER71': class PDFDictionary 
+81 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://blog.earth-works.com/2013/05/14/postfix-relay-using-gmail-on-centos/) >>
@@ -1389,67 +1427,16 @@ endobj
  /Type /Annot >>
 endobj
 % 'Page5': class PDFPage 
-80 0 obj
-% Page dictionary
-<< /Annots [ 78 0 R
- 79 0 R ]
- /Contents 145 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 140 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
-endobj
-% 'Annot.NUMBER70': class PDFDictionary 
-81 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://omdistro.org/doc/quickstart_redhat) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 62.69291
- 529.9687
- 249.594
- 541.9687 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER71': class PDFDictionary 
 82 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (https://labs.consol.de/repo/stable) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 78.69291
- 293.8087
- 224.8829
- 305.8087 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Page6': class PDFPage 
-83 0 obj
 % Page dictionary
-<< /Annots [ 81 0 R
- 82 0 R ]
- /Contents 146 0 R
+<< /Annots [ 80 0 R
+ 81 0 R ]
+ /Contents 149 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 140 0 R
+ /Parent 144 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1461,21 +1448,36 @@ endobj
  /Type /Page >>
 endobj
 % 'Annot.NUMBER72': class PDFDictionary 
-84 0 obj
+83 0 obj
 << /A << /S /URI
  /Type /Action
- /URI (http://mathias-kettner.com/checkmk_install_with_omd.html) >>
+ /URI (http://omdistro.org/doc/quickstart_redhat) >>
  /Border [ 0
  0
  0 ]
- /Rect [ 206.1029
- 729.7736
- 465.0729
- 741.7736 ]
+ /Rect [ 62.69291
+ 432.9687
+ 249.594
+ 444.9687 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
 % 'Annot.NUMBER73': class PDFDictionary 
+84 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (https://labs.consol.de/repo/stable) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 78.69291
+ 196.8087
+ 224.8829
+ 208.8087 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER74': class PDFDictionary 
 85 0 obj
 << /A << /S /URI
  /Type /Action
@@ -1483,30 +1485,67 @@ endobj
  /Border [ 0
  0
  0 ]
- /Rect [ 62.69291
- 622.5736
- 328.1329
- 634.5736 ]
+ /Rect [ 153.8529
+ 102.8087
+ 412.8229
+ 114.8087 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER74': class PDFDictionary 
+% 'Page6': class PDFPage 
 86 0 obj
+% Page dictionary
+<< /Annots [ 83 0 R
+ 84 0 R
+ 85 0 R ]
+ /Contents 150 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 144 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER75': class PDFDictionary 
+87 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://mathias-kettner.com/checkmk_install_with_omd.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 500.3736
+ 328.1329
+ 512.3736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER76': class PDFDictionary 
+88 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://localhost/test) >>
  /Border [ 0
  0
  0 ]
- /Rect [ 62.69291
- 458.5736
- 146.0729
- 470.5736 ]
+ /Rect [ 143.7635
+ 336.3736
+ 227.1435
+ 348.3736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER75': class PDFDictionary 
-87 0 obj
+% 'Annot.NUMBER77': class PDFDictionary 
+89 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://192.168.56.10) >>
@@ -1514,25 +1553,24 @@ endobj
  0
  0 ]
  /Rect [ 287.0578
- 268.1736
+ 121.9736
  380.3227
- 280.1736 ]
+ 133.9736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
 % 'Page7': class PDFPage 
-88 0 obj
+90 0 obj
 % Page dictionary
-<< /Annots [ 84 0 R
- 85 0 R
- 86 0 R
- 87 0 R ]
- /Contents 147 0 R
+<< /Annots [ 87 0 R
+ 88 0 R
+ 89 0 R ]
+ /Contents 151 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 140 0 R
+ /Parent 144 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1544,14 +1582,14 @@ endobj
  /Type /Page >>
 endobj
 % 'Page8': class PDFPage 
-89 0 obj
+91 0 obj
 % Page dictionary
-<< /Contents 148 0 R
+<< /Contents 152 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 140 0 R
+ /Parent 144 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1563,14 +1601,14 @@ endobj
  /Type /Page >>
 endobj
 % 'Page9': class PDFPage 
-90 0 obj
+92 0 obj
 % Page dictionary
-<< /Contents 149 0 R
+<< /Contents 153 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 140 0 R
+ /Parent 144 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1581,8 +1619,8 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'Annot.NUMBER76': class PDFDictionary 
-91 0 obj
+% 'Annot.NUMBER78': class PDFDictionary 
+93 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://mathias-kettner.com/checkmk_configfiles.html) >>
@@ -1590,14 +1628,14 @@ endobj
  0
  0 ]
  /Rect [ 84.49002
- 349.7736
+ 152.7736
  318.0171
- 361.7736 ]
+ 164.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER77': class PDFDictionary 
-92 0 obj
+% 'Annot.NUMBER79': class PDFDictionary 
+94 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://mathias-kettner.com/checkmk_configvars.html) >>
@@ -1605,58 +1643,58 @@ endobj
  0
  0 ]
  /Rect [ 144.8595
- 337.7736
+ 140.7736
  380.8284
- 349.7736 ]
+ 152.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER78': class PDFDictionary 
-93 0 obj
+% 'Page10': class PDFPage 
+95 0 obj
+% Page dictionary
+<< /Annots [ 93 0 R
+ 94 0 R ]
+ /Contents 154 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 144 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER80': class PDFDictionary 
+96 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://mathias-kettner.com/checkmk_calling.html) >>
  /Border [ 0
  0
  0 ]
- /Rect [ 62.69291
- 241.7736
- 276.0929
- 253.7736 ]
+ /Rect [ 296.1329
+ 687.7736
+ 509.5329
+ 699.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Page10': class PDFPage 
-94 0 obj
-% Page dictionary
-<< /Annots [ 91 0 R
- 92 0 R
- 93 0 R ]
- /Contents 150 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 140 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
-endobj
 % 'Page11': class PDFPage 
-95 0 obj
+97 0 obj
 % Page dictionary
-<< /Contents 151 0 R
+<< /Annots [ 96 0 R ]
+ /Contents 155 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 140 0 R
+ /Parent 144 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1667,23 +1705,23 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'Annot.NUMBER79': class PDFDictionary 
-96 0 obj
+% 'Annot.NUMBER81': class PDFDictionary 
+98 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://mathias-kettner.com/checkmk_hosttags.html) >>
  /Border [ 0
  0
  0 ]
- /Rect [ 86.74511
- 589.3736
- 309.6051
- 601.3736 ]
+ /Rect [ 86.68178
+ 385.3736
+ 309.5418
+ 397.3736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER80': class PDFDictionary 
-97 0 obj
+% 'Annot.NUMBER82': class PDFDictionary 
+99 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://mathias-kettner.com/checkmk_inventory.html) >>
@@ -1691,14 +1729,14 @@ endobj
  0
  0 ]
  /Rect [ 62.69291
- 416.1736
+ 212.1736
  288.3229
- 428.1736 ]
+ 224.1736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER81': class PDFDictionary 
-98 0 obj
+% 'Annot.NUMBER83': class PDFDictionary 
+100 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://mathias-kettner.com/checkmk_inventory.html) >>
@@ -1706,24 +1744,24 @@ endobj
  0
  0 ]
  /Rect [ 104.3829
- 207.7736
+ 98.97362
  330.0129
- 219.7736 ]
+ 110.9736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
 % 'Page12': class PDFPage 
-99 0 obj
+101 0 obj
 % Page dictionary
-<< /Annots [ 96 0 R
- 97 0 R
- 98 0 R ]
- /Contents 152 0 R
+<< /Annots [ 98 0 R
+ 99 0 R
+ 100 0 R ]
+ /Contents 156 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 140 0 R
+ /Parent 144 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1734,8 +1772,8 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'Annot.NUMBER82': class PDFDictionary 
-100 0 obj
+% 'Annot.NUMBER84': class PDFDictionary 
+102 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://mathias-kettner.com/checkmk_check_parameters.html) >>
@@ -1743,39 +1781,9 @@ endobj
  0
  0 ]
  /Rect [ 224.4229
- 729.7736
+ 527.3736
  491.7329
- 741.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER83': class PDFDictionary 
-101 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://mathias-kettner.com/checkmk_configvars.html) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 62.69291
- 592.5736
- 293.3229
- 604.5736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER84': class PDFDictionary 
-102 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (https://www.virtualbox.org/) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 344.6429
- 329.1736
- 461.9029
- 341.1736 ]
+ 539.3736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1783,126 +1791,28 @@ endobj
 103 0 obj
 << /A << /S /URI
  /Type /Action
- /URI (http://virtualboxes.org/images/centos/) >>
+ /URI (http://mathias-kettner.com/checkmk_configvars.html) >>
  /Border [ 0
  0
  0 ]
- /Rect [ 324.1029
- 311.1736
- 489.7329
- 323.1736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER86': class PDFDictionary 
-104 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://www.nagios.org/) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 131.8129
- 269.1736
- 230.7429
- 281.1736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER87': class PDFDictionary 
-105 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://nagios.sourceforge.net/docs/nagioscore/3/en/toc.html) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 211.8429
- 251.1736
- 474.2029
- 263.1736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER88': class PDFDictionary 
-106 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://exchange.nagios.org/) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 394.1629
- 233.1736
- 514.7929
- 245.1736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER89': class PDFDictionary 
-107 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://mathias-kettner.com/check_mk.html) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 131.8129
- 173.1736
- 316.8729
- 185.1736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER90': class PDFDictionary 
-108 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://mathias-kettner.com/checkmk.html) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 211.8429
- 155.1736
- 391.3429
- 167.1736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER91': class PDFDictionary 
-109 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://omdistro.org/) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 131.8129
- 113.1736
- 215.1829
- 125.1736 ]
+ /Rect [ 62.69291
+ 390.1736
+ 293.3229
+ 402.1736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
 % 'Page13': class PDFPage 
-110 0 obj
+104 0 obj
 % Page dictionary
-<< /Annots [ 100 0 R
- 101 0 R
- 102 0 R
- 103 0 R
- 104 0 R
- 105 0 R
- 106 0 R
- 107 0 R
- 108 0 R
- 109 0 R ]
- /Contents 153 0 R
+<< /Annots [ 102 0 R
+ 103 0 R ]
+ /Contents 157 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 140 0 R
+ /Parent 144 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1913,371 +1823,531 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'R111': class PDFCatalog 
+% 'Annot.NUMBER86': class PDFDictionary 
+105 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (https://www.virtualbox.org/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 344.6429
+ 699.7736
+ 461.9029
+ 711.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER87': class PDFDictionary 
+106 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://virtualboxes.org/images/centos/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 324.1029
+ 681.7736
+ 489.7329
+ 693.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER88': class PDFDictionary 
+107 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nagios.org/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 131.8129
+ 639.7736
+ 230.7429
+ 651.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER89': class PDFDictionary 
+108 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://nagios.sourceforge.net/docs/nagioscore/3/en/toc.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 211.8429
+ 621.7736
+ 474.2029
+ 633.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER90': class PDFDictionary 
+109 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://exchange.nagios.org/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 394.1629
+ 603.7736
+ 514.7929
+ 615.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER91': class PDFDictionary 
+110 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://mathias-kettner.com/check_mk.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 131.8129
+ 543.7736
+ 316.8729
+ 555.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER92': class PDFDictionary 
 111 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://mathias-kettner.com/checkmk.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 211.8429
+ 525.7736
+ 391.3429
+ 537.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER93': class PDFDictionary 
+112 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://omdistro.org/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 131.8129
+ 483.7736
+ 215.1829
+ 495.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page14': class PDFPage 
+113 0 obj
+% Page dictionary
+<< /Annots [ 105 0 R
+ 106 0 R
+ 107 0 R
+ 108 0 R
+ 109 0 R
+ 110 0 R
+ 111 0 R
+ 112 0 R ]
+ /Contents 158 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 144 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R114': class PDFCatalog 
+114 0 obj
 % Document Root
-<< /Outlines 113 0 R
- /PageLabels 154 0 R
+<< /Outlines 116 0 R
+ /PageLabels 159 0 R
  /PageMode /UseNone
- /Pages 140 0 R
+ /Pages 144 0 R
  /Type /Catalog >>
 endobj
-% 'R112': class PDFInfo 
-112 0 obj
+% 'R115': class PDFInfo 
+115 0 obj
 << /Author ()
- /CreationDate (D:20140112000224-01'00')
+ /CreationDate (D:20140112014202-01'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
  /Subject (\(unspecified\))
  /Title (System monitoring with Open Monitoring Distribution \(OMD\), hands-on tutorial) >>
 endobj
-% 'R113': class PDFOutlines 
-113 0 obj
-<< /Count 34
- /First 114 0 R
- /Last 139 0 R
+% 'R116': class PDFOutlines 
+116 0 obj
+<< /Count 35
+ /First 117 0 R
+ /Last 143 0 R
  /Type /Outlines >>
 endobj
 % 'Outline.0': class OutlineEntryObject 
-114 0 obj
-<< /Dest [ 76 0 R
+117 0 obj
+<< /Dest [ 78 0 R
  /XYZ
  62.69291
  765.0236
  0 ]
- /Next 115 0 R
- /Parent 113 0 R
+ /Next 118 0 R
+ /Parent 116 0 R
  /Title (\376\377\0001\000\240\000\240\000\240\000R\000e\000q\000u\000i\000r\000e\000d\000 \000s\000o\000f\000t\000w\000a\000r\000e) >>
 endobj
 % 'Outline.1': class OutlineEntryObject 
-115 0 obj
+118 0 obj
 << /Count 1
- /Dest [ 76 0 R
+ /Dest [ 78 0 R
  /XYZ
  62.69291
  492.0236
  0 ]
- /First 116 0 R
- /Last 116 0 R
- /Next 117 0 R
- /Parent 113 0 R
- /Prev 114 0 R
+ /First 119 0 R
+ /Last 119 0 R
+ /Next 120 0 R
+ /Parent 116 0 R
+ /Prev 117 0 R
  /Title (\376\377\0002\000\240\000\240\000\240\000V\000i\000r\000t\000u\000a\000l\000B\000o\000x\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
 endobj
-% 'Outline.27.0': class OutlineEntryObject 
-116 0 obj
-<< /Dest [ 77 0 R
+% 'Outline.28.0': class OutlineEntryObject 
+119 0 obj
+<< /Dest [ 79 0 R
  /XYZ
  62.69291
  703.0236
  0 ]
- /Parent 115 0 R
+ /Parent 118 0 R
  /Title (\376\377\0002\000.\0001\000\240\000\240\000\240\000I\000n\000t\000e\000r\000n\000a\000l\000 \000n\000e\000t\000w\000o\000r\000k\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
 endobj
 % 'Outline.2': class OutlineEntryObject 
-117 0 obj
+120 0 obj
 << /Count 7
- /Dest [ 77 0 R
+ /Dest [ 79 0 R
  /XYZ
  62.69291
  394.0236
  0 ]
- /First 118 0 R
- /Last 122 0 R
- /Next 125 0 R
- /Parent 113 0 R
- /Prev 115 0 R
- /Title (\376\377\0003\000\240\000\240\000\240\000M\000o\000n\000i\000t\000o\000r\000i\000n\000g\000 \000S\000e\000r\000v\000e\000r\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n\000 \000a\000n\000d\000 \000N\000a\000g\000i\000o\000s\000 \000/\000 \000O\000M\000D\000 \000i\000n\000s\000t\000a\000l\000l) >>
+ /First 121 0 R
+ /Last 125 0 R
+ /Next 128 0 R
+ /Parent 116 0 R
+ /Prev 118 0 R
+ /Title (\376\377\0003\000\240\000\240\000\240\000M\000o\000n\000i\000t\000o\000r\000i\000n\000g\000 \000S\000e\000r\000v\000e\000r\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n\000 \000a\000n\000d\000 \000O\000M\000D\000 \000i\000n\000s\000t\000a\000l\000l) >>
 endobj
-% 'Outline.28.0': class OutlineEntryObject 
-118 0 obj
-<< /Dest [ 77 0 R
+% 'Outline.29.0': class OutlineEntryObject 
+121 0 obj
+<< /Dest [ 79 0 R
  /XYZ
  62.69291
- 340.0236
+ 361.0236
  0 ]
- /Next 119 0 R
- /Parent 117 0 R
+ /Next 122 0 R
+ /Parent 120 0 R
  /Title (\376\377\0003\000.\0001\000\240\000\240\000\240\000N\000e\000t\000w\000o\000r\000k\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
 endobj
-% 'Outline.28.1': class OutlineEntryObject 
-119 0 obj
+% 'Outline.29.1': class OutlineEntryObject 
+122 0 obj
 << /Count 1
- /Dest [ 80 0 R
+ /Dest [ 82 0 R
  /XYZ
  62.69291
  727.8236
  0 ]
- /First 120 0 R
- /Last 120 0 R
- /Next 121 0 R
- /Parent 117 0 R
- /Prev 118 0 R
+ /First 123 0 R
+ /Last 123 0 R
+ /Next 124 0 R
+ /Parent 120 0 R
+ /Prev 121 0 R
  /Title (\376\377\0003\000.\0002\000\240\000\240\000\240\000e\000m\000a\000i\000l\000 \000s\000e\000n\000d\000i\000n\000g\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
 endobj
-% 'Outline.29.0': class OutlineEntryObject 
-120 0 obj
-<< /Dest [ 80 0 R
+% 'Outline.30.0': class OutlineEntryObject 
+123 0 obj
+<< /Dest [ 82 0 R
  /XYZ
  62.69291
  501.6236
  0 ]
- /Parent 119 0 R
+ /Parent 122 0 R
  /Title (\376\377\0003\000.\0002\000.\0001\000\240\000\240\000\240\000P\000o\000s\000t\000f\000i\000x\000 \000r\000e\000l\000a\000y\000 \000u\000s\000i\000n\000g\000 \000G\000m\000a\000i\000l) >>
 endobj
-% 'Outline.28.2': class OutlineEntryObject 
-121 0 obj
-<< /Dest [ 83 0 R
+% 'Outline.29.2': class OutlineEntryObject 
+124 0 obj
+<< /Dest [ 86 0 R
  /XYZ
  62.69291
- 577.2187
+ 480.2187
  0 ]
- /Next 122 0 R
- /Parent 117 0 R
- /Prev 119 0 R
+ /Next 125 0 R
+ /Parent 120 0 R
+ /Prev 122 0 R
  /Title (\376\377\0003\000.\0003\000\240\000\240\000\240\000O\000M\000D\000 \000i\000n\000s\000t\000a\000l\000l\000a\000t\000i\000o\000n) >>
 endobj
-% 'Outline.28.3': class OutlineEntryObject 
-122 0 obj
-<< /Count 2
- /Dest [ 83 0 R
- /XYZ
- 62.69291
- 259.0587
- 0 ]
- /First 123 0 R
- /Last 124 0 R
- /Parent 117 0 R
- /Prev 121 0 R
- /Title (\376\377\0003\000.\0004\000\240\000\240\000\240\000O\000M\000D\000 \000i\000n\000i\000t\000i\000a\000l\000 \000s\000e\000t\000u\000p) >>
-endobj
-% 'Outline.30.0': class OutlineEntryObject 
-123 0 obj
-<< /Dest [ 83 0 R
- /XYZ
- 62.69291
- 187.0587
- 0 ]
- /Next 124 0 R
- /Parent 122 0 R
- /Title (\376\377\0003\000.\0004\000.\0001\000\240\000\240\000\240\000O\000M\000D\000 \000s\000i\000t\000e\000 \000c\000r\000e\000a\000t\000i\000o\000n\000 \000a\000n\000d\000 \000a\000c\000c\000e\000s\000s) >>
-endobj
-% 'Outline.30.1': class OutlineEntryObject 
-124 0 obj
-<< /Dest [ 88 0 R
- /XYZ
- 62.69291
- 597.8236
- 0 ]
- /Parent 122 0 R
- /Prev 123 0 R
- /Title (\376\377\0003\000.\0004\000.\0002\000\240\000\240\000\240\000W\000e\000b\000 \000s\000e\000r\000v\000e\000r\000 \000a\000c\000c\000e\000s\000s\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
-endobj
-% 'Outline.3': class OutlineEntryObject 
+% 'Outline.29.3': class OutlineEntryObject 
 125 0 obj
-<< /Count 3
- /Dest [ 88 0 R
+<< /Count 2
+ /Dest [ 86 0 R
  /XYZ
  62.69291
- 243.4236
+ 162.0587
  0 ]
  /First 126 0 R
- /Last 128 0 R
- /Next 129 0 R
- /Parent 113 0 R
- /Prev 117 0 R
- /Title (\376\377\0004\000\240\000\240\000\240\000M\000o\000n\000i\000t\000o\000r\000i\000z\000e\000d\000 \000s\000y\000s\000t\000e\000m\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
+ /Last 127 0 R
+ /Parent 120 0 R
+ /Prev 124 0 R
+ /Title (\376\377\0003\000.\0004\000\240\000\240\000\240\000O\000M\000D\000 \000i\000n\000i\000t\000i\000a\000l\000 \000s\000e\000t\000u\000p) >>
 endobj
 % 'Outline.31.0': class OutlineEntryObject 
 126 0 obj
-<< /Dest [ 88 0 R
+<< /Dest [ 90 0 R
  /XYZ
  62.69291
- 192.4236
+ 717.0236
  0 ]
  /Next 127 0 R
  /Parent 125 0 R
- /Title (\376\377\0004\000.\0001\000\240\000\240\000\240\000N\000e\000t\000w\000o\000r\000k\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
+ /Title (\376\377\0003\000.\0004\000.\0001\000\240\000\240\000\240\000O\000M\000D\000 \000s\000i\000t\000e\000 \000c\000r\000e\000a\000t\000i\000o\000n\000 \000a\000n\000d\000 \000a\000c\000c\000e\000s\000s) >>
 endobj
 % 'Outline.31.1': class OutlineEntryObject 
 127 0 obj
-<< /Dest [ 89 0 R
+<< /Dest [ 90 0 R
  /XYZ
  62.69291
- 602.6236
+ 475.6236
  0 ]
- /Next 128 0 R
  /Parent 125 0 R
  /Prev 126 0 R
- /Title (\376\377\0004\000.\0002\000\240\000\240\000\240\000c\000h\000e\000c\000k\000_\000m\000k\000 \000a\000g\000e\000n\000t\000 \000i\000n\000s\000t\000a\000l\000l\000a\000t\000i\000o\000n) >>
+ /Title (\376\377\0003\000.\0004\000.\0002\000\240\000\240\000\240\000M\000u\000l\000t\000i\000s\000i\000t\000e\000 \000w\000e\000b\000 \000i\000n\000t\000e\000r\000f\000a\000c\000e\000 \000a\000c\000c\000e\000s\000s\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
 endobj
-% 'Outline.31.2': class OutlineEntryObject 
+% 'Outline.3': class OutlineEntryObject 
 128 0 obj
-<< /Dest [ 89 0 R
- /XYZ
- 62.69291
- 313.2595
- 0 ]
- /Parent 125 0 R
- /Prev 127 0 R
- /Title (\376\377\0004\000.\0003\000\240\000\240\000\240\000H\000a\000r\000d\000 \000d\000i\000s\000k\000 \000m\000o\000n\000i\000t\000o\000r\000i\000n\000g\000 \000w\000i\000t\000h\000 \000S\000.\000M\000.\000A\000.\000R\000.\000T\000.) >>
-endobj
-% 'Outline.4': class OutlineEntryObject 
-129 0 obj
-<< /Count 4
- /Dest [ 90 0 R
+<< /Count 3
+ /Dest [ 91 0 R
  /XYZ
  62.69291
  765.0236
  0 ]
- /First 130 0 R
- /Last 133 0 R
- /Next 134 0 R
- /Parent 113 0 R
- /Prev 125 0 R
- /Title (\376\377\0005\000\240\000\240\000\240\000B\000a\000s\000i\000c\000 \000C\000h\000e\000c\000k\000_\000M\000K\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
+ /First 129 0 R
+ /Last 131 0 R
+ /Next 132 0 R
+ /Parent 116 0 R
+ /Prev 120 0 R
+ /Title (\376\377\0004\000\240\000\240\000\240\000M\000o\000n\000i\000t\000o\000r\000i\000z\000e\000d\000 \000s\000y\000s\000t\000e\000m\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
 endobj
 % 'Outline.32.0': class OutlineEntryObject 
-130 0 obj
-<< /Dest [ 90 0 R
+129 0 obj
+<< /Dest [ 91 0 R
  /XYZ
  62.69291
- 660.0236
+ 714.0236
  0 ]
- /Next 131 0 R
- /Parent 129 0 R
- /Title (\376\377\0005\000.\0001\000\240\000\240\000\240\000U\000s\000e\000r\000 \000c\000r\000e\000a\000t\000i\000o\000n) >>
+ /Next 130 0 R
+ /Parent 128 0 R
+ /Title (\376\377\0004\000.\0001\000\240\000\240\000\240\000N\000e\000t\000w\000o\000r\000k\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
 endobj
 % 'Outline.32.1': class OutlineEntryObject 
-131 0 obj
-<< /Dest [ 90 0 R
+130 0 obj
+<< /Dest [ 91 0 R
  /XYZ
  62.69291
- 450.8236
+ 471.6236
  0 ]
- /Next 132 0 R
- /Parent 129 0 R
- /Prev 130 0 R
- /Title (\376\377\0005\000.\0002\000\240\000\240\000\240\000I\000n\000t\000e\000g\000r\000a\000t\000i\000o\000n\000 \000\(\000i\000n\000v\000e\000n\000t\000o\000r\000y\000\)\000 \000o\000f\000 \000t\000h\000e\000 \000n\000e\000w\000 \000h\000o\000s\000t\000 \000t\000o\000 \000b\000e\000 \000m\000o\000n\000i\000t\000o\000r\000e\000d) >>
+ /Next 131 0 R
+ /Parent 128 0 R
+ /Prev 129 0 R
+ /Title (\376\377\0004\000.\0002\000\240\000\240\000\240\000c\000h\000e\000c\000k\000_\000m\000k\000 \000a\000g\000e\000n\000t\000 \000i\000n\000s\000t\000a\000l\000l\000a\000t\000i\000o\000n) >>
 endobj
 % 'Outline.32.2': class OutlineEntryObject 
-132 0 obj
-<< /Dest [ 90 0 R
+131 0 obj
+<< /Dest [ 91 0 R
  /XYZ
  62.69291
- 184.4236
+ 182.2595
  0 ]
- /Next 133 0 R
- /Parent 129 0 R
- /Prev 131 0 R
- /Title (\376\377\0005\000.\0003\000\240\000\240\000\240\000R\000e\000i\000n\000v\000e\000n\000t\000o\000r\000i\000n\000g) >>
+ /Parent 128 0 R
+ /Prev 130 0 R
+ /Title (\376\377\0004\000.\0003\000\240\000\240\000\240\000H\000a\000r\000d\000 \000d\000i\000s\000k\000 \000m\000o\000n\000i\000t\000o\000r\000i\000n\000g\000 \000w\000i\000t\000h\000 \000S\000.\000M\000.\000A\000.\000R\000.\000T\000.) >>
 endobj
-% 'Outline.32.3': class OutlineEntryObject 
+% 'Outline.4': class OutlineEntryObject 
+132 0 obj
+<< /Count 4
+ /Dest [ 92 0 R
+ /XYZ
+ 62.69291
+ 659.8236
+ 0 ]
+ /First 133 0 R
+ /Last 136 0 R
+ /Next 137 0 R
+ /Parent 116 0 R
+ /Prev 128 0 R
+ /Title (\376\377\0005\000\240\000\240\000\240\000B\000a\000s\000i\000c\000 \000C\000h\000e\000c\000k\000_\000M\000K\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
+endobj
+% 'Outline.33.0': class OutlineEntryObject 
 133 0 obj
-<< /Dest [ 94 0 R
+<< /Dest [ 92 0 R
+ /XYZ
+ 62.69291
+ 554.8236
+ 0 ]
+ /Next 134 0 R
+ /Parent 132 0 R
+ /Title (\376\377\0005\000.\0001\000\240\000\240\000\240\000U\000s\000e\000r\000 \000c\000r\000e\000a\000t\000i\000o\000n) >>
+endobj
+% 'Outline.33.1': class OutlineEntryObject 
+134 0 obj
+<< /Dest [ 92 0 R
+ /XYZ
+ 62.69291
+ 345.6236
+ 0 ]
+ /Next 135 0 R
+ /Parent 132 0 R
+ /Prev 133 0 R
+ /Title (\376\377\0005\000.\0002\000\240\000\240\000\240\000I\000n\000t\000e\000g\000r\000a\000t\000i\000o\000n\000 \000\(\000i\000n\000v\000e\000n\000t\000o\000r\000y\000\)\000 \000o\000f\000 \000t\000h\000e\000 \000n\000e\000w\000 \000h\000o\000s\000t\000 \000t\000o\000 \000b\000e\000 \000m\000o\000n\000i\000t\000o\000r\000e\000d) >>
+endobj
+% 'Outline.33.2': class OutlineEntryObject 
+135 0 obj
+<< /Dest [ 95 0 R
  /XYZ
  62.69291
  664.0236
  0 ]
- /Parent 129 0 R
- /Prev 132 0 R
- /Title (\376\377\0005\000.\0004\000\240\000\240\000\240\000e\000m\000a\000i\000l\000 \000n\000o\000t\000i\000f\000i\000c\000a\000t\000i\000o\000n\000 \000t\000e\000s\000t) >>
-endobj
-% 'Outline.5': class OutlineEntryObject 
-134 0 obj
-<< /Count 4
- /Dest [ 94 0 R
- /XYZ
- 62.69291
- 556.0236
- 0 ]
- /First 135 0 R
- /Last 136 0 R
- /Next 139 0 R
- /Parent 113 0 R
- /Prev 129 0 R
- /Title (\376\377\0006\000\240\000\240\000\240\000A\000d\000v\000a\000n\000c\000e\000d\000 \000C\000h\000e\000c\000k\000_\000M\000K\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
-endobj
-% 'Outline.33.0': class OutlineEntryObject 
-135 0 obj
-<< /Dest [ 94 0 R
- /XYZ
- 62.69291
- 229.0236
- 0 ]
  /Next 136 0 R
- /Parent 134 0 R
- /Title (\376\377\0006\000.\0001\000\240\000\240\000\240\000M\000a\000n\000u\000a\000l\000l\000y\000 \000c\000o\000n\000f\000i\000g\000u\000r\000e\000 \000V\000i\000r\000t\000u\000a\000l\000B\000o\000x\000 \000h\000o\000s\000t\000 \000m\000o\000n\000i\000t\000o\000r\000i\000n\000g) >>
+ /Parent 132 0 R
+ /Prev 134 0 R
+ /Title (\376\377\0005\000.\0003\000\240\000\240\000\240\000R\000e\000i\000n\000v\000e\000n\000t\000o\000r\000i\000n\000g) >>
 endobj
-% 'Outline.33.1': class OutlineEntryObject 
+% 'Outline.33.3': class OutlineEntryObject 
 136 0 obj
-<< /Count 2
- /Dest [ 95 0 R
- /XYZ
- 62.69291
- 546.6236
- 0 ]
- /First 137 0 R
- /Last 138 0 R
- /Parent 134 0 R
- /Prev 135 0 R
- /Title (\376\377\0006\000.\0002\000\240\000\240\000\240\000T\000w\000o\000 \000n\000o\000d\000e\000 \000H\000P\000C\000 \000c\000l\000u\000s\000t\000e\000r\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
-endobj
-% 'Outline.34.0': class OutlineEntryObject 
-137 0 obj
 << /Dest [ 95 0 R
  /XYZ
  62.69291
- 408.6236
+ 467.0236
  0 ]
- /Next 138 0 R
- /Parent 136 0 R
- /Title (\376\377\0006\000.\0002\000.\0001\000\240\000\240\000\240\000C\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n\000 \000f\000i\000l\000e) >>
+ /Parent 132 0 R
+ /Prev 135 0 R
+ /Title (\376\377\0005\000.\0004\000\240\000\240\000\240\000e\000m\000a\000i\000l\000 \000n\000o\000t\000i\000f\000i\000c\000a\000t\000i\000o\000n\000 \000t\000e\000s\000t) >>
+endobj
+% 'Outline.5': class OutlineEntryObject 
+137 0 obj
+<< /Count 5
+ /Dest [ 95 0 R
+ /XYZ
+ 62.69291
+ 359.0236
+ 0 ]
+ /First 138 0 R
+ /Last 139 0 R
+ /Next 143 0 R
+ /Parent 116 0 R
+ /Prev 132 0 R
+ /Title (\376\377\0006\000\240\000\240\000\240\000A\000d\000v\000a\000n\000c\000e\000d\000 \000C\000h\000e\000c\000k\000_\000M\000K\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
+endobj
+% 'Outline.34.0': class OutlineEntryObject 
+138 0 obj
+<< /Dest [ 97 0 R
+ /XYZ
+ 62.69291
+ 675.0236
+ 0 ]
+ /Next 139 0 R
+ /Parent 137 0 R
+ /Title (\376\377\0006\000.\0001\000\240\000\240\000\240\000M\000a\000n\000u\000a\000l\000l\000y\000 \000c\000o\000n\000f\000i\000g\000u\000r\000e\000 \000V\000i\000r\000t\000u\000a\000l\000B\000o\000x\000 \000h\000o\000s\000t\000 \000m\000o\000n\000i\000t\000o\000r\000i\000n\000g) >>
 endobj
 % 'Outline.34.1': class OutlineEntryObject 
-138 0 obj
-<< /Dest [ 110 0 R
+139 0 obj
+<< /Count 3
+ /Dest [ 97 0 R
  /XYZ
  62.69291
- 579.8236
+ 329.4236
  0 ]
- /Parent 136 0 R
- /Prev 137 0 R
+ /First 140 0 R
+ /Last 142 0 R
+ /Parent 137 0 R
+ /Prev 138 0 R
+ /Title (\376\377\0006\000.\0002\000\240\000\240\000\240\000T\000w\000o\000 \000n\000o\000d\000e\000 \000H\000P\000C\000 \000c\000l\000u\000s\000t\000e\000r\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
+endobj
+% 'Outline.35.0': class OutlineEntryObject 
+140 0 obj
+<< /Dest [ 97 0 R
+ /XYZ
+ 62.69291
+ 191.4236
+ 0 ]
+ /Next 141 0 R
+ /Parent 139 0 R
+ /Title (\376\377\0006\000.\0002\000.\0001\000\240\000\240\000\240\000C\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n\000 \000f\000i\000l\000e) >>
+endobj
+% 'Outline.35.1': class OutlineEntryObject 
+141 0 obj
+<< /Dest [ 104 0 R
+ /XYZ
+ 62.69291
+ 377.4236
+ 0 ]
+ /Next 142 0 R
+ /Parent 139 0 R
+ /Prev 140 0 R
  /Title (\376\377\0006\000.\0002\000.\0002\000\240\000\240\000\240\000I\000n\000v\000e\000n\000t\000o\000r\000i\000n\000g\000 \000a\000n\000d\000 \000N\000a\000g\000i\000o\000s\000 \000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n\000 \000u\000p\000d\000a\000t\000e) >>
 endobj
-% 'Outline.6': class OutlineEntryObject 
-139 0 obj
-<< /Dest [ 110 0 R
+% 'Outline.35.2': class OutlineEntryObject 
+142 0 obj
+<< /Dest [ 104 0 R
  /XYZ
  62.69291
- 394.4236
+ 189.2236
  0 ]
- /Parent 113 0 R
- /Prev 134 0 R
+ /Parent 139 0 R
+ /Prev 141 0 R
+ /Title (\376\377\0006\000.\0002\000.\0003\000\240\000\240\000\240\000P\000o\000s\000t\000-\000c\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
+endobj
+% 'Outline.6': class OutlineEntryObject 
+143 0 obj
+<< /Dest [ 113 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Parent 116 0 R
+ /Prev 137 0 R
  /Title (\376\377\0007\000\240\000\240\000\240\000R\000e\000f\000e\000r\000e\000n\000c\000e\000s) >>
 endobj
-% 'R140': class PDFPages 
-140 0 obj
+% 'R144': class PDFPages 
+144 0 obj
 % page tree
-<< /Count 13
+<< /Count 14
  /Kids [ 11 0 R
- 64 0 R
- 76 0 R
- 77 0 R
- 80 0 R
- 83 0 R
- 88 0 R
- 89 0 R
+ 66 0 R
+ 78 0 R
+ 79 0 R
+ 82 0 R
+ 86 0 R
  90 0 R
- 94 0 R
+ 91 0 R
+ 92 0 R
  95 0 R
- 99 0 R
- 110 0 R ]
+ 97 0 R
+ 101 0 R
+ 104 0 R
+ 113 0 R ]
  /Type /Pages >>
 endobj
-% 'R141': class PDFStream 
-141 0 obj
+% 'R145': class PDFStream 
+145 0 obj
 % page stream
 << /Length 2835 >>
 stream
@@ -2378,10 +2448,10 @@ Q
  
 endstream
 endobj
-% 'R142': class PDFStream 
-142 0 obj
+% 'R146': class PDFStream 
+146 0 obj
 % page stream
-<< /Length 7344 >>
+<< /Length 7609 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -2391,13 +2461,27 @@ BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Contents) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 270.0236 cm
+1 0 0 1 62.69291 252.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
-1 0 0 1 0 453 cm
+1 0 0 1 0 471 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (1   Required software) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 471 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 453 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (2   VirtualBox configuration) Tj T* ET
 Q
 Q
 q
@@ -2411,7 +2495,7 @@ Q
 q
 1 0 0 1 0 435 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (2   VirtualBox configuration) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (2.1   Internal network configuration) Tj T* ET
 Q
 Q
 q
@@ -2419,13 +2503,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 417 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (2.1   Internal network configuration) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (3   Monitoring Server configuration and OMD install) Tj T* ET
 Q
 Q
 q
@@ -2433,13 +2517,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 399 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (3   Monitoring Server configuration and Nagios / OMD install) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.1   Network configuration) Tj T* ET
 Q
 Q
 q
@@ -2447,13 +2531,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 381 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.1   Network configuration) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.2   email sending configuration) Tj T* ET
 Q
 Q
 q
@@ -2461,13 +2545,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 363 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.2   email sending configuration) Tj T* ET
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.2.1   Postfix relay using Gmail) Tj T* ET
 Q
 Q
 q
@@ -2481,7 +2565,7 @@ Q
 q
 1 0 0 1 0 345 cm
 q
-BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.2.1   Postfix relay using Gmail) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.3   OMD installation) Tj T* ET
 Q
 Q
 q
@@ -2489,13 +2573,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 327 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.3   OMD installation) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.4   OMD initial setup) Tj T* ET
 Q
 Q
 q
@@ -2509,7 +2593,7 @@ Q
 q
 1 0 0 1 0 309 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.4   OMD initial setup) Tj T* ET
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.4.1   OMD site creation and access) Tj T* ET
 Q
 Q
 q
@@ -2517,13 +2601,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 291 cm
 q
-BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.4.1   OMD site creation and access) Tj T* ET
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.4.2   Multisite web interface access configuration) Tj T* ET
 Q
 Q
 q
@@ -2531,13 +2615,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 273 cm
 q
-BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3.4.2   Web server access configuration) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (4   Monitorized system configuration) Tj T* ET
 Q
 Q
 q
@@ -2545,13 +2629,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 255 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (4   Monitorized system configuration) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (4.1   Network configuration) Tj T* ET
 Q
 Q
 q
@@ -2559,13 +2643,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 237 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (4.1   Network configuration) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (4.2   check_mk agent installation) Tj T* ET
 Q
 Q
 q
@@ -2573,13 +2657,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 219 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (4.2   check_mk agent installation) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (4.3   Hard disk monitoring with S.M.A.R.T.) Tj T* ET
 Q
 Q
 q
@@ -2593,7 +2677,7 @@ Q
 q
 1 0 0 1 0 201 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (4.3   Hard disk monitoring with S.M.A.R.T.) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (5   Basic Check_MK configuration) Tj T* ET
 Q
 Q
 q
@@ -2601,13 +2685,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 183 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (5   Basic Check_MK configuration) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (5.1   User creation) Tj T* ET
 Q
 Q
 q
@@ -2615,13 +2699,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 165 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (5.1   User creation) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (5.2   Integration \(inventory\) of the new ) Tj /F3 10 Tf (host ) Tj /F1 10 Tf (to be monitored) Tj T* ET
 Q
 Q
 q
@@ -2635,7 +2719,7 @@ Q
 q
 1 0 0 1 0 147 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (5.2   Integration \(inventory\) of the new ) Tj /F3 10 Tf (host ) Tj /F1 10 Tf (to be monitored) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (5.3   Reinventoring) Tj T* ET
 Q
 Q
 q
@@ -2643,13 +2727,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 129 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (5.3   Reinventoring) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (5.4   email notification test) Tj T* ET
 Q
 Q
 q
@@ -2657,13 +2741,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 111 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (5.4   email notification test) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (6   Advanced Check_MK configuration) Tj T* ET
 Q
 Q
 q
@@ -2671,13 +2755,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 93 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (6   Advanced Check_MK configuration) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (6.1   Manually configure VirtualBox host monitoring) Tj T* ET
 Q
 Q
 q
@@ -2685,13 +2769,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (11) Tj T* -60.88 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 75 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (6.1   Manually configure VirtualBox host monitoring) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (6.2   Two node HPC cluster configuration) Tj T* ET
 Q
 Q
 q
@@ -2699,13 +2783,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (11) Tj T* -60.88 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 57 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (6.2   Two node HPC cluster configuration) Tj T* ET
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (6.2.1   Configuration file) Tj T* ET
 Q
 Q
 q
@@ -2719,7 +2803,7 @@ Q
 q
 1 0 0 1 0 39 cm
 q
-BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (6.2.1   Configuration file) Tj T* ET
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (6.2.2   Inventoring and Nagios configuration update) Tj T* ET
 Q
 Q
 q
@@ -2727,13 +2811,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (11) Tj T* -60.88 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (13) Tj T* -60.88 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 21 cm
 q
-BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (6.2.2   Inventoring and Nagios configuration update) Tj T* ET
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (6.2.3   Post-configuration) Tj T* ET
 Q
 Q
 q
@@ -2755,14 +2839,14 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 60.88 0 Td (13) Tj T* -60.88 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 60.88 0 Td (14) Tj T* -60.88 0 Td ET
 Q
 Q
 q
 Q
 Q
 q
-1 0 0 1 62.69291 270.0236 cm
+1 0 0 1 62.69291 252.0236 cm
 Q
 q
 1 0 0 1 56.69291 56.69291 cm
@@ -2773,8 +2857,8 @@ Q
  
 endstream
 endobj
-% 'R143': class PDFStream 
-143 0 obj
+% 'R147': class PDFStream 
+147 0 obj
 % page stream
 << /Length 9154 >>
 stream
@@ -3316,10 +3400,10 @@ Q
  
 endstream
 endobj
-% 'R144': class PDFStream 
-144 0 obj
+% 'R148': class PDFStream 
+148 0 obj
 % page stream
-<< /Length 6043 >>
+<< /Length 6035 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -3365,7 +3449,7 @@ Q
 q
 1 0 0 1 62.69291 625.0236 cm
 q
-BT 1 0 0 1 0 26 Tm 7.886905 Tw 12 TL /F1 10 Tf 0 0 0 rg (First we make sure we have an internal network configured in the VirtualBox server) Tj T* 0 Tw 2.393615 Tw /F4 10 Tf (\(VirtualBox) Tj ( ) Tj (Manager) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (File) Tj ( ) Tj (|) Tj ( ) Tj (Preferences) Tj ( ) Tj (|) Tj ( ) Tj (Network) Tj ( ) Tj (|) Tj ( ) Tj (Host-only Networks) Tj ( ) Tj (\)) Tj /F1 10 Tf (.) Tj T* 0 Tw (Make sure you have:) Tj T* ET
+BT 1 0 0 1 0 26 Tm 7.886905 Tw 12 TL /F1 10 Tf 0 0 0 rg (First we make sure we have an internal network configured in the VirtualBox server) Tj T* 0 Tw 1.694147 Tw /F4 10 Tf (\() Tj ( ) Tj (VirtualBox) Tj ( ) Tj (Manager) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (File) Tj ( ) Tj (|) Tj ( ) Tj (Preferences) Tj ( ) Tj (|) Tj ( ) Tj (Network) Tj ( ) Tj (|) Tj ( ) Tj (Host-only Networks) Tj ( ) Tj (\)) Tj /F1 10 Tf (.) Tj T* 0 Tw (Make sure you have:) Tj T* ET
 Q
 Q
 q
@@ -3402,14 +3486,14 @@ Q
 q
 1 0 0 1 62.69291 544.0236 cm
 q
-BT 1 0 0 1 0 26 Tm 8.565814 Tw 12 TL /F1 10 Tf 0 0 0 rg (We also have to add a ) Tj /F4 10 Tf (Host-only) Tj ( ) Tj (Adapter ) Tj /F1 10 Tf (to each virtual machine ) Tj /F4 10 Tf (\(Virtual) Tj T* 0 Tw .925984 Tw (Machine) Tj ( ) Tj (Manager:) Tj ( ) Tj (select) Tj ( ) Tj (the) Tj ( ) Tj (VM) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (settings) Tj ( ) Tj (|) Tj ( ) Tj (network) Tj ( ) Tj (|) Tj ( ) Tj (Adapter) Tj ( ) Tj (2) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj (Enable) Tj ( ) Tj (+) Tj T* 0 Tw (attached) Tj ( ) Tj (to) Tj ( ) Tj ("Host-only) Tj ( ) Tj (Adapter"\)) Tj /F1 10 Tf (.) Tj T* ET
+BT 1 0 0 1 0 26 Tm 12.06581 Tw 12 TL /F1 10 Tf 0 0 0 rg (We also have to add a ) Tj /F4 10 Tf (Host-only) Tj ( ) Tj (Adapter ) Tj /F1 10 Tf (to each virtual machine ) Tj /F4 10 Tf (\() Tj T* 0 Tw -0.274016 Tw (VirtualBox) Tj ( ) Tj (Manager:) Tj ( ) Tj (select) Tj ( ) Tj (the) Tj ( ) Tj (VM) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (settings) Tj ( ) Tj (|) Tj ( ) Tj (network) Tj ( ) Tj (|) Tj ( ) Tj (Adapter) Tj ( ) Tj (2) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj (Enable) Tj ( ) Tj (+) Tj T* 0 Tw (attached) Tj ( ) Tj (to) Tj ( ) Tj ("Host-only) Tj ( ) Tj (Adapter"\)) Tj /F1 10 Tf (.) Tj T* ET
 Q
 Q
 q
 1 0 0 1 62.69291 514.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.501163 Tw (From the "Advanced" section We write down the network "card" MAC address in order to later set up) Tj T* 0 Tw (static IP addresses whithin the internal network. In this case the MACs we have and IPs we will use are:) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .089987 Tw (From the "Advanced" section we write down the network "card" MAC address in order to later set up static) Tj T* 0 Tw (IP addresses whithin the internal network. In this case the MACs we have and IPs we will use are:) Tj T* ET
 Q
 Q
 q
@@ -3517,26 +3601,26 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 352.0236 cm
+1 0 0 1 62.69291 373.0236 cm
 q
-BT 1 0 0 1 0 24.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (3   Monitoring Server configuration and Nagios / OMD) Tj T* (install) Tj T* ET
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (3   Monitoring Server configuration and OMD install) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 322.0236 cm
+1 0 0 1 62.69291 343.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (3.1   Network configuration) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 304.0236 cm
+1 0 0 1 62.69291 325.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (After booting the virtual machine first enable ssh access as it is disabled by default:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 258.8236 cm
+1 0 0 1 62.69291 279.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -3557,13 +3641,13 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 238.8236 cm
+1 0 0 1 62.69291 259.8236 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Then setup the static IP by creating the file ) Tj /F4 10 Tf (/etc/sysconfig/network-scripts/ifcfg-eth1) Tj /F1 10 Tf (:) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Then setup the static IP by creating the ) Tj /F4 10 Tf (/etc/sysconfig/network-scripts/ifcfg-eth1 ) Tj /F1 10 Tf (file:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 109.6236 cm
+1 0 0 1 62.69291 130.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -3584,7 +3668,7 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 89.62362 cm
+1 0 0 1 62.69291 110.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (and restart the network:) Tj T* ET
@@ -3599,8 +3683,8 @@ Q
  
 endstream
 endobj
-% 'R145': class PDFStream 
-145 0 obj
+% 'R149': class PDFStream 
+149 0 obj
 % page stream
 << /Length 5251 >>
 stream
@@ -3636,7 +3720,7 @@ q
 1 0 0 1 62.69291 691.8236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (First lets check whether we already can send emails straigth from postfix over port 25:) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (First lets check whether we can already send emails straigth from postfix over port 25:) Tj T* ET
 Q
 Q
 q
@@ -3834,10 +3918,10 @@ Q
  
 endstream
 endobj
-% 'R146': class PDFStream 
-146 0 obj
+% 'R150': class PDFStream 
+150 0 obj
 % page stream
-<< /Length 5310 >>
+<< /Length 5331 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -3918,25 +4002,63 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 559.2187 cm
+1 0 0 1 62.69291 569.2187 cm
+Q
+q
+1 0 0 1 62.69291 498.2187 cm
+.960784 .960784 .862745 rg
+n 0 71 469.8898 -71 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 6 45 Tm  T* ET
+q
+1 0 0 1 16 40 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F5 12.5 Tf 15 TL (Warning) Tj T* ET
+Q
+Q
+q
+1 0 0 1 16 16 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Beware of the 500 email/day limits for the regular Google accounts!) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.662745 .662745 .662745 RG
+.5 w
+n 0 71 m 469.8898 71 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 71 l S
+n 469.8898 0 m 469.8898 71 l S
+Q
+Q
+q
+1 0 0 1 62.69291 492.2187 cm
+Q
+q
+1 0 0 1 62.69291 462.2187 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (3.3   OMD installation) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 517.2187 cm
+1 0 0 1 62.69291 420.2187 cm
 q
 BT 1 0 0 1 0 26 Tm 4.936905 Tw 12 TL /F1 10 Tf 0 0 0 rg (We follow the quickstart CentOS installation instructions straigth from the OMD web page at) Tj T* 0 Tw 5.151085 Tw 0 0 .501961 rg (http://omdistro.org/doc/quickstart_redhat ) Tj 0 0 0 rg (just adapting everything to our CentOS version \(6\) and) Tj T* 0 Tw (architectura \(i386\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 499.2187 cm
+1 0 0 1 62.69291 402.2187 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (First install the ) Tj /F4 10 Tf (epel ) Tj /F1 10 Tf (repository configuration) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 468.843 cm
+1 0 0 1 62.69291 371.843 cm
 q
 q
 .887925 0 0 .887925 0 0 cm
@@ -3957,14 +4079,14 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 448.843 cm
+1 0 0 1 62.69291 351.843 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (and then download and install the ~100MB OMD rpm package:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 404.0587 cm
+1 0 0 1 62.69291 307.0587 cm
 q
 q
 .988825 0 0 .988825 0 0 cm
@@ -3985,17 +4107,17 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 384.0587 cm
+1 0 0 1 62.69291 287.0587 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (In our case this installs 36 packages and upgrades 4, with a total download size of 24MB.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 372.0587 cm
+1 0 0 1 62.69291 275.0587 cm
 Q
 q
-1 0 0 1 62.69291 277.0587 cm
+1 0 0 1 62.69291 180.0587 cm
 .960784 .960784 .862745 rg
 n 0 95 469.8898 -95 re f*
 0 0 0 rg
@@ -4026,35 +4148,55 @@ n 469.8898 0 m 469.8898 95 l S
 Q
 Q
 q
-1 0 0 1 62.69291 271.0587 cm
+1 0 0 1 62.69291 174.0587 cm
 Q
 q
-1 0 0 1 62.69291 241.0587 cm
+1 0 0 1 62.69291 144.0587 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (3.4   OMD initial setup) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 199.0587 cm
+1 0 0 1 62.69291 102.0587 cm
 q
-BT 1 0 0 1 0 26 Tm .958876 Tw 12 TL /F1 10 Tf 0 0 0 rg (The ) Tj /F4 10 Tf (omd ) Tj /F1 10 Tf (command is used to manage OMD sites. ) Tj /F4 10 Tf (omd ) Tj /F1 10 Tf (can be executed asthe the site user to modify) Tj T* 0 Tw 2.137765 Tw (just that site, or as root user. As the root user ) Tj /F4 10 Tf (omd ) Tj /F1 10 Tf (offers more option such as copying, renaming,) Tj T* 0 Tw (disabling or uninstalling sites. Calling ) Tj /F4 10 Tf (omd ) Tj /F1 10 Tf (alone provides see a list of options.) Tj T* ET
+BT 1 0 0 1 0 26 Tm .936651 Tw 12 TL /F1 10 Tf 0 0 0 rg (The ) Tj /F4 10 Tf (omd ) Tj /F1 10 Tf (command is used to manage OMD ) Tj /F3 10 Tf (sites) Tj /F1 10 Tf (. OMD sites are completely independent instances of) Tj T* 0 Tw 1.334985 Tw (OMD which allow us, if so desired, to have different sites for different purposes as testing, production,) Tj T* 0 Tw (upgrading, etc. \(see ) Tj 0 0 .501961 rg (http://mathias-kettner.com/checkmk_install_with_omd.html) Tj 0 0 0 rg (\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 172.0587 cm
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (6) Tj T* -238.1649 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R151': class PDFStream 
+151 0 obj
+% page stream
+<< /Length 6192 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+BT 1 0 0 1 0 26 Tm .561417 Tw 12 TL /F1 10 Tf 0 0 0 rg (The ) Tj /F4 10 Tf (omd ) Tj /F1 10 Tf (command can be executed as the site user to modify just that site, or as root user. As the root) Tj T* 0 Tw 1.671412 Tw (user ) Tj /F4 10 Tf (omd ) Tj /F1 10 Tf (offers more options such as copying, renaming, disabling or uninstalling sites. Calling ) Tj /F4 10 Tf (omd) Tj T* 0 Tw /F1 10 Tf (alone provides a list of options with a brief description of them.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 702.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F5 12.5 Tf 0 0 0 rg (3.4.1   OMD site creation and access) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 154.0587 cm
+1 0 0 1 62.69291 684.0236 cm
 q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (To create and start a new OMD test "site" instance just:) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (To create and start a new OMD ) Tj /F4 10 Tf (test ) Tj /F1 10 Tf (site instance just:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 108.8587 cm
+1 0 0 1 62.69291 638.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -4075,34 +4217,20 @@ Q
 Q
 Q
 q
-1 0 0 1 56.69291 56.69291 cm
+1 0 0 1 62.69291 606.8236 cm
 q
-BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (6) Tj T* -238.1649 0 Td ET
-Q
-Q
- 
-endstream
-endobj
-% 'R147': class PDFStream 
-147 0 obj
-% page stream
-<< /Length 6229 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-q
-1 0 0 1 62.69291 729.0236 cm
-q
-BT 1 0 0 1 0 26 Tm 1.218876 Tw 12 TL /F1 10 Tf 0 0 0 rg (When creating a new ) Tj /F3 10 Tf (site ) Tj /F1 10 Tf (OMD, amongst other things, creates a new user in the system which will be) Tj T* 0 Tw 1.92436 Tw (used to manage this specific site. Thus we can have different ) Tj /F3 10 Tf (sites ) Tj /F1 10 Tf (for different purposes as testing,) Tj T* 0 Tw (production, upgrading, etc. \(see ) Tj 0 0 .501961 rg (http://mathias-kettner.com/checkmk_install_with_omd.html) Tj 0 0 0 rg (\)) Tj T* ET
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.218876 Tw (When creating a new site OMD, amongst other things, creates a new user in the system which will be) Tj T* 0 Tw (used to manage this specific site.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 711.0236 cm
+1 0 0 1 62.69291 588.8236 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (In order to manage our site we just ) Tj /F4 10 Tf (su) Tj ( ) Tj (- ) Tj /F1 10 Tf (to the site/user:) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (In order to manage our site we just ) Tj /F4 10 Tf ("su) Tj ( ) Tj (-" ) Tj /F1 10 Tf (to the site/user, in this case:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 677.8236 cm
+1 0 0 1 62.69291 555.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -4123,22 +4251,22 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 609.8236 cm
+1 0 0 1 62.69291 487.6236 cm
 q
-BT 1 0 0 1 0 50 Tm 3.638314 Tw 12 TL /F1 10 Tf 0 0 0 rg (The ) Tj /F4 10 Tf (test ) Tj /F1 10 Tf (user home directory is ) Tj /F4 10 Tf (/omd/sites/test) Tj /F1 10 Tf (. Here all the local configurations, caches,) Tj T* 0 Tw .330542 Tw (performance data, etc. for this site will be kept, specifically in the ) Tj /F4 10 Tf (tmp) Tj /F1 10 Tf (, ) Tj /F4 10 Tf (var ) Tj /F1 10 Tf (and ) Tj /F4 10 Tf (etc ) Tj /F1 10 Tf (directories \(the rest) Tj T* 0 Tw 23.74331 Tw (of the directories are symlinked to your OMD version. See) Tj T* 0 Tw 3.689966 Tw 0 0 .501961 rg (http://mathias-kettner.com/checkmk_install_with_omd.html ) Tj 0 0 0 rg (for a detailled description of the file/folder) Tj T* 0 Tw (structure and contents.) Tj T* ET
+BT 1 0 0 1 0 50 Tm 3.638314 Tw 12 TL /F1 10 Tf 0 0 0 rg (The ) Tj /F4 10 Tf (test ) Tj /F1 10 Tf (user home directory is ) Tj /F4 10 Tf (/omd/sites/test) Tj /F1 10 Tf (. Here all the local configurations, caches,) Tj T* 0 Tw .330542 Tw (performance data, etc. for this site will be kept, specifically in the ) Tj /F4 10 Tf (tmp) Tj /F1 10 Tf (, ) Tj /F4 10 Tf (var ) Tj /F1 10 Tf (and ) Tj /F4 10 Tf (etc ) Tj /F1 10 Tf (directories \(the rest) Tj T* 0 Tw 18.42298 Tw (of the directories are symlinked to your OMD version. Again, see) Tj T* 0 Tw 3.689966 Tw 0 0 .501961 rg (http://mathias-kettner.com/checkmk_install_with_omd.html ) Tj 0 0 0 rg (for a detailled description of the file/folder) Tj T* 0 Tw (structure and contents.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 582.8236 cm
+1 0 0 1 62.69291 460.6236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F5 12.5 Tf 0 0 0 rg (3.4.2   Web server access configuration) Tj T* ET
+BT 1 0 0 1 0 2.5 Tm 15 TL /F5 12.5 Tf 0 0 0 rg (3.4.2   Multisite web interface access configuration) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 564.8236 cm
+1 0 0 1 62.69291 442.6236 cm
 Q
 q
-1 0 0 1 62.69291 493.8236 cm
+1 0 0 1 62.69291 371.6236 cm
 .960784 .960784 .862745 rg
 n 0 71 469.8898 -71 re f*
 0 0 0 rg
@@ -4169,16 +4297,16 @@ n 469.8898 0 m 469.8898 71 l S
 Q
 Q
 q
-1 0 0 1 62.69291 487.8236 cm
+1 0 0 1 62.69291 365.6236 cm
 Q
 q
-1 0 0 1 62.69291 445.8236 cm
+1 0 0 1 62.69291 311.6236 cm
 q
-BT 1 0 0 1 0 26 Tm 2.652488 Tw 12 TL /F1 10 Tf 0 0 0 rg (Once the test site is up we try to access to it web interface from within the own machine first at) Tj T* 0 Tw .904104 Tw 0 0 .501961 rg (http://localhost/test) Tj 0 0 0 rg (. In our case we get a error "OMD: Site not started". This is documented in the OMD) Tj T* 0 Tw (FAQ specifically for CentOS and related systems and it is related to the selinux configuration. Just do:) Tj T* ET
+BT 1 0 0 1 0 38 Tm 1.540488 Tw 12 TL /F1 10 Tf 0 0 0 rg (Once the test site is up we try to access to it through the ) Tj /F3 10 Tf (Multisite ) Tj /F1 10 Tf (web interface from within the own) Tj T* 0 Tw 3.49686 Tw (machine first at ) Tj 0 0 .501961 rg (http://localhost/test) Tj 0 0 0 rg (. In our case we get a error "OMD: Site not started". This is) Tj T* 0 Tw 1.24832 Tw (documented in the OMD FAQ specifically for CentOS and related systems and it has to do to with the) Tj T* 0 Tw (selinux configuration. Just run:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 412.6236 cm
+1 0 0 1 62.69291 278.4236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -4199,20 +4327,20 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 380.6236 cm
+1 0 0 1 62.69291 234.4236 cm
 q
-BT 1 0 0 1 0 14 Tm .66683 Tw 12 TL /F4 10 Tf 0 0 0 rg (-P ) Tj /F1 10 Tf (makes the change persistent and it may take a while to run, even some minutes, so be patient. After) Tj T* 0 Tw (this we can access the web interface from the localhost without problems.) Tj T* ET
+BT 1 0 0 1 0 26 Tm 1.831163 Tw 12 TL /F1 10 Tf 0 0 0 rg (The ) Tj /F4 10 Tf (-P ) Tj /F1 10 Tf (option makes the change persistent and the command may take a while to run, even some) Tj T* 0 Tw 2.464985 Tw (minutes, so be patient. Once it's done we can access the web interface from the localhost without) Tj T* 0 Tw (problems.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 350.6236 cm
+1 0 0 1 62.69291 204.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .909431 Tw (If we want to access to the web interface from remote machines \(as the VirtualBox physical host in this) Tj T* 0 Tw (case\) we have to enable the service in the CentOS firewall, activated by default. Just run:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 317.4236 cm
+1 0 0 1 62.69291 171.2236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -4233,60 +4361,15 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 285.4236 cm
+1 0 0 1 62.69291 139.2236 cm
 q
 BT 1 0 0 1 0 14 Tm .25686 Tw 12 TL /F1 10 Tf 0 0 0 rg (go to ) Tj /F2 10 Tf ("Customise" ) Tj /F1 10 Tf (\() Tj (<) Tj (TAB) Tj (> moves between fields\), scroll down the list up to ) Tj /F2 10 Tf ("WWW \(HTTP\)" ) Tj /F1 10 Tf (and enable) Tj T* 0 Tw (the service with <) Tj (SPACE) Tj (>) Tj (. Then select ) Tj /F2 10 Tf ("Close") Tj /F1 10 Tf (, ) Tj /F2 10 Tf ("OK" ) Tj /F1 10 Tf (and ) Tj /F2 10 Tf ("YES") Tj /F1 10 Tf (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 255.4236 cm
+1 0 0 1 62.69291 109.2236 cm
 q
 BT 1 0 0 1 0 14 Tm 1.524983 Tw 12 TL /F1 10 Tf 0 0 0 rg (Now you can access the OMD web interface at ) Tj 0 0 .501961 rg (http://192.168.56.10 ) Tj 0 0 0 rg (eg. from your VirtualBox physical) Tj T* 0 Tw (host.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 222.4236 cm
-q
-BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (4   Monitorized system configuration) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 204.4236 cm
-q
-BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (After booting the machine \(CentOS-5.7\) up we just set the static IP and then install the ) Tj /F4 10 Tf (check_mk ) Tj /F1 10 Tf (agent.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 174.4236 cm
-q
-BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (4.1   Network configuration) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 144.4236 cm
-q
-BT 1 0 0 1 0 14 Tm 17.03306 Tw 12 TL /F1 10 Tf 0 0 0 rg (As before, in order to set up a static IP we create the file) Tj T* 0 Tw /F4 10 Tf (/etc/sysconfig/network-scripts/ifcfg-eth1) Tj /F1 10 Tf (:) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 99.22362 cm
-q
-q
-1 0 0 1 0 0 cm
-q
-1 0 0 1 6.6 6.6 cm
-q
-.662745 .662745 .662745 RG
-.5 w
-.960784 .960784 .862745 rg
-n -6 -6 468.6898 36 re B*
-Q
-q
-0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F4 10 Tf 12 TL (#/etc/sysconfig/network-scripts/ifcfg-eth1) Tj T* (DEVICE=eth1) Tj T* ET
-Q
-Q
-Q
 Q
 Q
 q
@@ -4298,14 +4381,38 @@ Q
  
 endstream
 endobj
-% 'R148': class PDFStream 
-148 0 obj
+% 'R152': class PDFStream 
+152 0 obj
 % page stream
-<< /Length 4845 >>
+<< /Length 4863 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 667.8236 cm
+1 0 0 1 62.69291 744.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (4   Monitorized system configuration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 726.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (After booting the machine \(CentOS-5.7\) up we just set the static IP and then install the ) Tj /F4 10 Tf (check_mk ) Tj /F1 10 Tf (agent.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 696.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (4.1   Network configuration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 666.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .648314 Tw 12 TL /F1 10 Tf 0 0 0 rg (As before, we create the ) Tj /F4 10 Tf (/etc/sysconfig/network-scripts/ifcfg-eth1 ) Tj /F1 10 Tf (file in order to set up a) Tj T* 0 Tw (static IP:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 536.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -4315,25 +4422,25 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 96 re B*
+n -6 -6 468.6898 120 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 74 Tm /F4 10 Tf 12 TL (BOOTPROTO=none) Tj T* (IPADDR=192.168.56.11) Tj T* (NETMASK=255.255.255.0) Tj T* (ONBOOT=yes) Tj T* (HWADDR=08:00:27:42:79:DF) Tj T* (DEFROUTE=yes) Tj T* (NAME="eth1") Tj T* ET
+BT 1 0 0 1 0 98 Tm /F4 10 Tf 12 TL (#/etc/sysconfig/network-scripts/ifcfg-eth1) Tj T* (DEVICE=eth1) Tj T* (BOOTPROTO=none) Tj T* (IPADDR=192.168.56.11) Tj T* (NETMASK=255.255.255.0) Tj T* (ONBOOT=yes) Tj T* (HWADDR=08:00:27:42:79:DF) Tj T* (DEFROUTE=yes) Tj T* (NAME="eth1") Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 647.8236 cm
+1 0 0 1 62.69291 516.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (and restart the network:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 614.6236 cm
+1 0 0 1 62.69291 483.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -4354,19 +4461,19 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 584.6236 cm
+1 0 0 1 62.69291 453.6236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (4.2   check_mk agent installation) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 554.6236 cm
+1 0 0 1 62.69291 423.6236 cm
 q
 BT 1 0 0 1 0 14 Tm 2.74498 Tw 12 TL /F1 10 Tf 0 0 0 rg (Download and install the ) Tj /F4 10 Tf (check_mk ) Tj /F1 10 Tf (monitoring agent from the check_mk webpage without further) Tj T* 0 Tw (complications, the only needed dependence being ) Tj /F4 10 Tf (xinetd) Tj /F1 10 Tf (:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 491.6595 cm
+1 0 0 1 62.69291 360.6595 cm
 q
 q
 .898107 0 0 .898107 0 0 cm
@@ -4387,13 +4494,13 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 447.6595 cm
+1 0 0 1 62.69291 316.6595 cm
 q
-BT 1 0 0 1 0 26 Tm .137209 Tw 12 TL /F1 10 Tf 0 0 0 rg (If desired we can restrict the access to the agent execution in this machine to the OMD monitoring service) Tj T* 0 Tw .856655 Tw (so we have a more secure setup eg. in a production environment. In order to do this we just add to the) Tj T* 0 Tw /F4 10 Tf (/etc/xinetc.d/check_mk ) Tj /F1 10 Tf (file the line:) Tj T* ET
+BT 1 0 0 1 0 26 Tm .137209 Tw 12 TL /F1 10 Tf 0 0 0 rg (If desired we can restrict the access to the agent execution in this machine to the OMD monitoring service) Tj T* 0 Tw .404431 Tw (so we have a more secure setup. In order to do this we just add to the ) Tj /F4 10 Tf (/etc/xinetc.d/check_mk ) Tj /F1 10 Tf (file) Tj T* 0 Tw (the line:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 378.4595 cm
+1 0 0 1 62.69291 247.4595 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -4413,13 +4520,13 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 358.4595 cm
+1 0 0 1 62.69291 227.4595 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (and we reload the ) Tj /F4 10 Tf (xinetd ) Tj /F1 10 Tf (daemon configuration:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 325.2595 cm
+1 0 0 1 62.69291 194.2595 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -4439,25 +4546,40 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 295.2595 cm
+1 0 0 1 62.69291 164.2595 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (4.3   Hard disk monitoring with S.M.A.R.T.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 253.2595 cm
+1 0 0 1 62.69291 122.2595 cm
 q
 BT 1 0 0 1 0 26 Tm 2.981318 Tw 12 TL /F1 10 Tf 0 0 0 rg (When monitoring a physical host we will be interested in monitoring their hard disk health status.) Tj T* 0 Tw 1.883318 Tw (Check_mk does not includes S.M.A.R.T. checking by default, but provides a ) Tj /F4 10 Tf (plugin ) Tj /F1 10 Tf (that has to be) Tj T* 0 Tw (explicitly installed in the remote host.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 223.2595 cm
+1 0 0 1 62.69291 92.25945 cm
 q
-BT 1 0 0 1 0 14 Tm .467608 Tw 12 TL /F1 10 Tf 0 0 0 rg (The plugin is called ) Tj /F4 10 Tf (smart ) Tj /F1 10 Tf (and it already is in the OMD server, we just have to copy over to the desired) Tj T* 0 Tw (host:) Tj T* ET
+BT 1 0 0 1 0 14 Tm .092717 Tw 12 TL /F1 10 Tf 0 0 0 rg (The plugin is called ) Tj /F4 10 Tf (smart ) Tj /F1 10 Tf (and it already is in the OMD server, we just have to copy it over to the desired) Tj T* 0 Tw (host:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 166.0595 cm
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (8) Tj T* -238.1649 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R153': class PDFStream 
+153 0 obj
+% page stream
+<< /Length 6092 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 715.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -4478,60 +4600,44 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 122.0595 cm
+1 0 0 1 62.69291 671.8236 cm
 q
-0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.745868 Tw (If the host has not yet been inventorized in Check_MK, the smart check will be present amognst the) Tj T* 0 Tw .537045 Tw (detected checks when doing it, otherwise you will have to reinventorize it and the new check will appear.) Tj T* 0 Tw (Wee will see later how inventorizing hosts works.) Tj T* ET
+BT 1 0 0 1 0 26 Tm 1.262339 Tw 12 TL /F1 10 Tf 0 0 0 rg (If the host has not been inventorized yet in Check_MK, the ) Tj /F4 10 Tf (smart ) Tj /F1 10 Tf (check will be present amognst the) Tj T* 0 Tw .537045 Tw (detected checks when doing it, otherwise you will have to reinventorize it and the new check will appear.) Tj T* 0 Tw (Wee will see later how inventorizing hosts works.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 56.69291 56.69291 cm
-q
-BT 1 0 0 1 0 2 Tm 238.1649 0 Td 12 TL /F1 10 Tf 0 0 0 rg (8) Tj T* -238.1649 0 Td ET
-Q
-Q
- 
-endstream
-endobj
-% 'R149': class PDFStream 
-149 0 obj
-% page stream
-<< /Length 6518 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-q
-1 0 0 1 62.69291 744.0236 cm
+1 0 0 1 62.69291 638.8236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (5   Basic Check_MK configuration) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 702.0236 cm
+1 0 0 1 62.69291 596.8236 cm
 q
-BT 1 0 0 1 0 26 Tm 3.337485 Tw 12 TL /F1 10 Tf 0 0 0 rg (To setup the basic monitoring system setup we will be using at first ) Tj /F3 10 Tf (WATO - Check_MK's Web) Tj T* 0 Tw .85284 Tw (Administrator Tool ) Tj /F1 10 Tf (through the ) Tj /F3 10 Tf (Multisite ) Tj /F1 10 Tf (web interface, both part of the Check_MK echosystem. This will) Tj T* 0 Tw (make our fisrt steps into the Check_MK monitoring world much easier.) Tj T* ET
+BT 1 0 0 1 0 26 Tm 3.337485 Tw 12 TL /F1 10 Tf 0 0 0 rg (To setup the basic monitoring system setup we will be using at first ) Tj /F3 10 Tf (WATO - Check_MK's Web) Tj T* 0 Tw 1.249983 Tw (Administrator Tool ) Tj /F1 10 Tf (through the ) Tj /F3 10 Tf (Multisite ) Tj /F1 10 Tf (web interface, both part of the Check_MK ecosystem. This will) Tj T* 0 Tw (make our first steps into the Check_MK monitoring world much easier.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 672.0236 cm
+1 0 0 1 62.69291 566.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.931353 Tw (We will first setup a new user who will get the test alerts and after this we will add the hosts to be) Tj T* 0 Tw (monitored and force some alerts in order to test the notification system.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 642.0236 cm
+1 0 0 1 62.69291 536.8236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (5.1   User creation) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 576.0236 cm
+1 0 0 1 62.69291 470.8236 cm
 q
-BT 1 0 0 1 0 50 Tm .013516 Tw 12 TL /F1 10 Tf 0 0 0 rg (Every user \() Tj /F3 10 Tf (contact ) Tj /F1 10 Tf (in the Nagios nomenclature\) belongs to a ) Tj /F3 10 Tf (contact group) Tj /F1 10 Tf (, which are the ones which are) Tj T* 0 Tw 1.300751 Tw (really assigned to host and services notifications. In the default OMD/check_MK configuration we have) Tj T* 0 Tw .195542 Tw (only one contact group, ) Tj /F2 10 Tf ("Everybody") Tj /F1 10 Tf (, so we will add the new contact to this group, also making sure that) Tj T* 0 Tw 1.717984 Tw (we check the ) Tj /F2 10 Tf ("Administrator" ) Tj /F1 10 Tf (role in the Security section and that we ) Tj /F2 10 Tf ("enable notifications" ) Tj /F1 10 Tf (in the) Tj T* 0 Tw (notifications section:) Tj T* ET
+BT 1 0 0 1 0 50 Tm .013516 Tw 12 TL /F1 10 Tf 0 0 0 rg (Every user \() Tj /F3 10 Tf (contact ) Tj /F1 10 Tf (in the Nagios nomenclature\) belongs to a ) Tj /F3 10 Tf (contact group) Tj /F1 10 Tf (, which are the ones which are) Tj T* 0 Tw 1.300751 Tw (really assigned to host and services notifications. In the default OMD/check_MK configuration we have) Tj T* 0 Tw 2.368221 Tw (only one contact group, ) Tj /F2 10 Tf ("all) Tj /F1 10 Tf (" or ) Tj /F2 10 Tf ("Everybody" ) Tj /F1 10 Tf (\(alias\), so we will add the new contact to this group) Tj T* 0 Tw 1.384983 Tw (\("Contact Groups" section\), also making sure that we check the ) Tj /F2 10 Tf ("Administrator" ) Tj /F1 10 Tf (role in the "Security") Tj T* 0 Tw (section and that we ) Tj /F2 10 Tf ("enable notifications" ) Tj /F1 10 Tf (in the "Notifications" section:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 542.8236 cm
+1 0 0 1 62.69291 437.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -4551,26 +4657,26 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 462.8236 cm
+1 0 0 1 62.69291 357.6236 cm
 q
-BT 1 0 0 1 0 62 Tm .231488 Tw 12 TL /F1 10 Tf 0 0 0 rg (We save the changes \() Tj /F2 10 Tf ("Save" ) Tj /F1 10 Tf (in the lower part of the new user creation form\) and we are bougth back to) Tj T* 0 Tw 1.128876 Tw (the "User & Contacts" main section, where we have a notice about the ) Tj /F2 10 Tf ("1 Changes" ) Tj /F1 10 Tf (done. In order to) Tj T* 0 Tw .805697 Tw (propagate the change to the Check_MK/Nagios configuration click on the ) Tj /F2 10 Tf ("1 Changes" ) Tj /F1 10 Tf (button and then) Tj T* 0 Tw 1.253876 Tw (on the ) Tj /F2 10 Tf ("Activate Changes!" ) Tj /F1 10 Tf (one. We can now see the newly created user in the "Users & Contacts ") Tj T* 0 Tw .810542 Tw (WATO section and also can checks that the user is a member of the "Everybody" group in the "Contact) Tj T* 0 Tw (Goups" section.) Tj T* ET
+BT 1 0 0 1 0 62 Tm .064988 Tw 12 TL /F1 10 Tf 0 0 0 rg (We save the changes \() Tj /F2 10 Tf ("Save" ) Tj /F1 10 Tf (in the lower part of the new user creation form\) and we are brougth back to) Tj T* 0 Tw 1.128876 Tw (the "User & Contacts" main section, where we have a notice about the ) Tj /F2 10 Tf ("1 Changes" ) Tj /F1 10 Tf (done. In order to) Tj T* 0 Tw .805697 Tw (propagate the change to the Check_MK/Nagios configuration click on the ) Tj /F2 10 Tf ("1 Changes" ) Tj /F1 10 Tf (button and then) Tj T* 0 Tw 1.253876 Tw (on the ) Tj /F2 10 Tf ("Activate Changes!" ) Tj /F1 10 Tf (one. We can now see the newly created user in the "Users & Contacts ") Tj T* 0 Tw .810542 Tw (WATO section and also can checks that the user is a member of the "Everybody" group in the "Contact) Tj T* 0 Tw (Goups" section.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 432.8236 cm
+1 0 0 1 62.69291 327.6236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (5.2   Integration \(inventory\) of the new ) Tj /F5 15 Tf (host ) Tj /F2 15 Tf (to be monitored) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 402.8236 cm
+1 0 0 1 62.69291 297.6236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .765868 Tw (In order to add \(inventorize, in the Check_MK language\) a new host \(in which we have already installed) Tj T* 0 Tw (the check_mk agent\), we go to:) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .177045 Tw (In order to add/inventorize a new host \(in which of course we already have installed the check_mk agent\),) Tj T* 0 Tw (we go to:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 369.6236 cm
+1 0 0 1 62.69291 264.4236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -4590,59 +4696,19 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 313.6236 cm
+1 0 0 1 62.69291 208.4236 cm
 q
 BT 1 0 0 1 0 38 Tm 2.670697 Tw 12 TL /F1 10 Tf 0 0 0 rg (and there we just add the ) Tj /F2 10 Tf ("Hostname" ) Tj /F1 10 Tf (\(CentOS-5.7\), ) Tj /F2 10 Tf ("IP" ) Tj /F1 10 Tf (if needed \(192.168.56.11 in this case\),) Tj T* 0 Tw .360651 Tw /F2 10 Tf ("Permissions" -) Tj (> "Everybody" ) Tj /F1 10 Tf (and ) Tj /F2 10 Tf ("Alias" ) Tj /F1 10 Tf (\(if desired\). Clicking on ) Tj /F2 10 Tf ("Save & go to Services" ) Tj /F1 10 Tf (brings us) Tj T* 0 Tw .429985 Tw (to the autodetected host services list, where we can choose to ignore some of the automatically detected) Tj T* 0 Tw (checks. We then ) Tj /F2 10 Tf ("Save manual check configuration" ) Tj /F1 10 Tf (and as we did before we ) Tj /F2 10 Tf ("Activate Changes!") Tj /F1 10 Tf (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 271.6236 cm
-q
-BT 1 0 0 1 0 26 Tm 11.04767 Tw 12 TL /F1 10 Tf 0 0 0 rg (Going to the main web interface page \(Check_MK logo in the upper left or) Tj T* 0 Tw 2.499985 Tw /F4 10 Tf (\(Views) Tj ( ) Tj (|) Tj ( ) Tj (Dashboards) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj (Main) Tj ( ) Tj (Overview\) ) Tj /F1 10 Tf (we see that we have one host and 19 services) Tj T* 0 Tw (monotirized.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 253.6236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (..note:) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 196.4236 cm
-q
-q
-1 0 0 1 0 0 cm
-q
-1 0 0 1 6.6 6.6 cm
-q
-.662745 .662745 .662745 RG
-.5 w
-.960784 .960784 .862745 rg
-n -6 -6 468.6898 48 re B*
-Q
-q
-0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F4 10 Tf 12 TL (It is convenient to use the own monitoring server to monitor itself. For) Tj T* (this we just install the check_mk agent in the server and add the host) Tj T* (*localhost* in WATO. Do it!) Tj T* ET
-Q
-Q
-Q
-Q
-Q
-q
 1 0 0 1 62.69291 166.4236 cm
 q
-BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (5.3   Reinventoring) Tj T* ET
+BT 1 0 0 1 0 26 Tm 11.04767 Tw 12 TL /F1 10 Tf 0 0 0 rg (Going to the main web interface page \(Check_MK logo in the upper left or) Tj T* 0 Tw 1.555542 Tw /F4 10 Tf (\() Tj ( ) Tj (Views) Tj ( ) Tj (|) Tj ( ) Tj (Dashboards) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj (Main) Tj ( ) Tj (Overview) Tj ( ) Tj (\) ) Tj /F1 10 Tf (we see that we have one host and 19 services) Tj T* 0 Tw (monitorized.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 100.4236 cm
-q
-BT 1 0 0 1 0 50 Tm .70936 Tw 12 TL /F1 10 Tf 0 0 0 rg (If we add new checks to a host through check_mk plugins, legacy nagios checks, NRPE nagios checks,) Tj T* 0 Tw 3.90561 Tw (etc., we can make Check_MK to scan this host for new, not inventorized services. Just go to) Tj T* 0 Tw .849398 Tw /F4 10 Tf (\(WATO) Tj ( ) Tj (|) Tj ( ) Tj (Hosts) Tj ( ) Tj (&) Tj ( ) Tj (Folders) Tj ( ) Tj (\)) Tj /F1 10 Tf (, click on the desired host and then select "Services" and "Full Scan".) Tj T* 0 Tw 1.867209 Tw (New services will be detected and you can enable them at will, as well as disable existing checks if) Tj T* 0 Tw (wanted.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 88.86614 cm
+1 0 0 1 62.69291 154.4236 cm
 Q
 q
 1 0 0 1 56.69291 56.69291 cm
@@ -4653,14 +4719,63 @@ Q
  
 endstream
 endobj
-% 'R150': class PDFStream 
-150 0 obj
+% 'R154': class PDFStream 
+154 0 obj
 % page stream
-<< /Length 6289 >>
+<< /Length 6411 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
 1 0 0 1 62.69291 682.0236 cm
+.960784 .960784 .862745 rg
+n 0 83 469.8898 -83 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 6 57 Tm  T* ET
+q
+1 0 0 1 16 52 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F5 12.5 Tf 15 TL (Note) Tj T* ET
+Q
+Q
+q
+1 0 0 1 16 16 cm
+q
+BT 1 0 0 1 0 14 Tm 1.323876 Tw 12 TL /F1 10 Tf 0 0 0 rg (It is convenient to set up the own monitoring server to monitor itself. For this we just install the) Tj T* 0 Tw (check_mk agent in the server and add the host ) Tj /F3 10 Tf ("localhost" ) Tj /F1 10 Tf (in WATO. Do it!) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.662745 .662745 .662745 RG
+.5 w
+n 0 83 m 469.8898 83 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 83 l S
+n 469.8898 0 m 469.8898 83 l S
+Q
+Q
+q
+1 0 0 1 62.69291 676.0236 cm
+Q
+q
+1 0 0 1 62.69291 646.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (5.3   Reinventoring) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 580.0236 cm
+q
+BT 1 0 0 1 0 50 Tm .70936 Tw 12 TL /F1 10 Tf 0 0 0 rg (If we add new checks to a host through check_mk plugins, legacy nagios checks, NRPE nagios checks,) Tj T* 0 Tw 3.90561 Tw (etc., we can make Check_MK to scan this host for new, not inventorized services. Just go to) Tj T* 0 Tw 3.318555 Tw /F4 10 Tf (\() Tj ( ) Tj (WATO-Configuration) Tj ( ) Tj (|) Tj ( ) Tj (Hosts) Tj ( ) Tj (&) Tj ( ) Tj (Folders) Tj ( ) Tj (\)) Tj /F1 10 Tf (, click on the desired host and then select) Tj T* 0 Tw .781654 Tw /F2 10 Tf ("Services" ) Tj /F1 10 Tf (and ) Tj /F2 10 Tf ("Full Scan") Tj /F1 10 Tf (. New services will be detected and you can enable them at will, as well as) Tj T* 0 Tw (disable existing checks if wanted.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 568.0236 cm
+Q
+q
+1 0 0 1 62.69291 485.0236 cm
 .960784 .960784 .862745 rg
 n 0 83 469.8898 -83 re f*
 0 0 0 rg
@@ -4692,92 +4807,206 @@ n 469.8898 0 m 469.8898 83 l S
 Q
 Q
 q
-1 0 0 1 62.69291 676.0236 cm
+1 0 0 1 62.69291 479.0236 cm
 Q
 q
-1 0 0 1 62.69291 646.0236 cm
+1 0 0 1 62.69291 449.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (5.4   email notification test) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 568.0236 cm
+1 0 0 1 62.69291 371.0236 cm
 q
-BT 1 0 0 1 0 62 Tm 1.15237 Tw 12 TL /F1 10 Tf 0 0 0 rg (In order to test email notifications go to a host ) Tj /F4 10 Tf (\() Tj ( ) Tj (Views) Tj ( ) Tj (|) Tj ( ) Tj (Hosts) Tj ( ) Tj (|) Tj ( ) Tj (All) Tj ( ) Tj (hosts \) ) Tj /F1 10 Tf (and click on a) Tj T* 0 Tw .931163 Tw (service name. In the service information page click on the hammer icon in order to run commands over) Tj T* 0 Tw .183318 Tw (this service. Then go to ) Tj /F2 10 Tf ("Various Commands" -) Tj (> "Fake check results" ) Tj /F1 10 Tf (and eg. click ) Tj /F2 10 Tf ("Critical) Tj /F1 10 Tf (". Confirm) Tj T* 0 Tw .485542 Tw (the action and see eg. in the ) Tj /F4 10 Tf (Dashboard) Tj ( ) Tj (|) Tj ( ) Tj (Main) Tj ( ) Tj (Overview ) Tj /F1 10 Tf (the service being Critical for a while and) Tj T* 0 Tw 1.368735 Tw (the notifications being sent. Check you email for the Critical State notification and the Recovery one a) Tj T* 0 Tw (minute later when the service comes back to normal state!) Tj T* ET
+BT 1 0 0 1 0 62 Tm 1.15237 Tw 12 TL /F1 10 Tf 0 0 0 rg (In order to test email notifications go to a host ) Tj /F4 10 Tf (\() Tj ( ) Tj (Views) Tj ( ) Tj (|) Tj ( ) Tj (Hosts) Tj ( ) Tj (|) Tj ( ) Tj (All) Tj ( ) Tj (hosts \) ) Tj /F1 10 Tf (and click on a) Tj T* 0 Tw .931163 Tw (service name. In the service information page click on the hammer icon in order to run commands over) Tj T* 0 Tw .183318 Tw (this service. Then go to ) Tj /F2 10 Tf ("Various Commands" -) Tj (> "Fake check results" ) Tj /F1 10 Tf (and eg. click ) Tj /F2 10 Tf ("Critical) Tj /F1 10 Tf (". Confirm) Tj T* 0 Tw .22104 Tw (the action and see eg. in the ) Tj /F4 10 Tf (\() Tj ( ) Tj (Dashboard) Tj ( ) Tj (|) Tj ( ) Tj (Main) Tj ( ) Tj (Overview) Tj ( ) Tj (\) ) Tj /F1 10 Tf (the service being Critical for a while) Tj T* 0 Tw .143516 Tw (and the notifications being sent. Check you email for the Critical State notification and the Recovery one a) Tj T* 0 Tw (minute later, when the service comes back to normal state!) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 535.0236 cm
+1 0 0 1 62.69291 338.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (6   Advanced Check_MK configuration) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 481.0236 cm
+1 0 0 1 62.69291 284.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.439985 Tw (Automatic inventoring and Check_MK managing with WATO is OK if we add machines one by one or) Tj T* 0 Tw .131318 Tw (want to monitor certain very specific machines: a few workstations, some storage server\(s\), a HPC cluster) Tj T* 0 Tw .382765 Tw (head node, etc. But, what if we want to monitor some HPC cluster computing nodes? Should we add say) Tj T* 0 Tw (100 nodes one by one? Not indeed.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 439.0236 cm
+1 0 0 1 62.69291 242.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .716353 Tw (WATO is really not more than a front end that does part of the job for us, but in the background, as you) Tj T* 0 Tw .829984 Tw (may have suspected, everything is in fact done trough configuration files with a very clean, documented) Tj T* 0 Tw (interface.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 397.0236 cm
+1 0 0 1 62.69291 200.0236 cm
 q
-BT 1 0 0 1 0 26 Tm .54229 Tw 12 TL /F1 10 Tf 0 0 0 rg (Check_MK configuration files lay under ) Tj /F4 10 Tf (~/etc/check_mk) Tj /F1 10 Tf (, being ) Tj /F4 10 Tf (~ ) Tj /F1 10 Tf (the home of the user corresponding) Tj T* 0 Tw .968555 Tw (to the OMD ) Tj /F3 10 Tf (site) Tj /F1 10 Tf (. Check_MK reads the configuration files there and generates the corresponding nagios) Tj T* 0 Tw (configuration files. When requested to do it, of course!) Tj T* ET
+BT 1 0 0 1 0 26 Tm .54229 Tw 12 TL /F1 10 Tf 0 0 0 rg (Check_MK configuration files lay under ) Tj /F4 10 Tf (~/etc/check_mk) Tj /F1 10 Tf (, being ) Tj /F4 10 Tf (~ ) Tj /F1 10 Tf (the home of the user corresponding) Tj T* 0 Tw 1.557126 Tw (to the OMD ) Tj /F3 10 Tf (site) Tj /F1 10 Tf (. Check_MK reads the ) Tj /F4 10 Tf (.mk ) Tj /F1 10 Tf (configuration files there and generates the corresponding) Tj T* 0 Tw (nagios configuration files. When requested to do it, of course!) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 367.0236 cm
+1 0 0 1 62.69291 170.0236 cm
 q
 BT 1 0 0 1 0 14 Tm 4.768314 Tw 12 TL /F1 10 Tf 0 0 0 rg (Check_MK first reads the ) Tj /F4 10 Tf (~/etc/check_mk/main.mk ) Tj /F1 10 Tf (file, and then all the ) Tj /F4 10 Tf (.mk ) Tj /F1 10 Tf (files under) Tj T* 0 Tw /F4 10 Tf (~/etc/check_mk/conf.d) Tj /F1 10 Tf (. The configuration files syntax is plain python systax.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 325.0236 cm
+1 0 0 1 62.69291 128.0236 cm
 q
 BT 1 0 0 1 0 26 Tm 1.227109 Tw 12 TL /F1 10 Tf 0 0 0 rg (See ) Tj 0 0 .501961 rg (http://mathias-kettner.com/checkmk_configfiles.html ) Tj 0 0 0 rg (for information about configuration files reading) Tj T* 0 Tw 2.558863 Tw (and parsing and ) Tj 0 0 .501961 rg (http://mathias-kettner.com/checkmk_configvars.html ) Tj 0 0 0 rg (for a detailled description of the) Tj T* 0 Tw (configuration variables and how to use them.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 283.0236 cm
+1 0 0 1 62.69291 110.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.354692 Tw (The typicall steps consist on: 1\) add some hosts or modify some settings in some of the configuration) Tj T* 0 Tw 2.596412 Tw (files, 2\) do a reinventory if needed and 3\) recompile nagios configuration and reload/restart nagios) Tj T* 0 Tw (service.) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The typicall steps when working with configuration files consist are:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 241.0236 cm
+1 0 0 1 62.69291 104.0236 cm
+Q
 q
-BT 1 0 0 1 0 26 Tm .362765 Tw 12 TL /F1 10 Tf 0 0 0 rg (When working on the command line the command to use is ) Tj /F4 10 Tf (check_mk ) Tj /F1 10 Tf (or its alias ) Tj /F4 10 Tf (cmk) Tj /F1 10 Tf (. Calling just ) Tj /F4 10 Tf (cmk) Tj T* 0 Tw 9.766136 Tw /F1 10 Tf (provides a sumary of the options and a sparse summary of its behaviour. See) Tj T* 0 Tw 0 0 .501961 rg (http://mathias-kettner.com/checkmk_calling.html) Tj T* ET
+1 0 0 1 287.6378 92.02362 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
 Q
 Q
 q
-1 0 0 1 62.69291 211.0236 cm
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 235.3849 0 Td 12 TL /F1 10 Tf 0 0 0 rg (10) Tj T* -235.3849 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R155': class PDFStream 
+155 0 obj
+% page stream
+<< /Length 6259 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 717.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 36 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (1.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (add some hosts or modify some settings in some of the configuration files,) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (2.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (optionally do a reinventory if needed, and) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (3.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (recompile nagios configuration and reload/restart nagios service.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 717.0236 cm
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .103988 Tw 12 TL /F1 10 Tf 0 0 0 rg (The command used to do all this is ) Tj /F4 10 Tf (check_mk ) Tj /F1 10 Tf (or its alias ) Tj /F4 10 Tf (cmk) Tj /F1 10 Tf (. Calling just ) Tj /F4 10 Tf (cmk ) Tj /F1 10 Tf (provides a sumary of the) Tj T* 0 Tw (options and a sparse summary of its behaviour. See ) Tj 0 0 .501961 rg (http://mathias-kettner.com/checkmk_calling.html) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 657.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (6.1   Manually configure VirtualBox host monitoring) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 181.0236 cm
+1 0 0 1 62.69291 627.0236 cm
 q
-0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .756098 Tw (As a very simple example we set up the VirtualBox host itslef for monitoring, all from the command line.) Tj T* 0 Tw (See below for a more complex example.) Tj T* ET
+BT 1 0 0 1 0 14 Tm 1.003876 Tw 12 TL /F1 10 Tf 0 0 0 rg (As a very simple example we will set up the VirtualBox host itself for monitoring, all from the command) Tj T* 0 Tw (line. We will call this host ) Tj /F3 10 Tf ("VB-host") Tj /F1 10 Tf (. See next section for a more complex example.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 163.0236 cm
+1 0 0 1 62.69291 609.0236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (First, in the monitoring server, we go into the OMD ) Tj /F4 10 Tf (test ) Tj /F1 10 Tf (user/site:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 129.8236 cm
+1 0 0 1 62.69291 575.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -4798,28 +5027,13 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 109.8236 cm
+1 0 0 1 62.69291 555.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (and there we create the ) Tj /F4 10 Tf (vb-host.mk ) Tj /F1 10 Tf (file in ) Tj /F4 10 Tf (~/etc/check_mk/conf.d ) Tj /F1 10 Tf (with the following content:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 56.69291 56.69291 cm
-q
-BT 1 0 0 1 0 2 Tm 235.3849 0 Td 12 TL /F1 10 Tf 0 0 0 rg (10) Tj T* -235.3849 0 Td ET
-Q
-Q
- 
-endstream
-endobj
-% 'R151': class PDFStream 
-151 0 obj
-% page stream
-<< /Length 3881 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-q
-1 0 0 1 62.69291 667.8236 cm
+1 0 0 1 62.69291 450.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -4840,13 +5054,13 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 635.8236 cm
+1 0 0 1 62.69291 418.6236 cm
 q
-BT 1 0 0 1 0 14 Tm .396235 Tw 12 TL /F1 10 Tf 0 0 0 rg (After installing the check_mk agent in the VB-host we manually inventorize it and update the Nagios core) Tj T* 0 Tw (with the ) Tj /F4 10 Tf (check_mk ) Tj /F1 10 Tf (command:) Tj T* ET
+BT 1 0 0 1 0 14 Tm 1.431318 Tw 12 TL /F1 10 Tf 0 0 0 rg (After installing the check_mk agent in the ) Tj /F3 10 Tf ("VB-host" ) Tj /F1 10 Tf (we manually inventorize it and update the Nagios) Tj T* 0 Tw (core with the ) Tj /F4 10 Tf (check_mk ) Tj /F1 10 Tf (command:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 590.6236 cm
+1 0 0 1 62.69291 373.4236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -4867,45 +5081,45 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 558.6236 cm
+1 0 0 1 62.69291 341.4236 cm
 q
 BT 1 0 0 1 0 14 Tm .520514 Tw 12 TL /F1 10 Tf 0 0 0 rg (And we are done! The new host is added to the default ) Tj /F4 10 Tf (all ) Tj /F1 10 Tf (\() Tj /F4 10 Tf (Everyone) Tj /F1 10 Tf (\) contact group and we can see) Tj T* 0 Tw (all detected services in the multisite interface.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 528.6236 cm
+1 0 0 1 62.69291 311.4236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (6.2   Two node HPC cluster configuration) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 498.6236 cm
+1 0 0 1 62.69291 281.4236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .179488 Tw (Here we present a very simple example of a real configuration file for a two nodes test rocks cluster, but it) Tj T* 0 Tw (should be work the same for a general HPC cluster.) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .409988 Tw (Let's see a slightly more complex example of a real configuration file for a two nodes test rocks cluster. It) Tj T* 0 Tw (should be work the same for a more general HPC cluster.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 420.6236 cm
+1 0 0 1 62.69291 203.4236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.745868 Tw (We have installed OMD in the head node, inventorized the own head node with WATO \(both just as) Tj T* 0 Tw 2.202339 Tw (described\), and want to add the compute nodes using a configuration file so that we can script the) Tj T* 0 Tw 1.354104 Tw (process for any number of them. Of course we have also installed the check_mk agent and the smart) Tj T* 0 Tw .630542 Tw (check plugin in the compute nodes \(you can include them in you nodes master image, post install it with) Tj T* 0 Tw .316136 Tw (pdsh/pdcp, set in up in your cfengine/puppet/salt or whatever configuration management system you may) Tj T* 0 Tw (be using, etc.\).) Tj T* ET
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.745868 Tw (We have installed OMD in the head node, inventorized the own head node with WATO \(both just as) Tj T* 0 Tw .469398 Tw (described in the previous sections\), and want to add the compute nodes using a configuration file so that) Tj T* 0 Tw .507209 Tw (we can script the process for any number of them. Of course we have also installed the check_mk agent) Tj T* 0 Tw 2.03686 Tw (and the "smart" check_mk plugin in the compute nodes \(you can include them in you nodes master) Tj T* 0 Tw 2.079983 Tw (image, post install it with pdsh/pdcp, set in up in your cfengine/puppet/salt or whatever configuration) Tj T* 0 Tw (management system you may be using, etc.\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 393.6236 cm
+1 0 0 1 62.69291 176.4236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F5 12.5 Tf 0 0 0 rg (6.2.1   Configuration file) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 375.6236 cm
+1 0 0 1 62.69291 158.4236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (So lets write the configuration file ) Tj /F4 10 Tf (~/etc/check_mk/conf.d/conpute.mk ) Tj /F1 10 Tf (and dissect it:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 102.4236 cm
+1 0 0 1 62.69291 89.22362 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -4915,11 +5129,11 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 264 re B*
+n -6 -6 468.6898 60 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 242 Tm /F4 10 Tf 12 TL ( 1 # ~/etc/check_mk/conf.d/compute.mk) Tj T* ( 2 # Configuration for test rocks cluster compute nodes) Tj T* ( 3) Tj T* ( 4 all_hosts = all_hosts + [) Tj T* ( 5     'compute-0-0|compute',) Tj T* ( 6     'compute-0-1|compute',) Tj T* ( 7 ]) Tj T* ( 8) Tj T* ( 9 ignored_services += [) Tj T* (10      \( [ "compute" ], ALL_HOSTS, [ "fs_/var" ] \),) Tj T* (11  ]) Tj T* (12) Tj T* (13 ignored_checks += [) Tj T* (14     \( [ "postfix_mailq" ], [ "compute" ], ALL_HOSTS  \),) Tj T* (15 ]) Tj T* (16) Tj T* (17 host_contactgroups += [) Tj T* (18     \( "Everybody", [ "compute" ], ALL_HOSTS \),) Tj T* (19 ]) Tj T* (20) Tj T* (21 check_parameters += [) Tj T* ET
+BT 1 0 0 1 0 38 Tm /F4 10 Tf 12 TL ( 1 # ~/etc/check_mk/conf.d/compute.mk) Tj T* ( 2 # Configuration for test rocks cluster compute nodes) Tj T* ( 3) Tj T* ( 4 all_hosts = all_hosts + [) Tj T* ET
 Q
 Q
 Q
@@ -4934,14 +5148,14 @@ Q
  
 endstream
 endobj
-% 'R152': class PDFStream 
-152 0 obj
+% 'R156': class PDFStream 
+156 0 obj
 % page stream
-<< /Length 5442 >>
+<< /Length 4588 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 727.8236 cm
+1 0 0 1 62.69291 523.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -4951,31 +5165,31 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 36 re B*
+n -6 -6 468.6898 240 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F4 10 Tf 12 TL (22     \( \(45, 55\), [ 'compute' ], ALL_HOSTS, [ "Temperature SMART" ] \),) Tj T* (23 ]) Tj T* ET
+BT 1 0 0 1 0 218 Tm /F4 10 Tf 12 TL ( 5     'compute-0-0|compute',) Tj T* ( 6     'compute-0-1|compute',) Tj T* ( 7 ]) Tj T* ( 8) Tj T* ( 9 ignored_services += [) Tj T* (10      \( [ "compute" ], ALL_HOSTS, [ "fs_/var" ] \),) Tj T* (11  ]) Tj T* (12) Tj T* (13 ignored_checks += [) Tj T* (14     \( [ "postfix_mailq" ], [ "compute" ], ALL_HOSTS  \),) Tj T* (15 ]) Tj T* (16) Tj T* (17 host_contactgroups += [) Tj T* (18     \( "Everybody", [ "compute" ], ALL_HOSTS \),) Tj T* (19 ]) Tj T* (20) Tj T* (21 check_parameters += [) Tj T* (22     \( \(45, 55\), [ 'compute' ], ALL_HOSTS, [ "Temperature SMART" ] \),) Tj T* (23 ]) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 707.8236 cm
+1 0 0 1 62.69291 503.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Hosts Setup) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 689.8236 cm
+1 0 0 1 62.69291 485.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (We fist setup the hosts. Note how we ) Tj /F3 10 Tf (add ) Tj /F1 10 Tf (the new hosts to the ) Tj /F4 10 Tf (all_hosts ) Tj /F1 10 Tf (variable:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 620.6236 cm
+1 0 0 1 62.69291 416.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -4996,26 +5210,26 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 564.6236 cm
+1 0 0 1 62.69291 360.6236 cm
 q
-BT 1 0 0 1 0 38 Tm .176303 Tw 12 TL /F1 10 Tf 0 0 0 rg (The first part of every field is the hostname and the second the check_mk host ) Tj /F3 10 Tf (tag) Tj /F1 10 Tf (, ) Tj /F4 10 Tf (compute ) Tj /F1 10 Tf (in this case) Tj T* 0 Tw 1.822196 Tw (\(see ) Tj 0 0 .501961 rg (http://mathias-kettner.com/checkmk_hosttags.html) Tj 0 0 0 rg (\). The last ) Tj /F3 10 Tf (comma \(,\) ) Tj /F1 10 Tf (is superfluous, but makes) Tj T* 0 Tw .835227 Tw (the scripting easier. This is the only part we would have to script in order to include our 10's or 100's of) Tj T* 0 Tw (nodes in a general case.) Tj T* ET
+BT 1 0 0 1 0 38 Tm .176303 Tw 12 TL /F1 10 Tf 0 0 0 rg (The first part of every field is the hostname and the second the check_mk host ) Tj /F3 10 Tf (tag) Tj /F1 10 Tf (, ) Tj /F4 10 Tf (compute ) Tj /F1 10 Tf (in this case) Tj T* 0 Tw 1.758863 Tw (\(see ) Tj 0 0 .501961 rg (http://mathias-kettner.com/checkmk_hosttags.html) Tj 0 0 0 rg (\). The last comma \(,\) is superfluous, but python) Tj T* 0 Tw 1.096988 Tw (allows it and makes the scripting much easier. This is the only part we would have to script in order to) Tj T* 0 Tw (include our 10's or 100's of nodes in a general case.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 546.6236 cm
+1 0 0 1 62.69291 342.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Ignored Services) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 528.6236 cm
+1 0 0 1 62.69291 324.6236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (If we want to ignore some services, we add them up to the ) Tj /F4 10 Tf (ignored_services ) Tj /F1 10 Tf (variable:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 471.4236 cm
+1 0 0 1 62.69291 267.4236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -5036,26 +5250,26 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 415.4236 cm
+1 0 0 1 62.69291 211.4236 cm
 q
-BT 1 0 0 1 0 38 Tm .619513 Tw 12 TL /F1 10 Tf 0 0 0 rg (You can get the exact name of the service you want to ignore from the own service name as it is shown) Tj T* 0 Tw 1.538876 Tw (the shown in the multisite interface or get it inspecting the ) Tj /F4 10 Tf (cmk) Tj ( ) Tj (-D ) Tj /F1 10 Tf (command output. In this case all) Tj T* 0 Tw .82311 Tw (services whose name ) Tj /F3 10 Tf (begings ) Tj /F1 10 Tf (with ) Tj /F4 10 Tf (fs_/var ) Tj /F1 10 Tf (on the hosts with host tag ) Tj /F4 10 Tf (compute ) Tj /F1 10 Tf (will be ignored. See) Tj T* 0 Tw 0 0 .501961 rg (http://mathias-kettner.com/checkmk_inventory.html) Tj 0 0 0 rg (.) Tj T* ET
+BT 1 0 0 1 0 38 Tm .111353 Tw 12 TL /F1 10 Tf 0 0 0 rg (You can get the exact name of the service you want to ignore from the own service name as it is shown in) Tj T* 0 Tw .181654 Tw (the multisite web interface or get it from inspecting the ) Tj /F4 10 Tf (cmk) Tj ( ) Tj (-D ) Tj /F1 10 Tf (command output. In this case all services) Tj T* 0 Tw 3.507984 Tw (whose name ) Tj /F3 10 Tf (begings ) Tj /F1 10 Tf (with ) Tj /F4 10 Tf (fs_/var ) Tj /F1 10 Tf (on hosts with the host tag ) Tj /F4 10 Tf (compute ) Tj /F1 10 Tf (will be ignored. See) Tj T* 0 Tw 0 0 .501961 rg (http://mathias-kettner.com/checkmk_inventory.html) Tj 0 0 0 rg (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 397.4236 cm
+1 0 0 1 62.69291 193.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Ignored Checks) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 379.4236 cm
+1 0 0 1 62.69291 175.4236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (We can also ignore checks, in this case the ) Tj /F4 10 Tf (postfix_mailq ) Tj /F1 10 Tf (check:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 322.2236 cm
+1 0 0 1 62.69291 118.2236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -5076,20 +5290,41 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 302.2236 cm
+1 0 0 1 62.69291 98.22362 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (See also ) Tj 0 0 .501961 rg (http://mathias-kettner.com/checkmk_inventory.html) Tj 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 235.3849 0 Td 12 TL /F1 10 Tf 0 0 0 rg (12) Tj T* -235.3849 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R157': class PDFStream 
+157 0 obj
+% page stream
+<< /Length 5847 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Contact Groups) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 284.2236 cm
+1 0 0 1 62.69291 723.0236 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (If we want to add the new hosts to some contact group, in this case the OMD default ) Tj /F4 10 Tf (Everybody ) Tj /F1 10 Tf (group:) Tj T* ET
+BT 1 0 0 1 0 14 Tm 1.065251 Tw 12 TL /F1 10 Tf 0 0 0 rg (We also add the new hosts to a contact group, in this case the OMD default ) Tj /F4 10 Tf (Everybody ) Tj /F1 10 Tf (group as an) Tj T* 0 Tw (example:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 227.0236 cm
+1 0 0 1 62.69291 665.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -5110,27 +5345,21 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 207.0236 cm
-q
-BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (See also ) Tj 0 0 .501961 rg (http://mathias-kettner.com/checkmk_inventory.html) Tj 0 0 0 rg (.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 189.0236 cm
+1 0 0 1 62.69291 645.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Special Check Parameters) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 171.0236 cm
+1 0 0 1 62.69291 627.8236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (And finally we can also adjust some of the checks default values:) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (And finally we adjust some of the checks default warning/critical levels:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 113.8236 cm
+1 0 0 1 62.69291 570.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -5151,41 +5380,26 @@ Q
 Q
 Q
 q
-1 0 0 1 56.69291 56.69291 cm
+1 0 0 1 62.69291 526.6236 cm
 q
-BT 1 0 0 1 0 2 Tm 235.3849 0 Td 12 TL /F1 10 Tf 0 0 0 rg (12) Tj T* -235.3849 0 Td ET
-Q
-Q
- 
-endstream
-endobj
-% 'R153': class PDFStream 
-153 0 obj
-% page stream
-<< /Length 8046 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-q
-1 0 0 1 62.69291 729.0236 cm
-q
-BT 1 0 0 1 0 26 Tm 1.433876 Tw 12 TL /F1 10 Tf 0 0 0 rg (In this case the default smart check temperature leves are too low for our system \(35C and 40C, see) Tj T* 0 Tw .334597 Tw /F4 10 Tf (cmk) Tj ( ) Tj (--man) Tj ( ) Tj (smart.temp) Tj /F1 10 Tf (\) so we raise them a bit. All services called "Temperature SMART) Tj (<) Tj (whatever) Tj (>) Tj (") Tj T* 0 Tw (will have as new levels \(45,55\). See ) Tj 0 0 .501961 rg (http://mathias-kettner.com/checkmk_check_parameters.html) Tj 0 0 0 rg (.) Tj T* ET
+BT 1 0 0 1 0 26 Tm 1.310542 Tw 12 TL /F1 10 Tf 0 0 0 rg (In this case the default smart check temperature levels are too low for our system \(35C and 40C, see) Tj T* 0 Tw .334597 Tw /F4 10 Tf (cmk) Tj ( ) Tj (--man) Tj ( ) Tj (smart.temp) Tj /F1 10 Tf (\) so we raise them a bit. All services called "Temperature SMART) Tj (<) Tj (whatever) Tj (>) Tj (") Tj T* 0 Tw (will have as new levels \(45,55\). See ) Tj 0 0 .501961 rg (http://mathias-kettner.com/checkmk_check_parameters.html) Tj 0 0 0 rg (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 711.0236 cm
+1 0 0 1 62.69291 508.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Host Groups) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 681.0236 cm
+1 0 0 1 62.69291 478.6236 cm
 q
 BT 1 0 0 1 0 14 Tm .801567 Tw 12 TL /F1 10 Tf 0 0 0 rg (You can also, although we have not done it in this example, create a Nagios ) Tj /F3 10 Tf (host group ) Tj /F1 10 Tf (in WATO ) Tj /F2 10 Tf (Host) Tj T* 0 Tw (Groups ) Tj /F1 10 Tf (section and add these hosts to the group:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 623.8236 cm
+1 0 0 1 62.69291 421.4236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -5206,60 +5420,60 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 591.8236 cm
+1 0 0 1 62.69291 389.4236 cm
 q
-BT 1 0 0 1 0 14 Tm 11.2107 Tw 12 TL /F1 10 Tf 0 0 0 rg (You can find a list of all the confiugration variables that mey be used at) Tj T* 0 Tw 0 0 .501961 rg (http://mathias-kettner.com/checkmk_configvars.html) Tj 0 0 0 rg (.) Tj T* ET
+BT 1 0 0 1 0 14 Tm 11.2107 Tw 12 TL /F1 10 Tf 0 0 0 rg (You can find a list of all the configuration variables that mey be used at) Tj T* 0 Tw 0 0 .501961 rg (http://mathias-kettner.com/checkmk_configvars.html) Tj 0 0 0 rg (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 564.8236 cm
+1 0 0 1 62.69291 362.4236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F5 12.5 Tf 0 0 0 rg (6.2.2   Inventoring and Nagios configuration update) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 522.8236 cm
+1 0 0 1 62.69291 320.4236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.367045 Tw (After we have written down the new configuration file for the compute nodes we have to first scan) Tj T* 0 Tw .672485 Tw (\(inventorize\) the new hosts for services to check and then propagate the configration and the new found) Tj T* 0 Tw (services to Nagios.) Tj T* ET
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.367045 Tw (After we have written down the new configuration file for the compute nodes we have to first scan) Tj T* 0 Tw 1.199984 Tw (\(inventorize\) the new hosts for services and then propagate the new hosts configuration and the newly) Tj T* 0 Tw (found services to Nagios.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 504.8236 cm
+1 0 0 1 62.69291 290.4236 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (So we \(re\)inventorize all hosts with tag ) Tj /F4 10 Tf (compute) Tj /F1 10 Tf (:) Tj T* ET
+BT 1 0 0 1 0 14 Tm 1.472927 Tw 12 TL /F1 10 Tf 0 0 0 rg (So we \(re\)inventorize all hosts with the tag ) Tj /F4 10 Tf (compute ) Tj /F1 10 Tf (so that Check_MK finds the new hosts and the) Tj T* 0 Tw (corresponding services:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 471.6236 cm
-q
-q
-1 0 0 1 0 0 cm
-q
-1 0 0 1 6.6 6.6 cm
-q
-.662745 .662745 .662745 RG
-.5 w
-.960784 .960784 .862745 rg
-n -6 -6 468.6898 24 re B*
+1 0 0 1 62.69291 284.4236 cm
 Q
+q
+1 0 0 1 62.69291 272.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (check_mk -II @compute) Tj T* ET
-Q
-Q
-Q
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (check_mk -II @compute) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 439.6236 cm
+Q
+Q
+q
+1 0 0 1 62.69291 272.4236 cm
+Q
+q
+1 0 0 1 62.69291 254.4236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .237318 Tw (Check_MK will find the new hosts and the corresponding services. In order to propagate the configuration) Tj T* 0 Tw (to Nagios and restart the monitoring core we just:) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (In order to propagate the updated configuration to Nagios and restart the monitoring core we just:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 406.4236 cm
+1 0 0 1 62.69291 221.2236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -5280,23 +5494,65 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 373.4236 cm
+1 0 0 1 62.69291 201.2236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (And ready! We have the compute nodes slightly more under control :-\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 174.2236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F5 12.5 Tf 0 0 0 rg (6.2.3   Post-configuration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 120.2236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .177988 Tw (It quite likely that after a very quick initial setup some adjustments have to be done on the system in order) Tj T* 0 Tw .694431 Tw (to reflect your real life situation. Eg. in a computer cluster hard disk temperatures will likely be more that) Tj T* 0 Tw 2.41104 Tw (35C, CPU loads will be very high and so on. So expect a bit of playing specially with the ignored) Tj T* 0 Tw (checks/services and the check parameters options.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 90.22362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .406457 Tw (After this adjustment period you will only get notified when something undesired is really going on in your) Tj T* 0 Tw (cluster \(or in your data center, or in your backups, or...\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+BT 1 0 0 1 0 2 Tm 235.3849 0 Td 12 TL /F1 10 Tf 0 0 0 rg (13) Tj T* -235.3849 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R158': class PDFStream 
+158 0 obj
+% page stream
+<< /Length 4922 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 744.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (7   References) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 355.4236 cm
+1 0 0 1 62.69291 726.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Virtual Machines) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 349.4236 cm
+1 0 0 1 62.69291 720.0236 cm
 Q
 q
-1 0 0 1 62.69291 313.4236 cm
+1 0 0 1 62.69291 684.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
@@ -5356,20 +5612,20 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 313.4236 cm
+1 0 0 1 62.69291 684.0236 cm
 Q
 q
-1 0 0 1 62.69291 295.4236 cm
+1 0 0 1 62.69291 666.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Nagios) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 289.4236 cm
+1 0 0 1 62.69291 660.0236 cm
 Q
 q
-1 0 0 1 62.69291 217.4236 cm
+1 0 0 1 62.69291 588.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
@@ -5475,20 +5731,20 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 217.4236 cm
+1 0 0 1 62.69291 588.0236 cm
 Q
 q
-1 0 0 1 62.69291 199.4236 cm
+1 0 0 1 62.69291 570.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Check_MK) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 193.4236 cm
+1 0 0 1 62.69291 564.0236 cm
 Q
 q
-1 0 0 1 62.69291 157.4236 cm
+1 0 0 1 62.69291 528.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
@@ -5548,20 +5804,20 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 157.4236 cm
+1 0 0 1 62.69291 528.0236 cm
 Q
 q
-1 0 0 1 62.69291 139.4236 cm
+1 0 0 1 62.69291 510.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (OMD) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 133.4236 cm
+1 0 0 1 62.69291 504.0236 cm
 Q
 q
-1 0 0 1 62.69291 115.4236 cm
+1 0 0 1 62.69291 486.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
@@ -5598,127 +5854,135 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 115.4236 cm
+1 0 0 1 62.69291 486.0236 cm
 Q
 q
 1 0 0 1 56.69291 56.69291 cm
 q
-BT 1 0 0 1 0 2 Tm 235.3849 0 Td 12 TL /F1 10 Tf 0 0 0 rg (13) Tj T* -235.3849 0 Td ET
+BT 1 0 0 1 0 2 Tm 235.3849 0 Td 12 TL /F1 10 Tf 0 0 0 rg (14) Tj T* -235.3849 0 Td ET
 Q
 Q
  
 endstream
 endobj
-% 'R154': class PDFPageLabels 
-154 0 obj
+% 'R159': class PDFPageLabels 
+159 0 obj
 % Document Root
 << /Nums [ 0
- 155 0 R
- 1
- 156 0 R
- 2
- 157 0 R
- 3
- 158 0 R
- 4
- 159 0 R
- 5
  160 0 R
- 6
+ 1
  161 0 R
- 7
+ 2
  162 0 R
- 8
+ 3
  163 0 R
- 9
+ 4
  164 0 R
- 10
+ 5
  165 0 R
- 11
+ 6
  166 0 R
+ 7
+ 167 0 R
+ 8
+ 168 0 R
+ 9
+ 169 0 R
+ 10
+ 170 0 R
+ 11
+ 171 0 R
  12
- 167 0 R ] >>
-endobj
-% 'R155': class PDFPageLabel 
-155 0 obj
-% None
-<< /S /D
- /St 1 >>
-endobj
-% 'R156': class PDFPageLabel 
-156 0 obj
-% None
-<< /S /D
- /St 2 >>
-endobj
-% 'R157': class PDFPageLabel 
-157 0 obj
-% None
-<< /S /D
- /St 3 >>
-endobj
-% 'R158': class PDFPageLabel 
-158 0 obj
-% None
-<< /S /D
- /St 4 >>
-endobj
-% 'R159': class PDFPageLabel 
-159 0 obj
-% None
-<< /S /D
- /St 5 >>
+ 172 0 R
+ 13
+ 173 0 R ] >>
 endobj
 % 'R160': class PDFPageLabel 
 160 0 obj
 % None
 << /S /D
- /St 6 >>
+ /St 1 >>
 endobj
 % 'R161': class PDFPageLabel 
 161 0 obj
 % None
 << /S /D
- /St 7 >>
+ /St 2 >>
 endobj
 % 'R162': class PDFPageLabel 
 162 0 obj
 % None
 << /S /D
- /St 8 >>
+ /St 3 >>
 endobj
 % 'R163': class PDFPageLabel 
 163 0 obj
 % None
 << /S /D
- /St 9 >>
+ /St 4 >>
 endobj
 % 'R164': class PDFPageLabel 
 164 0 obj
 % None
 << /S /D
- /St 10 >>
+ /St 5 >>
 endobj
 % 'R165': class PDFPageLabel 
 165 0 obj
 % None
 << /S /D
- /St 11 >>
+ /St 6 >>
 endobj
 % 'R166': class PDFPageLabel 
 166 0 obj
 % None
 << /S /D
- /St 12 >>
+ /St 7 >>
 endobj
 % 'R167': class PDFPageLabel 
 167 0 obj
 % None
 << /S /D
+ /St 8 >>
+endobj
+% 'R168': class PDFPageLabel 
+168 0 obj
+% None
+<< /S /D
+ /St 9 >>
+endobj
+% 'R169': class PDFPageLabel 
+169 0 obj
+% None
+<< /S /D
+ /St 10 >>
+endobj
+% 'R170': class PDFPageLabel 
+170 0 obj
+% None
+<< /S /D
+ /St 11 >>
+endobj
+% 'R171': class PDFPageLabel 
+171 0 obj
+% None
+<< /S /D
+ /St 12 >>
+endobj
+% 'R172': class PDFPageLabel 
+172 0 obj
+% None
+<< /S /D
  /St 13 >>
 endobj
+% 'R173': class PDFPageLabel 
+173 0 obj
+% None
+<< /S /D
+ /St 14 >>
+endobj
 xref
-0 168
+0 174
 0000000000 65535 f
 0000000113 00000 n
 0000000260 00000 n
@@ -5783,118 +6047,124 @@ xref
 0000014545 00000 n
 0000014789 00000 n
 0000015033 00000 n
-0000015261 00000 n
-0000016038 00000 n
-0000016285 00000 n
-0000016543 00000 n
-0000016845 00000 n
-0000017148 00000 n
-0000017388 00000 n
-0000017648 00000 n
-0000017906 00000 n
-0000018209 00000 n
-0000018498 00000 n
-0000018660 00000 n
-0000018848 00000 n
-0000019223 00000 n
-0000019520 00000 n
-0000019758 00000 n
-0000020038 00000 n
-0000020365 00000 n
-0000020625 00000 n
-0000020864 00000 n
-0000021191 00000 n
-0000021467 00000 n
-0000021743 00000 n
-0000021984 00000 n
-0000022209 00000 n
-0000022539 00000 n
-0000022821 00000 n
-0000023118 00000 n
-0000023389 00000 n
-0000023659 00000 n
-0000023912 00000 n
-0000024234 00000 n
-0000024531 00000 n
-0000024799 00000 n
-0000025068 00000 n
-0000025323 00000 n
-0000025659 00000 n
-0000025936 00000 n
-0000026207 00000 n
-0000026455 00000 n
+0000015277 00000 n
+0000015521 00000 n
+0000015749 00000 n
+0000016544 00000 n
+0000016791 00000 n
+0000017049 00000 n
+0000017351 00000 n
+0000017654 00000 n
+0000017894 00000 n
+0000018154 00000 n
+0000018412 00000 n
+0000018715 00000 n
+0000019004 00000 n
+0000019166 00000 n
+0000019354 00000 n
+0000019729 00000 n
+0000020026 00000 n
+0000020264 00000 n
+0000020544 00000 n
+0000020871 00000 n
+0000021131 00000 n
+0000021385 00000 n
+0000021646 00000 n
+0000021982 00000 n
+0000022258 00000 n
+0000022499 00000 n
+0000022724 00000 n
+0000023045 00000 n
+0000023327 00000 n
+0000023624 00000 n
+0000023895 00000 n
+0000024151 00000 n
+0000024478 00000 n
+0000024731 00000 n
+0000025049 00000 n
+0000025317 00000 n
+0000025586 00000 n
+0000025842 00000 n
+0000026180 00000 n
+0000026457 00000 n
 0000026714 00000 n
-0000026957 00000 n
-0000027237 00000 n
-0000027485 00000 n
-0000027746 00000 n
-0000028006 00000 n
-0000028233 00000 n
-0000028630 00000 n
-0000028794 00000 n
-0000029122 00000 n
-0000029251 00000 n
-0000029537 00000 n
-0000029921 00000 n
-0000030266 00000 n
-0000030810 00000 n
-0000031129 00000 n
-0000031538 00000 n
-0000031871 00000 n
-0000032181 00000 n
-0000032524 00000 n
-0000032888 00000 n
-0000033264 00000 n
-0000033688 00000 n
-0000034007 00000 n
-0000034372 00000 n
-0000034763 00000 n
-0000035167 00000 n
-0000035446 00000 n
-0000035953 00000 n
-0000036248 00000 n
-0000036574 00000 n
-0000036993 00000 n
-0000037432 00000 n
-0000037860 00000 n
-0000038174 00000 n
-0000038611 00000 n
-0000038848 00000 n
-0000039068 00000 n
-0000042004 00000 n
-0000049449 00000 n
-0000058704 00000 n
-0000064848 00000 n
-0000070200 00000 n
-0000075611 00000 n
-0000081941 00000 n
-0000086887 00000 n
-0000093506 00000 n
-0000099896 00000 n
-0000103878 00000 n
-0000109421 00000 n
-0000117572 00000 n
-0000117839 00000 n
-0000117918 00000 n
-0000117997 00000 n
-0000118076 00000 n
-0000118155 00000 n
-0000118234 00000 n
-0000118313 00000 n
-0000118392 00000 n
-0000118471 00000 n
-0000118550 00000 n
-0000118630 00000 n
-0000118710 00000 n
-0000118790 00000 n
+0000027044 00000 n
+0000027292 00000 n
+0000027551 00000 n
+0000027794 00000 n
+0000028074 00000 n
+0000028322 00000 n
+0000028583 00000 n
+0000028843 00000 n
+0000029070 00000 n
+0000029447 00000 n
+0000029611 00000 n
+0000029939 00000 n
+0000030068 00000 n
+0000030354 00000 n
+0000030738 00000 n
+0000031083 00000 n
+0000031582 00000 n
+0000031901 00000 n
+0000032310 00000 n
+0000032643 00000 n
+0000032953 00000 n
+0000033296 00000 n
+0000033660 00000 n
+0000034101 00000 n
+0000034525 00000 n
+0000034844 00000 n
+0000035209 00000 n
+0000035600 00000 n
+0000036004 00000 n
+0000036283 00000 n
+0000036790 00000 n
+0000037085 00000 n
+0000037411 00000 n
+0000037830 00000 n
+0000038269 00000 n
+0000038697 00000 n
+0000039011 00000 n
+0000039467 00000 n
+0000039779 00000 n
+0000040016 00000 n
+0000040247 00000 n
+0000043183 00000 n
+0000050893 00000 n
+0000060148 00000 n
+0000066284 00000 n
+0000071636 00000 n
+0000077068 00000 n
+0000083361 00000 n
+0000088325 00000 n
+0000094518 00000 n
+0000101030 00000 n
+0000107390 00000 n
+0000112079 00000 n
+0000118027 00000 n
+0000123054 00000 n
+0000123336 00000 n
+0000123415 00000 n
+0000123494 00000 n
+0000123573 00000 n
+0000123652 00000 n
+0000123731 00000 n
+0000123810 00000 n
+0000123889 00000 n
+0000123968 00000 n
+0000124047 00000 n
+0000124127 00000 n
+0000124207 00000 n
+0000124287 00000 n
+0000124367 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(\216\301\357\277\375\362[\236i\305u\254}\315\030d) (\216\301\357\277\375\362[\236i\305u\254}\315\030d)] 
+ [(\227!\250\034\271\232\200\206\230v\361\220ey`\201) (\227!\250\034\271\232\200\206\230v\361\220ey`\201)] 
 
- /Info 112 0 R
- /Root 111 0 R
- /Size 168 >>
+ /Info 115 0 R
+ /Root 114 0 R
+ /Size 174 >>
 startxref
-118839
+124416
 %%EOF
