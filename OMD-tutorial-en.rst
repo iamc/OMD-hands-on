@@ -369,7 +369,12 @@ and restart the network::
 
     service network restart
 
+.. note::
 
+    This is not the case here, but if you are using a firefwall you have to
+    enable accees to the monitoring server at port 6556.
+
+    
 check_mk agent installation
 ---------------------------
 
@@ -413,7 +418,7 @@ have to copy it over to the desired host::
           user@remote-host:/usr/lib/check_mk_agent/plugins/smart
 
 If the host has not been inventorized yet in Check_MK, the ``smart`` check will be 
-present amognst the detected checks when doing it, otherwise you will have to
+present amongst the detected checks when doing it, otherwise you will have to
 reinventorize it and the new check will appear.  Wee will see later how
 inventorizing hosts works.
 
@@ -740,6 +745,58 @@ ignored checks/services and the check parameters options.
 After this adjustment period you will only get notified when something
 undesired is really going on in your cluster (or in your data center, or in
 your backups, or...).
+
+
+Adding custom checks
+--------------------
+
+Let see how to add a custom check to the monitorized machine: the bread and
+butter of nagios!
+
+Just go to the machine, eg. ``VB-host``, and add a script/program to
+``/usr/lib/check_mk_agent/local/`` generating a check_mk plugin output, very
+similar to the nagios ones (see
+http://mathias-kettner.com/checkmk_localchecks.html)::
+
+
+    #!/bin/bash
+    # /usr/lib/check_mk_agent/local/check_filecount_tmp 
+    # Counts number of files in /tmp. Harcoded levels w=50, c=100.
+
+    count=$(ls -1 /tmp | wc --lines)
+
+    if [ $count -lt 50 ] ; then
+        echo "0 filecount_tmp /tmp=$count;50;100 OK - $count files in /tmp "
+        exit 0
+    elif [ $count -lt 100 ] ; then
+        echo "1 filecount_tmp /tmp=$count;50;100 WARNING - $count files in /tmp "
+        exit 1
+    elif [ $count -ge 100 ] ; then
+        echo "2 filecount_tmp /tmp=$count;50;100 CRITICAL - $count files in /tmp"
+        exit 2
+    else
+        echo "3 filecount_tmp /tmp=$count;50;100 UNKNOWN - $count files in /tmp"
+        exit 3
+    fi
+
+
+Make it executable::
+
+    chmod a+x /usr/lib/check_mk_agent/local/check_filecount_tmp
+
+test::
+
+    # ./check_filecount_tmp 
+    0 filecount_tmp /tmp=15;50;100 OK - 15 files in /tmp 
+
+and reinventorize the checks in the monitoring server::
+
+    su - test
+    cmk -I VB-host
+    cmk -R
+
+And done!
+
 
 
 References
