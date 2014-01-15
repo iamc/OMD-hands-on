@@ -25,6 +25,12 @@ In this hands-on tutorial we will start from two bare CentOs virtual machines an
 **Detailed outline**: See table of contents of the full procedure in next page.
 
 
+Notes
+#####
+
+pdf and html release versions are compiled with `rst2pdf`_ and `docutils`_ rst2html.
+
+
 License
 #######
 
@@ -35,5 +41,7 @@ This work is licensed under a `Creative Commons Attribution 4.0 International Li
 .. _`Nagios`: http://www.Nagios.org/
 .. _`check_mk`: http://mathias-kettner.com/check_mk.html
 .. _`Open Monitoring Distribution (OMD)`: http://omdistro.org/
+.. _`rst2pdf`: http://rst2pdf.ralsina.com.ar/
+.. _`docutils`: http://docutils.sourceforge.net/
 .. _`Creative Commons Attribution 4.0 International License`: http://creativecommons.org/licenses/by/4.0/
 
