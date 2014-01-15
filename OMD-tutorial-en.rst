@@ -721,7 +721,7 @@ have to first scan (inventorize) the new hosts for services  and then propagate
 the new hosts configuration and the newly found services to Nagios.
 
 So we (re)inventorize all hosts with the tag ``compute`` so that Check_MK finds
-the new hosts and the corresponding services:
+the new hosts and the corresponding services::
 
     check_mk -II @compute
 

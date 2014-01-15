@@ -1051,8 +1051,9 @@ have to first scan (inventorize) the new hosts for services  and then propagate
 the new hosts configuration and the newly found services to Nagios.</p>
 <p>So we (re)inventorize all hosts with the tag <tt class="docutils literal">compute</tt> so that Check_MK finds
 the new hosts and the corresponding services:</p>
-<blockquote>
-check_mk -II &#64;compute</blockquote>
+<pre class="literal-block">
+check_mk -II &#64;compute
+</pre>
 <p>In order to propagate the updated configuration to Nagios and restart the
 monitoring core we just:</p>
 <pre class="literal-block">
