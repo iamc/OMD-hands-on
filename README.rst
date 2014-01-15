@@ -28,3 +28,9 @@ In this hands-on tutorial we will start from two bare CentOs virtual machines an
 :Detailed outline: See table of contents of the full procedure in next page.
 
 
+License
+#######
+
+This work is licensed under a `Creative Commons Attribution 4.0 International License`_.
+
+
