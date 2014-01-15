@@ -14,10 +14,9 @@ bundles both Nagios and Check_MK, as well as many other Nagios extensions into
 a single, pre-configured package and brings the setup, configuration and
 maintenance of the monitoring system to a new level of simplicity.
 
-We will use two CentOS virtual machines (`VMs`) to be able follow this 
-tutorial, but
-the same procedure should be applicable with minimal changes to any of the
-distributions supported by OMD.
+We will use two CentOS virtual machines (`VMs`) to be able follow this
+tutorial, but the same procedure should be applicable with minimal changes to
+any of the distributions supported by OMD.
 
 Also basic guidelines are given on how to proceed in order to setup a similar
 system monitoring computing nodes in a typical HPC cluster.
@@ -269,7 +268,9 @@ size of 24MB.
 
 .. note::
 
-   We could have instead used the Consol* Labs  OMD repository in order to have the latest version available at hand. Setting it up is trivial, just follow the guidelines at https://labs.consol.de/repo/stable.
+   We could have instead used the Consol* Labs  OMD repository in order to have
+   the latest version available at hand. Setting it up is trivial, just follow
+   the guidelines at https://labs.consol.de/repo/stable.
 
 
 OMD initial setup
